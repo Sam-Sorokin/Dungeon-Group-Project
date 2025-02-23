@@ -8,21 +8,24 @@ public class PlayerController : MonoBehaviour
 {
     public GameObject player;
     public Rigidbody rb;
+    public Transform orientation; // orientation of camera
 
     //////////////////////////////// - Walk/Sprint Variables
     public float normalSpeed = 15;
     public float sprintSpeed = 30;
     public float stamina = 50;
     float speed;
+    float topSpeed = 100;
     bool moving;
     bool sprinting;
+    bool isJumping;
     ////////////////////////////////
     
     //////////////////////////////// - Cam Movement Variables
     public float sensitivityX = 10;
     public float sensitivityY = 10;
-    float xInput;
-    float yInput;
+    float xRotation;
+    float yRotation;
     ///////////////////////////////
 
     // Start is called before the first frame update
@@ -38,41 +41,71 @@ public class PlayerController : MonoBehaviour
         // if I press A and hold then press D I should move right and vise versa. Same for W and S.
 
 
-        xInput = Input.GetAxis("Mouse X") * sensitivityX * Time.deltaTime;
-        yInput = Input.GetAxis("Mouse Y") * sensitivityY * Time.deltaTime;
+        float xInput = Input.GetAxisRaw("Mouse X") * sensitivityX * Time.deltaTime;
+        float yInput = Input.GetAxisRaw("Mouse Y") * sensitivityY * Time.deltaTime;
 
-        player.transform.rotation *= Quaternion.Euler(xInput, 0, yInput);
+        Debug.Log(xInput + " " + yInput);
+
+        yRotation += xInput;
+        xRotation -= yInput;
+        xRotation = Mathf.Clamp(xRotation, -90, 90);
+
+        transform.rotation = Quaternion.Euler(xRotation, yRotation, 0);
+        orientation.rotation = Quaternion.Euler(0, yRotation, 0);
 
 
         moving = false;
         sprinting = false;
+        {
+            ///////////////////////////////////////////////////////////////////////////// - Get Keyboard input for directional movement
+            //if (Input.GetKey(KeyCode.W))
+            //{
+            //    transform.position += new Vector3(0, 0, speed * Time.deltaTime);
+            //    moving = true;
+            //}
+            //else if (Input.GetKey(KeyCode.S))
+            //{
+            //    transform.position += new Vector3(0, 0, -speed * Time.deltaTime);
+            //    moving = true;
+            //}
+            //if (Input.GetKey(KeyCode.A))
+            //{
+            //    player.transform.position += new Vector3(-speed * Time.deltaTime, 0, 0);
+            //    moving = true;
+            //}
+            //else if (Input.GetKey(KeyCode.D))
+            //{
+            //    transform.position += new Vector3(speed * Time.deltaTime, 0, 0);
+            //    moving = true;
+            //}
+            //if(Input.GetKey(KeyCode.Space))
+            //{
+            //    rb.AddForce(0f, 10f, 0f);
+            //    moving = true;
+            //}
+        }
 
-        ///////////////////////////////////////////////////////////////////////////// - Get Keyboard input for directional movement
-        if (Input.GetKey(KeyCode.W))
+        if (Input.GetKey(KeyCode.W) && isJumping == false)
         {
-            player.transform.position += new Vector3(0, 0, speed * Time.deltaTime);
-            moving = true;
+            rb.AddForce(orientation.transform.forward * speed * Time.deltaTime);
+            capspeed();
         }
-        else if (Input.GetKey(KeyCode.S))
+        if (Input.GetKey(KeyCode.S) && isJumping == false)
         {
-            player.transform.position += new Vector3(0, 0, -speed * Time.deltaTime);
-            moving = true;
+            rb.AddForce(-orientation.transform.forward * speed * Time.deltaTime);
+            capspeed();
         }
-        if (Input.GetKey(KeyCode.A))
+        if (Input.GetKey(KeyCode.D) && isJumping == false)
         {
-            player.transform.position += new Vector3(-speed * Time.deltaTime, 0, 0);
-            moving = true;
+            rb.AddForce(orientation.transform.right * speed * Time.deltaTime);
+            capspeed();
         }
-        else if (Input.GetKey(KeyCode.D))
+        if (Input.GetKey(KeyCode.A) && isJumping == false)
         {
-            player.transform.position += new Vector3(speed * Time.deltaTime, 0, 0);
-            moving = true;
+            rb.AddForce(-orientation.transform.right * speed * Time.deltaTime);
+            capspeed();
         }
-        if(Input.GetKey(KeyCode.Space))
-        {
-            rb.AddForce(0f, 10f, 0f);
-            moving = true;
-        }
+
         //////////////////////////////////////////////////////////////////////////////
 
         ////////////////////////////////////////////////////////////////////////////// - Sprint and stamina system
@@ -95,7 +128,23 @@ public class PlayerController : MonoBehaviour
                 }
             }
         }
-        Debug.Log("Stamina: " + stamina);
         ////////////////////////////////////////////////////////////////////////////
+    }
+
+
+    void OnCollisionEnter(Collision collision)
+    {
+        isJumping = false;
+    }
+
+    void capspeed()
+    {
+        Vector2 tmpXZ = new Vector2(rb.velocity.x, rb.velocity.z);
+        if (tmpXZ.magnitude > topSpeed)
+        {
+            Debug.Log("top speed breached");
+            tmpXZ = tmpXZ.normalized * topSpeed;
+            rb.velocity = new Vector3(tmpXZ.x, rb.velocity.y, tmpXZ.y);
+        }
     }
 }
