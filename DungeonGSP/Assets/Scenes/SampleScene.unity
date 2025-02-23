@@ -508,10 +508,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 1134959439}
   rb: {fileID: 1134959442}
-  orientation: {fileID: 963194228}
-  normalSpeed: 15
-  sprintSpeed: 200
+  orientation: {fileID: 6323333}
+  normalSpeed: 10
+  sprintSpeed: 20
   stamina: 50
+  speed: 0
   sensitivityX: 200
   sensitivityY: 200
 --- !u!54 &1134959442

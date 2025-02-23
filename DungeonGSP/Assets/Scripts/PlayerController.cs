@@ -14,8 +14,8 @@ public class PlayerController : MonoBehaviour
     public float normalSpeed = 15;
     public float sprintSpeed = 30;
     public float stamina = 50;
-    float speed;
-    float topSpeed = 100;
+    public float speed;
+    float topSpeed = 500;
     bool moving;
     bool sprinting;
     bool isJumping;
@@ -33,6 +33,7 @@ public class PlayerController : MonoBehaviour
     {
         Cursor.lockState = CursorLockMode.Locked; // lock and hide cursor
         Cursor.visible = false;
+        speed = normalSpeed;
     }
 
     // Update is called once per frame
@@ -44,14 +45,14 @@ public class PlayerController : MonoBehaviour
         float xInput = Input.GetAxisRaw("Mouse X") * sensitivityX * Time.deltaTime;
         float yInput = Input.GetAxisRaw("Mouse Y") * sensitivityY * Time.deltaTime;
 
-        Debug.Log(xInput + " " + yInput);
+        //Debug.Log(xInput + " " + yInput);
 
         yRotation += xInput;
         xRotation -= yInput;
         xRotation = Mathf.Clamp(xRotation, -90, 90);
 
-        transform.rotation = Quaternion.Euler(xRotation, yRotation, 0);
-        orientation.rotation = Quaternion.Euler(0, yRotation, 0);
+        orientation.rotation = Quaternion.Euler(xRotation, yRotation, 0);
+        transform.rotation = Quaternion.Euler(0, yRotation, 0);
 
 
         moving = false;
@@ -87,23 +88,24 @@ public class PlayerController : MonoBehaviour
 
         if (Input.GetKey(KeyCode.W) && isJumping == false)
         {
-            rb.AddForce(orientation.transform.forward * speed * Time.deltaTime);
-            capspeed();
+            Debug.Log("Move attempt");
+            rb.AddForce(transform.forward * speed * Time.deltaTime, ForceMode.VelocityChange);
+            //capspeed();
         }
         if (Input.GetKey(KeyCode.S) && isJumping == false)
         {
-            rb.AddForce(-orientation.transform.forward * speed * Time.deltaTime);
-            capspeed();
+            rb.AddForce(-transform.forward * speed * Time.deltaTime, ForceMode.VelocityChange);
+            //capspeed();
         }
         if (Input.GetKey(KeyCode.D) && isJumping == false)
         {
-            rb.AddForce(orientation.transform.right * speed * Time.deltaTime);
-            capspeed();
+            rb.AddForce(transform.right * speed * Time.deltaTime, ForceMode.VelocityChange);
+            //capspeed();
         }
         if (Input.GetKey(KeyCode.A) && isJumping == false)
         {
-            rb.AddForce(-orientation.transform.right * speed * Time.deltaTime);
-            capspeed();
+            rb.AddForce(-transform.right * speed * Time.deltaTime, ForceMode.VelocityChange);
+            //capspeed();
         }
 
         //////////////////////////////////////////////////////////////////////////////
@@ -139,6 +141,7 @@ public class PlayerController : MonoBehaviour
 
     void capspeed()
     {
+        Debug.Log("Capping Speed");
         Vector2 tmpXZ = new Vector2(rb.velocity.x, rb.velocity.z);
         if (tmpXZ.magnitude > topSpeed)
         {
