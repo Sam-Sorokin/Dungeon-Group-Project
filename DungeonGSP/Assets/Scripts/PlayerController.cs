@@ -90,22 +90,26 @@ public class PlayerController : MonoBehaviour
         {
             Debug.Log("Move attempt");
             rb.AddForce(transform.forward * speed * Time.deltaTime, ForceMode.VelocityChange);
-            //capspeed();
+            capspeed();
+            moving = true;
         }
         if (Input.GetKey(KeyCode.S) && isJumping == false)
         {
             rb.AddForce(-transform.forward * speed * Time.deltaTime, ForceMode.VelocityChange);
-            //capspeed();
+            capspeed();
+            moving = true;
         }
         if (Input.GetKey(KeyCode.D) && isJumping == false)
         {
             rb.AddForce(transform.right * speed * Time.deltaTime, ForceMode.VelocityChange);
-            //capspeed();
+            capspeed();
+            moving = true;
         }
         if (Input.GetKey(KeyCode.A) && isJumping == false)
         {
             rb.AddForce(-transform.right * speed * Time.deltaTime, ForceMode.VelocityChange);
-            //capspeed();
+            capspeed();
+            moving = true;
         }
 
         //////////////////////////////////////////////////////////////////////////////
