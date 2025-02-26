@@ -31,6 +31,11 @@ public class SC_FPSController : MonoBehaviour
     private bool canMove = true;
     private bool isGrounded => characterController.isGrounded;
 
+    private float standingHeight = 2.0f;
+    private float crouchingHeight = 1.0f;
+    private float standingCameraHeight = 1.75f;
+    private float crouchingCameraHeight = 1.0f;
+
     void Start()
     {
         characterController = GetComponent<CharacterController>();
@@ -62,14 +67,20 @@ public class SC_FPSController : MonoBehaviour
         moveDirection.x = (forward * curSpeedX + right * curSpeedY).x;
         moveDirection.z = (forward * curSpeedX + right * curSpeedY).z;
 
-        // Handle Crouch
+        // Handle Crouch (Adjust CharacterController height & Camera position)
         if (Input.GetKeyDown(KeyCode.LeftControl))
         {
             isCrouching = true;
+            characterController.height = crouchingHeight;
+            characterController.center = new Vector3(0, 0.5f, 0);
+            playerCamera.transform.localPosition = new Vector3(0, crouchingCameraHeight, 0);
         }
         else if (Input.GetKeyUp(KeyCode.LeftControl))
         {
             isCrouching = false;
+            characterController.height = standingHeight;
+            characterController.center = new Vector3(0, 1f, 0);
+            playerCamera.transform.localPosition = new Vector3(0, standingCameraHeight, 0);
         }
 
         // Handle Jumping
