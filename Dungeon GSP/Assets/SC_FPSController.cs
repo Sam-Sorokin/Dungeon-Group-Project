@@ -6,23 +6,30 @@ using UnityEngine;
 
 public class SC_FPSController : MonoBehaviour
 {
+    //---------Speeds-----------
     public float walkingSpeed = 7.5f;
     public float runningSpeed = 11.5f;
+    //
     public float crouchSpeed = 4f;
+    //
+    public float wallRunSpeed = 10f;
+    public float wallRunUpwardSpeed = 1.5f;
+    //
     public float jumpSpeed = 8.0f;
+    //---------Gravity------------
+    public float wallRunGravity = 5f;
     public float gravity = 20.0f;
+
+    //-----------CameraVars-----------
     public Camera playerCamera;
     public float lookSpeed = 2.0f;
     public float lookXLimit = 45.0f;
-
-    public float wallRunSpeed = 10f;
-    public float wallRunUpwardSpeed = 1.5f;
-    public float wallRunGravity = 5f;
+    //-----------WallRunInfo----------
     private bool isWallRunning = false;
     private float wallRunTimer = 0f;
     private float maxWallRunTime = 1.5f;
     private Vector3 lastWallNormal;
-
+    //--------------------------------
     private CharacterController characterController;
     private Vector3 moveDirection = Vector3.zero;
     private float rotationX = 0;
@@ -30,6 +37,11 @@ public class SC_FPSController : MonoBehaviour
     private bool isCrouching = false;
     private bool canMove = true;
     private bool isGrounded => characterController.isGrounded;
+
+    private float standingHeight = 2.0f;
+    private float crouchingHeight = 1.0f;
+    private float standingCameraHeight = 1.75f;
+    private float crouchingCameraHeight = 1.0f;
 
     void Start()
     {
@@ -62,14 +74,20 @@ public class SC_FPSController : MonoBehaviour
         moveDirection.x = (forward * curSpeedX + right * curSpeedY).x;
         moveDirection.z = (forward * curSpeedX + right * curSpeedY).z;
 
-        // Handle Crouch
+        // Handle Crouch (Adjust CharacterController height & Camera position)
         if (Input.GetKeyDown(KeyCode.LeftControl))
         {
             isCrouching = true;
+            characterController.height = crouchingHeight;
+            characterController.center = new Vector3(0, 0.5f, 0);
+            playerCamera.transform.localPosition = new Vector3(0, crouchingCameraHeight, 0);
         }
         else if (Input.GetKeyUp(KeyCode.LeftControl))
         {
             isCrouching = false;
+            characterController.height = standingHeight;
+            characterController.center = new Vector3(0, 1f, 0);
+            playerCamera.transform.localPosition = new Vector3(0, standingCameraHeight, 0);
         }
 
         // Handle Jumping
