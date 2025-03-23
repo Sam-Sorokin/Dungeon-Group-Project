@@ -1156,11 +1156,6 @@ Mesh:
     offset: 0
     size: 0
     path: 
---- !u!54 &1761963915 stripped
-Rigidbody:
-  m_CorrespondingSourceObject: {fileID: 3057087627399037986, guid: 4daeaa682ed20ff4183228df074fa0fd, type: 3}
-  m_PrefabInstance: {fileID: 5578674066918012150}
-  m_PrefabAsset: {fileID: 0}
 --- !u!114 &1761963916
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1174,9 +1169,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerCamera: {fileID: 1700992304}
-  rb: {fileID: 1761963915}
+  characterController: {fileID: 1761963920}
   grappleRange: 500
   grappleForce: 100
+  isGrappling: 0
+--- !u!143 &1761963920 stripped
+CharacterController:
+  m_CorrespondingSourceObject: {fileID: 2497473180238121361, guid: 4daeaa682ed20ff4183228df074fa0fd, type: 3}
+  m_PrefabInstance: {fileID: 5578674066918012150}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1939654911
 GameObject:
   m_ObjectHideFlags: 0
