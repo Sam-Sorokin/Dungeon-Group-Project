@@ -15,7 +15,7 @@ D:/Bournemouth Uni/Year-2/Game Studio Project/Dungeon-Group-Project/Dungeon GSP
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-52894
+60983
 Successfully changed project path to: D:/Bournemouth Uni/Year-2/Game Studio Project/Dungeon-Group-Project/Dungeon GSP
 D:/Bournemouth Uni/Year-2/Game Studio Project/Dungeon-Group-Project/Dungeon GSP
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,16 +49,16 @@ D:/Bournemouth Uni/Year-2/Game Studio Project/Dungeon-Group-Project/Dungeon GSP
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [39972]  Target information:
+Player connection [38180]  Target information:
 
-Player connection [39972]  * "[IP] 26.124.166.112 [Port] 0 [Flags] 2 [Guid] 3197024578 [EditorId] 3197024578 [Version] 1048832 [Id] WindowsEditor(7,LukesPC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [38180]  * "[IP] 26.124.166.112 [Port] 0 [Flags] 2 [Guid] 656576477 [EditorId] 656576477 [Version] 1048832 [Id] WindowsEditor(7,LukesPC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [39972]  * "[IP] 192.168.1.20 [Port] 0 [Flags] 2 [Guid] 3197024578 [EditorId] 3197024578 [Version] 1048832 [Id] WindowsEditor(7,LukesPC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [38180]  * "[IP] 192.168.1.20 [Port] 0 [Flags] 2 [Guid] 656576477 [EditorId] 656576477 [Version] 1048832 [Id] WindowsEditor(7,LukesPC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [39972] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [39972] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [38180] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [38180] Host joined alternative multi-casting on [225.0.0.222:34997]...
 [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
-Refreshing native plugins compatible for Editor in 5.18 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 4.31 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.38f1 (c5d5a7410213)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.38f1/Editor/Data/Resources/UnitySubsystems
@@ -74,44 +74,44 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.38f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.38f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.38f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56892
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56460
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.38f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.005613 seconds.
-- Loaded All Assemblies, in  0.235 seconds
+Registered in 0.005222 seconds.
+- Loaded All Assemblies, in  0.220 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.181 seconds
-Domain Reload Profiling: 415ms
-	BeginReloadAssembly (73ms)
+- Finished resetting the current domain, in  0.173 seconds
+Domain Reload Profiling: 392ms
+	BeginReloadAssembly (68ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (0ms)
-	RebuildCommonClasses (22ms)
+	RebuildCommonClasses (21ms)
 	RebuildNativeTypeToScriptingClass (6ms)
-	initialDomainReloadingComplete (45ms)
-	LoadAllAssembliesAndSetupDomain (88ms)
-		LoadAssemblies (71ms)
+	initialDomainReloadingComplete (39ms)
+	LoadAllAssembliesAndSetupDomain (85ms)
+		LoadAssemblies (66ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (86ms)
-			TypeCache.Refresh (85ms)
-				TypeCache.ScanAssembly (76ms)
+		AnalyzeDomain (84ms)
+			TypeCache.Refresh (83ms)
+				TypeCache.ScanAssembly (74ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (182ms)
+	FinalizeReload (173ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (141ms)
+		SetupLoadedEditorAssemblies (137ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (6ms)
 			SetLoadedEditorAssemblies (5ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (2ms)
-			ProcessInitializeOnLoadAttributes (94ms)
-			ProcessInitializeOnLoadMethodAttributes (33ms)
+			BeforeProcessingInitializeOnLoad (1ms)
+			ProcessInitializeOnLoadAttributes (95ms)
+			ProcessInitializeOnLoadMethodAttributes (30ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -119,1204 +119,52 @@ Domain Reload Profiling: 415ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.455 seconds
-Refreshing native plugins compatible for Editor in 1.79 ms, found 3 plugins.
+- Loaded All Assemblies, in  0.415 seconds
+Refreshing native plugins compatible for Editor in 1.83 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.563 seconds
-Domain Reload Profiling: 1017ms
-	BeginReloadAssembly (94ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (3ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (15ms)
-	RebuildCommonClasses (21ms)
-	RebuildNativeTypeToScriptingClass (6ms)
-	initialDomainReloadingComplete (27ms)
-	LoadAllAssembliesAndSetupDomain (306ms)
-		LoadAssemblies (213ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (147ms)
-			TypeCache.Refresh (131ms)
-				TypeCache.ScanAssembly (118ms)
-			ScanForSourceGeneratedMonoScriptInfo (12ms)
-			ResolveRequiredComponents (3ms)
-	FinalizeReload (563ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (438ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (4ms)
-			SetLoadedEditorAssemblies (2ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (49ms)
-			ProcessInitializeOnLoadAttributes (359ms)
-			ProcessInitializeOnLoadMethodAttributes (17ms)
-			AfterProcessingInitializeOnLoad (6ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (5ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 1.78 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3555 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 39 unused Assets / (107.4 KB). Loaded Objects now: 4016.
-Memory consumption went from 135.6 MB to 135.5 MB.
-Total: 13.464000 ms (FindLiveObjects: 0.294300 ms CreateObjectMapping: 0.086600 ms MarkObjects: 12.759600 ms  DeleteObjects: 0.321400 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.300 seconds
-Refreshing native plugins compatible for Editor in 2.15 ms, found 3 plugins.
-Native extension for WindowsStandalone target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.677 seconds
-Domain Reload Profiling: 976ms
-	BeginReloadAssembly (105ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (3ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (24ms)
-	RebuildCommonClasses (20ms)
-	RebuildNativeTypeToScriptingClass (6ms)
-	initialDomainReloadingComplete (20ms)
-	LoadAllAssembliesAndSetupDomain (149ms)
-		LoadAssemblies (184ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (18ms)
-			TypeCache.Refresh (7ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (5ms)
-			ResolveRequiredComponents (3ms)
-	FinalizeReload (677ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (341ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (4ms)
-			SetLoadedEditorAssemblies (2ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (39ms)
-			ProcessInitializeOnLoadAttributes (278ms)
-			ProcessInitializeOnLoadMethodAttributes (12ms)
-			AfterProcessingInitializeOnLoad (5ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (4ms)
-Refreshing native plugins compatible for Editor in 1.62 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3529 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 27 unused Assets / (79.4 KB). Loaded Objects now: 4019.
-Memory consumption went from 130.2 MB to 130.1 MB.
-Total: 2.382100 ms (FindLiveObjects: 0.152700 ms CreateObjectMapping: 0.045700 ms MarkObjects: 2.095100 ms  DeleteObjects: 0.087700 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 24122.986683 seconds.
-  path: Assets/Prefabs/FPSPlayer.prefab
-  artifactKey: Guid(4daeaa682ed20ff4183228df074fa0fd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Prefabs/FPSPlayer.prefab using Guid(4daeaa682ed20ff4183228df074fa0fd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
- -> (artifact id: '1dd2203232a2fe56243bed7df915cdfe') in 0.107396 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 24
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/iPoly3D/Prototype Textures/Demo/Demo meshes/Cube.003.fbx
-  artifactKey: Guid(7bf5c6848ca2d4242a95f8cd53949318) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/iPoly3D/Prototype Textures/Demo/Demo meshes/Cube.003.fbx using Guid(7bf5c6848ca2d4242a95f8cd53949318) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
- -> (artifact id: '3f5e516047c67b09e4ee27b4be995877') in 0.047389 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Scripts/Enemy/enemyBase.cs
-  artifactKey: Guid(c801f2f81a7699d48937b6d3133feb34) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Scripts/Enemy/enemyBase.cs using Guid(c801f2f81a7699d48937b6d3133feb34) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
- -> (artifact id: 'ad6dc34e5598c0811e2660140db28b25') in 0.012840 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000055 seconds.
-  path: Assets/iPoly3D/Prototype Textures/Demo/Demo meshes/Cube.005.fbx
-  artifactKey: Guid(3c467657b34d5c34f9ef1f82894a3839) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/iPoly3D/Prototype Textures/Demo/Demo meshes/Cube.005.fbx using Guid(3c467657b34d5c34f9ef1f82894a3839) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
- -> (artifact id: '788866bc02b47826a7d2d56d0e220c70') in 0.019334 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/iPoly3D/Prototype Textures/Demo/Demo meshes/Cube.015.fbx
-  artifactKey: Guid(eb5e1c6cdf0fd56459ff20cc5d2f10da) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/iPoly3D/Prototype Textures/Demo/Demo meshes/Cube.015.fbx using Guid(eb5e1c6cdf0fd56459ff20cc5d2f10da) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
- -> (artifact id: '016d467e2c110d4d6742ed53ffcba2d7') in 0.021875 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 0.000012 seconds.
-  path: Assets/iPoly3D/Prototype Textures/Materials/Grey/Grey_4.mat
-  artifactKey: Guid(26b8dd4f94a96fa4fb84b5f77e6dec8f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/iPoly3D/Prototype Textures/Materials/Grey/Grey_4.mat using Guid(26b8dd4f94a96fa4fb84b5f77e6dec8f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
- -> (artifact id: '48d735e6e9da7030c764c3ead0f35067') in 0.026722 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/iPoly3D/Prototype Textures/Materials/Grey/Grey_10.mat
-  artifactKey: Guid(d5cc106b40f5cec49b57d5386d190865) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/iPoly3D/Prototype Textures/Materials/Grey/Grey_10.mat using Guid(d5cc106b40f5cec49b57d5386d190865) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
- -> (artifact id: '0a1846bcec5ef69da524349890350fa6') in 0.028181 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/iPoly3D/Prototype Textures/Materials/Blue/Blue_9.mat
-  artifactKey: Guid(9f80c72a7bf0eff4aab3ccbd3d1ab38d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/iPoly3D/Prototype Textures/Materials/Blue/Blue_9.mat using Guid(9f80c72a7bf0eff4aab3ccbd3d1ab38d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
- -> (artifact id: '42eb2fe8fc0cb5786777001994cb59cf') in 0.024341 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Scripts/Player/PlayerCam.cs
-  artifactKey: Guid(7a1e6ead45573fe4e9c506a4ef5bb752) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Scripts/Player/PlayerCam.cs using Guid(7a1e6ead45573fe4e9c506a4ef5bb752) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
- -> (artifact id: 'cfc546bcb29d738a15a09b719a1c009b') in 0.009765 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/iPoly3D/Prototype Textures/Demo/Demo meshes/Cube.030.fbx
-  artifactKey: Guid(0cffdac91ecfecd43b334db4412a9676) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/iPoly3D/Prototype Textures/Demo/Demo meshes/Cube.030.fbx using Guid(0cffdac91ecfecd43b334db4412a9676) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
- -> (artifact id: 'ce2b290fcecacbf65f51e644649ba49f') in 0.027291 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/iPoly3D/Prototype Textures/Demo/Demo meshes/Cube.019.fbx
-  artifactKey: Guid(41cf606bc15e7bd449286cc3cfd05978) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/iPoly3D/Prototype Textures/Demo/Demo meshes/Cube.019.fbx using Guid(41cf606bc15e7bd449286cc3cfd05978) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
- -> (artifact id: 'f7222cbf08425087e32e803aeccea0db') in 0.023447 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/iPoly3D/Prototype Textures/Demo/Demo meshes/Cube.020.fbx
-  artifactKey: Guid(a0fcedf87a5ddef489023b0394cd7325) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/iPoly3D/Prototype Textures/Demo/Demo meshes/Cube.020.fbx using Guid(a0fcedf87a5ddef489023b0394cd7325) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
- -> (artifact id: '6ae14455c635d6a5086ca3c0b75ef35d') in 0.022309 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/iPoly3D/Prototype Textures/Materials/Orange/Orange_6.mat
-  artifactKey: Guid(3fbb51fb1b141e744a147816eb3565b5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/iPoly3D/Prototype Textures/Materials/Orange/Orange_6.mat using Guid(3fbb51fb1b141e744a147816eb3565b5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
- -> (artifact id: 'bf1115930bdac40d92b2a18f37e142d3') in 0.039204 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/iPoly3D/Prototype Textures/Demo/Demo meshes/Stairs.002.fbx
-  artifactKey: Guid(617734a81b02d7c44be8b52ed0fb7d1e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/iPoly3D/Prototype Textures/Demo/Demo meshes/Stairs.002.fbx using Guid(617734a81b02d7c44be8b52ed0fb7d1e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
- -> (artifact id: '2cfc811ec1c0bd6f1f09c797796f2d60') in 0.032376 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/iPoly3D/Prototype Textures/Materials/Red/Red_1.mat
-  artifactKey: Guid(1bef6174832ce994987824718f0207c6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/iPoly3D/Prototype Textures/Materials/Red/Red_1.mat using Guid(1bef6174832ce994987824718f0207c6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
- -> (artifact id: '269e51b83431a9709d99266d4813fb5d') in 0.028792 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Scripts/Player/GrappleHook.cs
-  artifactKey: Guid(f9d3f382bd3704649820fd79c812825b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Scripts/Player/GrappleHook.cs using Guid(f9d3f382bd3704649820fd79c812825b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
- -> (artifact id: '6ccd6c355c8d8196cabb02bfb8c6a5de') in 0.011826 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000060 seconds.
-  path: Assets/iPoly3D/Prototype Textures/Demo/Demo meshes/Cube.014.fbx
-  artifactKey: Guid(13168e5a80eef8443ba96bd8b8430840) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/iPoly3D/Prototype Textures/Demo/Demo meshes/Cube.014.fbx using Guid(13168e5a80eef8443ba96bd8b8430840) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
- -> (artifact id: '35859f3e335f99cecf60da868a68df40') in 0.025718 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Scenes/SampleScene 1.unity
-  artifactKey: Guid(522b79ea619774e4cac9e82c0a49a15e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Scenes/SampleScene 1.unity using Guid(522b79ea619774e4cac9e82c0a49a15e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
- -> (artifact id: '00bf44581caf5981f17070e03fb6e074') in 0.007577 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000142 seconds.
-  path: Assets/iPoly3D/Prototype Textures/Demo/Demo meshes/Cube.006.fbx
-  artifactKey: Guid(f416aff6471c148418db5154d4344027) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/iPoly3D/Prototype Textures/Demo/Demo meshes/Cube.006.fbx using Guid(f416aff6471c148418db5154d4344027) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
- -> (artifact id: '02e70ff2870398bce2a5a5d8bef5b087') in 0.022478 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/iPoly3D/Prototype Textures/Materials/Red/Red_3.mat
-  artifactKey: Guid(b143536856f156f479d5ed2222190dbc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/iPoly3D/Prototype Textures/Materials/Red/Red_3.mat using Guid(b143536856f156f479d5ed2222190dbc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
- -> (artifact id: 'b8a8dc8606181d81c75cf8e4a51e11ba') in 0.026848 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/iPoly3D/Prototype Textures/Materials/Red/Red_7.mat
-  artifactKey: Guid(ebca30f447f1d1848812d23bd50f789a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/iPoly3D/Prototype Textures/Materials/Red/Red_7.mat using Guid(ebca30f447f1d1848812d23bd50f789a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
- -> (artifact id: '75497e237bed41dd379095de47b732c0') in 0.025908 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/iPoly3D/Prototype Textures/Textures/Blue/g1826.png
-  artifactKey: Guid(5c392769bdac89e40895bf8b46759735) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/iPoly3D/Prototype Textures/Textures/Blue/g1826.png using Guid(5c392769bdac89e40895bf8b46759735) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
- -> (artifact id: 'b5f2b4b97e59a8c024b0c159dc4786a4') in 0.044047 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/iPoly3D/Prototype Textures/Textures/Blue/g1800.png
-  artifactKey: Guid(9d981829f572e654682aeb65935870bb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/iPoly3D/Prototype Textures/Textures/Blue/g1800.png using Guid(9d981829f572e654682aeb65935870bb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
- -> (artifact id: 'cfedeada9230b3e479ebb93cc0f55b4c') in 0.018175 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/iPoly3D/Prototype Textures/Textures/Blue/g3194.png
-  artifactKey: Guid(36c9b2f41c518774b92a5eaa59590b10) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/iPoly3D/Prototype Textures/Textures/Blue/g3194.png using Guid(36c9b2f41c518774b92a5eaa59590b10) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
- -> (artifact id: '0f01eeaa0d7eba57ab9f303b7064f0ba') in 0.023569 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000043 seconds.
-  path: Assets/iPoly3D/Prototype Textures/Textures/Grey/g1462.png
-  artifactKey: Guid(9d27172b2c787a84089c76be78607c10) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/iPoly3D/Prototype Textures/Textures/Grey/g1462.png using Guid(9d27172b2c787a84089c76be78607c10) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
- -> (artifact id: '9cb323e71b4b4eadc9f3a5c52fbe8f5c') in 0.015546 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/iPoly3D/Prototype Textures/Demo/Demo meshes/Cube.002.fbx
-  artifactKey: Guid(27067a016a36b16449bfc93601ee2b22) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/iPoly3D/Prototype Textures/Demo/Demo meshes/Cube.002.fbx using Guid(27067a016a36b16449bfc93601ee2b22) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
- -> (artifact id: '9429976998720be95976ab620d05ae86') in 0.022277 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Scripts/Player/MoveCamera.cs
-  artifactKey: Guid(4e6cd8755f5a6b444b81c90b414a3193) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Scripts/Player/MoveCamera.cs using Guid(4e6cd8755f5a6b444b81c90b414a3193) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
- -> (artifact id: '8cdfbd5839f0a08cff0cdc1fcf89dafc') in 0.010390 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/iPoly3D/Prototype Textures/Demo/Prototype Textures Demo.unity
-  artifactKey: Guid(92ac8bd18482cdb4595bf31e09bba135) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/iPoly3D/Prototype Textures/Demo/Prototype Textures Demo.unity using Guid(92ac8bd18482cdb4595bf31e09bba135) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
- -> (artifact id: '89e29196ed2db34c95edaeecba6a2a69') in 0.008604 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000058 seconds.
-  path: Assets/iPoly3D/Prototype Textures/Materials/Grey/Grey_3.mat
-  artifactKey: Guid(21827f1faa0421245afff441a51d4c12) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/iPoly3D/Prototype Textures/Materials/Grey/Grey_3.mat using Guid(21827f1faa0421245afff441a51d4c12) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
- -> (artifact id: 'df605ba29ebe946334900e53be173e0c') in 0.020263 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/iPoly3D/Prototype Textures/Demo/Demo meshes/Cube.024.fbx
-  artifactKey: Guid(e0d1013c4a236e94c95911c34021768b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/iPoly3D/Prototype Textures/Demo/Demo meshes/Cube.024.fbx using Guid(e0d1013c4a236e94c95911c34021768b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
- -> (artifact id: '7dba1ea9f54627d9242eaad650b65c77') in 0.025823 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 0.000095 seconds.
-  path: Assets/iPoly3D/Prototype Textures/Materials/Pink/Pink_5.mat
-  artifactKey: Guid(2c42d4f0e1d1d184e83ea64bea171965) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/iPoly3D/Prototype Textures/Materials/Pink/Pink_5.mat using Guid(2c42d4f0e1d1d184e83ea64bea171965) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
- -> (artifact id: 'cafdc0926387c24c084958ab7f4a2993') in 0.026380 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/iPoly3D/Prototype Textures/Materials/Pink/Pink_9.mat
-  artifactKey: Guid(5e53fc77043a3094a8ef5ee0e58db88d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/iPoly3D/Prototype Textures/Materials/Pink/Pink_9.mat using Guid(5e53fc77043a3094a8ef5ee0e58db88d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
- -> (artifact id: 'fbde58b71b7434c1990472b38613c5d5') in 0.027159 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/iPoly3D/Prototype Textures/Textures/Blue/g1874.png
-  artifactKey: Guid(efc07207fb27b9a40a2eaf4021762544) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/iPoly3D/Prototype Textures/Textures/Blue/g1874.png using Guid(efc07207fb27b9a40a2eaf4021762544) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
- -> (artifact id: '785fe40aa399d116990b8110d7754d2c') in 0.024624 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/iPoly3D/Prototype Textures/Textures/Blue/g2914.png
-  artifactKey: Guid(03227882f5c191f47bd8a7c8fd3436ee) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/iPoly3D/Prototype Textures/Textures/Blue/g2914.png using Guid(03227882f5c191f47bd8a7c8fd3436ee) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
- -> (artifact id: '6d2a21df0485007da60733159beaa160') in 0.012474 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000063 seconds.
-  path: Assets/iPoly3D/Prototype Textures/Demo/Demo meshes/Cube.008.fbx
-  artifactKey: Guid(4e48f3fef628c954b9f43d55bfc33d48) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/iPoly3D/Prototype Textures/Demo/Demo meshes/Cube.008.fbx using Guid(4e48f3fef628c954b9f43d55bfc33d48) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
- -> (artifact id: '089bcc001eef9676894ccc79129e7d97') in 0.026030 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/iPoly3D/Prototype Textures/Demo/Demo meshes/Cube.018.fbx
-  artifactKey: Guid(1001bd82a49c9a045a80605ac6a5dad4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/iPoly3D/Prototype Textures/Demo/Demo meshes/Cube.018.fbx using Guid(1001bd82a49c9a045a80605ac6a5dad4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
- -> (artifact id: '3a2abcc22753491f8d0a2b9e69338498') in 0.021990 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/iPoly3D/Prototype Textures/Materials/Orange/Orange_5.mat
-  artifactKey: Guid(66540bd7b72fbfb43a532a03ffb6130b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/iPoly3D/Prototype Textures/Materials/Orange/Orange_5.mat using Guid(66540bd7b72fbfb43a532a03ffb6130b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
- -> (artifact id: '8bc5c77f267a87f341f59aa592adca94') in 0.027402 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/iPoly3D/Prototype Textures/Materials/Yellow/Yellow_2.mat
-  artifactKey: Guid(66432ce147bda90478a02a66f572d892) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/iPoly3D/Prototype Textures/Materials/Yellow/Yellow_2.mat using Guid(66432ce147bda90478a02a66f572d892) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
- -> (artifact id: '3400e72160aa3a8fd0df042b93f7f184') in 0.024905 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000139 seconds.
-  path: Assets/iPoly3D/Prototype Textures/Materials/Red/Red_6.mat
-  artifactKey: Guid(b95f4dcd983ef5245bdfa819b129b035) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/iPoly3D/Prototype Textures/Materials/Red/Red_6.mat using Guid(b95f4dcd983ef5245bdfa819b129b035) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
- -> (artifact id: 'cf777fb1eca93c9ba1b956a934a6d685') in 0.031123 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/iPoly3D/Prototype Textures/Materials/enemy.mat
-  artifactKey: Guid(e110312d8dcca0e4f99097ca3a3a068f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/iPoly3D/Prototype Textures/Materials/enemy.mat using Guid(e110312d8dcca0e4f99097ca3a3a068f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
- -> (artifact id: '3defde4dcfd89aa1a2f638861a5e787b') in 0.029612 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/iPoly3D/Prototype Textures/Textures/Red/g3242.png
-  artifactKey: Guid(b64cbc41f7921cf4eb0b81597f83c83f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/iPoly3D/Prototype Textures/Textures/Red/g3242.png using Guid(b64cbc41f7921cf4eb0b81597f83c83f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
- -> (artifact id: '87376fe37913e028d9d5442276009ddd') in 0.019440 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000039 seconds.
-  path: Assets/iPoly3D/Prototype Textures/Textures/Orange/g1779.png
-  artifactKey: Guid(d10ea4bee4349b944a0e09fd13ebb42e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/iPoly3D/Prototype Textures/Textures/Orange/g1779.png using Guid(d10ea4bee4349b944a0e09fd13ebb42e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
- -> (artifact id: '4b5c86cfbe7e82b7583025e109e4cc8e') in 0.023716 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/iPoly3D/Prototype Textures/Textures/Yellow/g2745.png
-  artifactKey: Guid(a8173cc0c94be8644849d77d9ee7e78e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/iPoly3D/Prototype Textures/Textures/Yellow/g2745.png using Guid(a8173cc0c94be8644849d77d9ee7e78e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
- -> (artifact id: 'b00205555fda2a4f64a4e6071b80c15c') in 0.016296 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/iPoly3D/Prototype Textures/Textures/Yellow/g2673.png
-  artifactKey: Guid(9978a9d6ed5a66a498276ddedd302ef5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/iPoly3D/Prototype Textures/Textures/Yellow/g2673.png using Guid(9978a9d6ed5a66a498276ddedd302ef5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
- -> (artifact id: '26e63abebc0345149c21f3378cf072ab') in 0.017560 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/iPoly3D/Prototype Textures/Textures/Orange/g1704.png
-  artifactKey: Guid(02927eb76fca5394f83fe7b95e1b449e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/iPoly3D/Prototype Textures/Textures/Orange/g1704.png using Guid(02927eb76fca5394f83fe7b95e1b449e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
- -> (artifact id: '09ba1056aea387c90354d8556613b452') in 0.016856 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000057 seconds.
-  path: Assets/iPoly3D/Prototype Textures/Textures/Red/g3378.png
-  artifactKey: Guid(909f694f318e81b4495c4f2bea7c342f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/iPoly3D/Prototype Textures/Textures/Red/g3378.png using Guid(909f694f318e81b4495c4f2bea7c342f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
- -> (artifact id: 'd734213fde68bfdedde252a7d09bc9e4') in 0.018895 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000070 seconds.
-  path: Assets/iPoly3D/Prototype Textures/Textures/Pink/g2580.png
-  artifactKey: Guid(0c2e88c8428c5eb4686d86f45aa3c3dc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/iPoly3D/Prototype Textures/Textures/Pink/g2580.png using Guid(0c2e88c8428c5eb4686d86f45aa3c3dc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
- -> (artifact id: '5252dc0356872caa21e56cca25b50888') in 0.025240 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/iPoly3D/Prototype Textures/Textures/Yellow/g2716.png
-  artifactKey: Guid(894885d97999f094e808433c90bce269) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/iPoly3D/Prototype Textures/Textures/Yellow/g2716.png using Guid(894885d97999f094e808433c90bce269) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
- -> (artifact id: 'd6ba67aa00e79f4cc3db2bc09846dc3c') in 0.023270 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/iPoly3D/Prototype Textures/Textures/Red/g3304.png
-  artifactKey: Guid(35bc871cdf412fc4a93dbb379bbc876c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/iPoly3D/Prototype Textures/Textures/Red/g3304.png using Guid(35bc871cdf412fc4a93dbb379bbc876c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
- -> (artifact id: 'fca5667b65b18c508cfef4a7e96d480d') in 0.017211 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/iPoly3D/Prototype Textures/Textures/Orange/g1752.png
-  artifactKey: Guid(3b8176997a7db70428e13505f0553214) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/iPoly3D/Prototype Textures/Textures/Orange/g1752.png using Guid(3b8176997a7db70428e13505f0553214) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
- -> (artifact id: 'a77fcae622a3b3bcb9025d6a3ffa4840') in 0.021544 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/iPoly3D/Prototype Textures/Textures/Pink/g2514.png
-  artifactKey: Guid(6b9af8d15e66dd5488c1bb5c18258ebc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/iPoly3D/Prototype Textures/Textures/Pink/g2514.png using Guid(6b9af8d15e66dd5488c1bb5c18258ebc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
- -> (artifact id: '2c77fe7bed0170cc5bc1e43d3d99d030') in 0.020745 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.002574 seconds.
-  path: Assets/iPoly3D/Prototype Textures/Textures/Red/g3282.png
-  artifactKey: Guid(699a231b33f8dc1449bbfebafdd3f820) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/iPoly3D/Prototype Textures/Textures/Red/g3282.png using Guid(699a231b33f8dc1449bbfebafdd3f820) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
- -> (artifact id: '628c28445e77ee0970c4f51b8f8f0e02') in 0.016724 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.005001 seconds.
-  path: Assets/iPoly3D/Prototype Textures/Demo/Demo meshes/Cube.021.fbx
-  artifactKey: Guid(03277b16849e6df469a7e5b696f12dbb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/iPoly3D/Prototype Textures/Demo/Demo meshes/Cube.021.fbx using Guid(03277b16849e6df469a7e5b696f12dbb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
- -> (artifact id: 'bebc9fd4ab0dac2e110e207d835a0ecd') in 0.023831 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/iPoly3D/Prototype Textures/Materials/Pink/Pink_4.mat
-  artifactKey: Guid(2c385dae55bc3e04fa96cc84d18f594a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/iPoly3D/Prototype Textures/Materials/Pink/Pink_4.mat using Guid(2c385dae55bc3e04fa96cc84d18f594a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
- -> (artifact id: 'c935f3339051a21a6e1a95b356f56868') in 0.026780 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/iPoly3D/Prototype Textures/Materials/Blue/Blue_2.mat
-  artifactKey: Guid(4cc73f247dcc2e841a79a5290b72c2c4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/iPoly3D/Prototype Textures/Materials/Blue/Blue_2.mat using Guid(4cc73f247dcc2e841a79a5290b72c2c4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
- -> (artifact id: 'f9f2f3354b10335578cd0dbf566d02c5') in 0.017766 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/iPoly3D/Prototype Textures/Textures/Yellow/g2696.png
-  artifactKey: Guid(4730d8c2d28be994ea32340317b577a1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/iPoly3D/Prototype Textures/Textures/Yellow/g2696.png using Guid(4730d8c2d28be994ea32340317b577a1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
- -> (artifact id: '0a89c1cf88e67eed997f7a0e3c6914a2') in 0.015267 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/iPoly3D/Prototype Textures/Materials/Orange/Orange_9.mat
-  artifactKey: Guid(12ad1df57a06abc4ab37ed5d6d2d5386) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/iPoly3D/Prototype Textures/Materials/Orange/Orange_9.mat using Guid(12ad1df57a06abc4ab37ed5d6d2d5386) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
- -> (artifact id: '0b880f96033a229b712fd7fa2849af1e') in 0.019697 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/iPoly3D/Prototype Textures/Demo/Demo meshes/Cube.017.fbx
-  artifactKey: Guid(f9a10c95d625d2c4da8b2978808528d3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/iPoly3D/Prototype Textures/Demo/Demo meshes/Cube.017.fbx using Guid(f9a10c95d625d2c4da8b2978808528d3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
- -> (artifact id: '2acaed8379a41dee68e8c2c0db433ed4') in 0.025265 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/iPoly3D/Prototype Textures/Materials/Yellow/Yellow_9.mat
-  artifactKey: Guid(7f25f0b4ac3c7464eb7cfe7656a9dcbb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/iPoly3D/Prototype Textures/Materials/Yellow/Yellow_9.mat using Guid(7f25f0b4ac3c7464eb7cfe7656a9dcbb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
- -> (artifact id: '15418b9fac140efef7f9a42c407073c6') in 0.029397 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/iPoly3D/Prototype Textures/Materials/Yellow/Yellow_10.mat
-  artifactKey: Guid(dabbf45f2132ed6459bb5192a39effd7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/iPoly3D/Prototype Textures/Materials/Yellow/Yellow_10.mat using Guid(dabbf45f2132ed6459bb5192a39effd7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
- -> (artifact id: '76acb9939150a179f23b1ee1ff21d1f7') in 0.028278 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/iPoly3D/Prototype Textures/Materials/Blue/Blue_4.mat
-  artifactKey: Guid(fdacfbae24d30ee4b824d4f347c7bb0f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/iPoly3D/Prototype Textures/Materials/Blue/Blue_4.mat using Guid(fdacfbae24d30ee4b824d4f347c7bb0f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
- -> (artifact id: '4ff17da78c5b1762dac9a4186a8adf3f') in 0.022282 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/iPoly3D/Prototype Textures/Demo/Demo meshes/Cube.025.fbx
-  artifactKey: Guid(544335867616f314ca8ab21728e38168) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/iPoly3D/Prototype Textures/Demo/Demo meshes/Cube.025.fbx using Guid(544335867616f314ca8ab21728e38168) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
- -> (artifact id: 'e9557901bd1cc0a337f6ff72d2914d4e') in 0.024759 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/iPoly3D/Prototype Textures/Textures/Grey/Materials/g2520.mat
-  artifactKey: Guid(5678b2336f8ff02489dd1e25fc889943) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/iPoly3D/Prototype Textures/Textures/Grey/Materials/g2520.mat using Guid(5678b2336f8ff02489dd1e25fc889943) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
- -> (artifact id: 'ef0d3f36b885188a2a89b0a42d8feefd') in 0.021627 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/iPoly3D/Prototype Textures/Textures/Grey/Materials/g1462.mat
-  artifactKey: Guid(78ddd8f60c46fae44b83fd59f7734303) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/iPoly3D/Prototype Textures/Textures/Grey/Materials/g1462.mat using Guid(78ddd8f60c46fae44b83fd59f7734303) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
- -> (artifact id: '380579356c9f502b9b61fca2a441768f') in 0.012160 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/iPoly3D/Prototype Textures/Textures/Grey/Materials/g1153.mat
-  artifactKey: Guid(3e866424990320748bb14dcb0e2dd29e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/iPoly3D/Prototype Textures/Textures/Grey/Materials/g1153.mat using Guid(3e866424990320748bb14dcb0e2dd29e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
- -> (artifact id: 'fcb0c7ba3cccc489395d5456887ecf0a') in 0.012874 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/iPoly3D/Prototype Textures/Demo/Demo meshes/Cube.fbx
-  artifactKey: Guid(f8bea4c9e8d73ef4ca431a2076e25dd3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/iPoly3D/Prototype Textures/Demo/Demo meshes/Cube.fbx using Guid(f8bea4c9e8d73ef4ca431a2076e25dd3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
- -> (artifact id: '2e3b3ca0508ac59cded1e637041e3d24') in 0.025339 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/iPoly3D/Prototype Textures/Materials/Blue/Blue_10.mat
-  artifactKey: Guid(8f7fc12728facfe4e9b81cf4edb4c058) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/iPoly3D/Prototype Textures/Materials/Blue/Blue_10.mat using Guid(8f7fc12728facfe4e9b81cf4edb4c058) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
- -> (artifact id: '0333d9035288d41a900efb65e290c558') in 0.020640 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/iPoly3D/Prototype Textures/Textures/Orange/g1713.png
-  artifactKey: Guid(a4de3db108aa1e2418610b0340caeb3c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/iPoly3D/Prototype Textures/Textures/Orange/g1713.png using Guid(a4de3db108aa1e2418610b0340caeb3c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
- -> (artifact id: 'c98e0b3e9af3687d4eabca1ad452c277') in 0.016619 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/iPoly3D/Prototype Textures/Materials/Grey/Grey_8.mat
-  artifactKey: Guid(31f8586c3bdf8b64dae44a2c2eb66abd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/iPoly3D/Prototype Textures/Materials/Grey/Grey_8.mat using Guid(31f8586c3bdf8b64dae44a2c2eb66abd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
- -> (artifact id: '7954618397bcc9ba85a9acca2a90736f') in 0.026585 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/iPoly3D/Prototype Textures/Demo/Demo meshes/Cube.029.fbx
-  artifactKey: Guid(89d8d72cf966c854ea4d29d519d12c2b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/iPoly3D/Prototype Textures/Demo/Demo meshes/Cube.029.fbx using Guid(89d8d72cf966c854ea4d29d519d12c2b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
- -> (artifact id: '97f091c1f33388ed5a9dc070750826be') in 0.023728 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/iPoly3D/Prototype Textures/Textures/Blue/Materials/g1822.mat
-  artifactKey: Guid(74558905bafebe94dbe0d67d890ed3fd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/iPoly3D/Prototype Textures/Textures/Blue/Materials/g1822.mat using Guid(74558905bafebe94dbe0d67d890ed3fd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
- -> (artifact id: '8c61dc21a93b3e13825f9e3d643c8ade') in 0.018955 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/iPoly3D/Prototype Textures/Textures/Pink/g2487.png
-  artifactKey: Guid(1a0bb3e9a5729c345a66191120522e1b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/iPoly3D/Prototype Textures/Textures/Pink/g2487.png using Guid(1a0bb3e9a5729c345a66191120522e1b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
- -> (artifact id: '5de7196939dbb0f3fd88f2f78c0a9354') in 0.015725 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/iPoly3D/Prototype Textures/Demo/Demo meshes/Cube.009.fbx
-  artifactKey: Guid(d408ddb4014e6e34b8074de49e1e7019) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/iPoly3D/Prototype Textures/Demo/Demo meshes/Cube.009.fbx using Guid(d408ddb4014e6e34b8074de49e1e7019) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
- -> (artifact id: '6c71a9be5a0129148ba1d15ec028daa9') in 0.024808 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/iPoly3D/Prototype Textures/Materials/Yellow/Yellow_8.mat
-  artifactKey: Guid(d6f922be820cbd945b9e2f47319fb466) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/iPoly3D/Prototype Textures/Materials/Yellow/Yellow_8.mat using Guid(d6f922be820cbd945b9e2f47319fb466) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
- -> (artifact id: '8b135c0e3e078e0c83b4dd64d170678c') in 0.020312 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/iPoly3D/Prototype Textures/Materials/Yellow/Yellow_1.mat
-  artifactKey: Guid(f413c646e1dd98e4b9c613bae5e2c599) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/iPoly3D/Prototype Textures/Materials/Yellow/Yellow_1.mat using Guid(f413c646e1dd98e4b9c613bae5e2c599) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
- -> (artifact id: 'bb682830d4293b296aff7268da261564') in 0.029612 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/iPoly3D/Prototype Textures/Textures/Pink/g2541.png
-  artifactKey: Guid(765e4f02854abdc47bd1ebc5c4359b7c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/iPoly3D/Prototype Textures/Textures/Pink/g2541.png using Guid(765e4f02854abdc47bd1ebc5c4359b7c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
- -> (artifact id: '2795b566e2f7b765d395cd9d0a27ab77') in 0.017520 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/iPoly3D/Prototype Textures/Textures/Yellow/g2767.png
-  artifactKey: Guid(02aa3fedcea92a5428edb1f711f982cf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/iPoly3D/Prototype Textures/Textures/Yellow/g2767.png using Guid(02aa3fedcea92a5428edb1f711f982cf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
- -> (artifact id: '57b991e5c51b07f9e60f5d608f2b648d') in 0.024160 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/iPoly3D/Prototype Textures/Materials/Blue/Blue_3.mat
-  artifactKey: Guid(1d1dbf679a83bcb4a85b9af7c0dee44e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/iPoly3D/Prototype Textures/Materials/Blue/Blue_3.mat using Guid(1d1dbf679a83bcb4a85b9af7c0dee44e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
- -> (artifact id: '1f919554609a99ab8d9fd10b44856dea') in 0.018708 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/iPoly3D/Prototype Textures/Materials/Pink/Pink_6.mat
-  artifactKey: Guid(85dba0447f817e84cab660c26893d3fa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/iPoly3D/Prototype Textures/Materials/Pink/Pink_6.mat using Guid(85dba0447f817e84cab660c26893d3fa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
- -> (artifact id: 'f3765311926df30d2f0feb5e7783d1dc') in 0.020732 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/iPoly3D/Prototype Textures/Materials/Yellow/Yellow_7.mat
-  artifactKey: Guid(ee7853e0b1e78824cadbd7c22340cbfd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/iPoly3D/Prototype Textures/Materials/Yellow/Yellow_7.mat using Guid(ee7853e0b1e78824cadbd7c22340cbfd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
- -> (artifact id: '9fe1c14a9b43e0624778702d6b5bd8b2') in 0.020682 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/iPoly3D/Prototype Textures/Materials/Yellow/Yellow_3.mat
-  artifactKey: Guid(2fdad9288ca1171428734bc494b21419) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/iPoly3D/Prototype Textures/Materials/Yellow/Yellow_3.mat using Guid(2fdad9288ca1171428734bc494b21419) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
- -> (artifact id: '13bf72a82af7e7652ab503a76e4e6217') in 0.021467 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/iPoly3D/Prototype Textures/Materials/Orange/Orange_7.mat
-  artifactKey: Guid(b5c538bb0be68cd4188d521dc6e1b43c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/iPoly3D/Prototype Textures/Materials/Orange/Orange_7.mat using Guid(b5c538bb0be68cd4188d521dc6e1b43c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
- -> (artifact id: '336396b5629a9355b47b21827462ed25') in 0.022227 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/iPoly3D/Prototype Textures/Demo/Demo meshes/Cube.022.fbx
-  artifactKey: Guid(2c33c87aa1837d44ba2d733fddc76526) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/iPoly3D/Prototype Textures/Demo/Demo meshes/Cube.022.fbx using Guid(2c33c87aa1837d44ba2d733fddc76526) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
- -> (artifact id: '6e5de44f49f337536fc7d785eb3f58de') in 0.024851 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/iPoly3D/Prototype Textures/Textures/Red/g3229.png
-  artifactKey: Guid(e5d640b2843f1df4f902a73ab45d6860) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/iPoly3D/Prototype Textures/Textures/Red/g3229.png using Guid(e5d640b2843f1df4f902a73ab45d6860) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
- -> (artifact id: '6ad2824ce81953f32c9d3358ac27f07b') in 0.016440 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/iPoly3D/Prototype Textures/Materials/Grey/Grey_9.mat
-  artifactKey: Guid(7817480cb43be8b409e989b9c4ab0132) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/iPoly3D/Prototype Textures/Materials/Grey/Grey_9.mat using Guid(7817480cb43be8b409e989b9c4ab0132) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
- -> (artifact id: '66159d30f4ba02e9697aea23f968ab0f') in 0.020997 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/iPoly3D/Prototype Textures/Demo/Demo meshes/Cube.013.fbx
-  artifactKey: Guid(f3e48ea5daeb6e74c948e42b7b6a1606) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/iPoly3D/Prototype Textures/Demo/Demo meshes/Cube.013.fbx using Guid(f3e48ea5daeb6e74c948e42b7b6a1606) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
- -> (artifact id: 'ea0d5a4e9632e8eb64fe18449928ec32') in 0.027352 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Scripts/Enemy/EnemyAttack.cs
-  artifactKey: Guid(0db0ca63594a109438b82b9bdb5a367c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Scripts/Enemy/EnemyAttack.cs using Guid(0db0ca63594a109438b82b9bdb5a367c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
- -> (artifact id: 'f10484aa017a448cc88da41d2b404d5b') in 0.010477 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/iPoly3D/Prototype Textures/Textures/Red/g3215.png
-  artifactKey: Guid(313e7a023352d1d40a64fa5709035310) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/iPoly3D/Prototype Textures/Textures/Red/g3215.png using Guid(313e7a023352d1d40a64fa5709035310) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
- -> (artifact id: '21fca2c0764baf4e331a445464b840e0') in 0.017181 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/Scripts/HealthSystem/PlayerHealth.cs
-  artifactKey: Guid(470207f904b7d434fa695f81d0e37457) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Scripts/HealthSystem/PlayerHealth.cs using Guid(470207f904b7d434fa695f81d0e37457) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
- -> (artifact id: '8dbf311cd91bbfc3b57e189cc170f74c') in 0.011348 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/iPoly3D/Prototype Textures/Textures/Grey/g1972.png
-  artifactKey: Guid(9976976cf79bd0b4490cb214d402338f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/iPoly3D/Prototype Textures/Textures/Grey/g1972.png using Guid(9976976cf79bd0b4490cb214d402338f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
- -> (artifact id: '57aff0db7745663b3e8e75ac1667e116') in 0.016879 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/iPoly3D/Prototype Textures/Demo/Demo meshes/Curved Stairs.002.fbx
-  artifactKey: Guid(1fbb655bd2542f2439ce82b5db71b0b7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/iPoly3D/Prototype Textures/Demo/Demo meshes/Curved Stairs.002.fbx using Guid(1fbb655bd2542f2439ce82b5db71b0b7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
- -> (artifact id: '85398f8b02b21c2ad4ed27329185eb45') in 0.023049 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/iPoly3D/Prototype Textures/Textures/Yellow/g2905.png
-  artifactKey: Guid(64dabab9f93500643a88401f5c01c798) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/iPoly3D/Prototype Textures/Textures/Yellow/g2905.png using Guid(64dabab9f93500643a88401f5c01c798) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
- -> (artifact id: '480735326c8ff2156d5b59fc00a35c5f') in 0.015561 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/iPoly3D/Prototype Textures/Textures/enemy.png
-  artifactKey: Guid(6995451e46428304fb8eef9eb4e25832) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/iPoly3D/Prototype Textures/Textures/enemy.png using Guid(6995451e46428304fb8eef9eb4e25832) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
- -> (artifact id: 'fd2f34a5de8a1f7b0d5ee427c63c5d5a') in 0.015614 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.616 seconds
-Refreshing native plugins compatible for Editor in 3.79 ms, found 3 plugins.
-Native extension for WindowsStandalone target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.368 seconds
-Domain Reload Profiling: 1980ms
-	BeginReloadAssembly (218ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (7ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (66ms)
-	RebuildCommonClasses (35ms)
-	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (41ms)
-	LoadAllAssembliesAndSetupDomain (306ms)
-		LoadAssemblies (387ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (27ms)
-			TypeCache.Refresh (10ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (8ms)
-			ResolveRequiredComponents (7ms)
-	FinalizeReload (1368ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (593ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (8ms)
-			SetLoadedEditorAssemblies (3ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (66ms)
-			ProcessInitializeOnLoadAttributes (483ms)
-			ProcessInitializeOnLoadMethodAttributes (20ms)
-			AfterProcessingInitializeOnLoad (12ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (9ms)
-Refreshing native plugins compatible for Editor in 1.72 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3528 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 27 unused Assets / (87.3 KB). Loaded Objects now: 4023.
-Memory consumption went from 130.0 MB to 130.0 MB.
-Total: 2.238600 ms (FindLiveObjects: 0.162100 ms CreateObjectMapping: 0.045300 ms MarkObjects: 1.923400 ms  DeleteObjects: 0.107000 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.537 seconds
-Refreshing native plugins compatible for Editor in 5.10 ms, found 3 plugins.
-Native extension for WindowsStandalone target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.308 seconds
-Domain Reload Profiling: 1841ms
-	BeginReloadAssembly (178ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (6ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (39ms)
-	RebuildCommonClasses (35ms)
-	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (36ms)
-	LoadAllAssembliesAndSetupDomain (273ms)
-		LoadAssemblies (363ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (19ms)
-			TypeCache.Refresh (9ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (7ms)
-	FinalizeReload (1309ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (564ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (7ms)
-			SetLoadedEditorAssemblies (2ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (69ms)
-			ProcessInitializeOnLoadAttributes (468ms)
-			ProcessInitializeOnLoadMethodAttributes (12ms)
-			AfterProcessingInitializeOnLoad (5ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (5ms)
-Refreshing native plugins compatible for Editor in 1.68 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3529 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 27 unused Assets / (87.5 KB). Loaded Objects now: 4026.
-Memory consumption went from 130.3 MB to 130.2 MB.
-Total: 2.235600 ms (FindLiveObjects: 0.195000 ms CreateObjectMapping: 0.046900 ms MarkObjects: 1.914700 ms  DeleteObjects: 0.078100 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.545 seconds
-Refreshing native plugins compatible for Editor in 5.80 ms, found 3 plugins.
-Native extension for WindowsStandalone target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.371 seconds
-Domain Reload Profiling: 1911ms
-	BeginReloadAssembly (181ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (5ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (37ms)
-	RebuildCommonClasses (35ms)
-	RebuildNativeTypeToScriptingClass (12ms)
-	initialDomainReloadingComplete (41ms)
-	LoadAllAssembliesAndSetupDomain (270ms)
-		LoadAssemblies (355ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (17ms)
-			TypeCache.Refresh (8ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (6ms)
-	FinalizeReload (1372ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (609ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (8ms)
-			SetLoadedEditorAssemblies (3ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (67ms)
-			ProcessInitializeOnLoadAttributes (494ms)
-			ProcessInitializeOnLoadMethodAttributes (22ms)
-			AfterProcessingInitializeOnLoad (14ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (9ms)
-Refreshing native plugins compatible for Editor in 1.85 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3529 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 27 unused Assets / (79.4 KB). Loaded Objects now: 4029.
-Memory consumption went from 130.3 MB to 130.2 MB.
-Total: 2.208300 ms (FindLiveObjects: 0.146800 ms CreateObjectMapping: 0.048600 ms MarkObjects: 1.937500 ms  DeleteObjects: 0.074400 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.282 seconds
-Refreshing native plugins compatible for Editor in 1.89 ms, found 3 plugins.
-Native extension for WindowsStandalone target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.660 seconds
-Domain Reload Profiling: 941ms
-	BeginReloadAssembly (102ms)
+- Finished resetting the current domain, in  0.460 seconds
+Domain Reload Profiling: 873ms
+	BeginReloadAssembly (96ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (4ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (21ms)
-	RebuildCommonClasses (19ms)
-	RebuildNativeTypeToScriptingClass (6ms)
-	initialDomainReloadingComplete (18ms)
-	LoadAllAssembliesAndSetupDomain (135ms)
-		LoadAssemblies (173ms)
+		CreateAndSetChildDomain (13ms)
+	RebuildCommonClasses (21ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (31ms)
+	LoadAllAssembliesAndSetupDomain (258ms)
+		LoadAssemblies (198ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (16ms)
-			TypeCache.Refresh (6ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (5ms)
-			ResolveRequiredComponents (3ms)
-	FinalizeReload (660ms)
+		AnalyzeDomain (117ms)
+			TypeCache.Refresh (101ms)
+				TypeCache.ScanAssembly (92ms)
+			ScanForSourceGeneratedMonoScriptInfo (10ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (460ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (342ms)
+		SetupLoadedEditorAssemblies (367ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (4ms)
-			SetLoadedEditorAssemblies (2ms)
+			SetLoadedEditorAssemblies (3ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (37ms)
-			ProcessInitializeOnLoadAttributes (280ms)
+			BeforeProcessingInitializeOnLoad (40ms)
+			ProcessInitializeOnLoadAttributes (303ms)
 			ProcessInitializeOnLoadMethodAttributes (12ms)
-			AfterProcessingInitializeOnLoad (6ms)
+			AfterProcessingInitializeOnLoad (5ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (4ms)
-Refreshing native plugins compatible for Editor in 1.61 ms, found 3 plugins.
+		AwakeInstancesAfterBackupRestoration (5ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 1.53 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3529 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 27 unused Assets / (79.3 KB). Loaded Objects now: 4032.
-Memory consumption went from 130.3 MB to 130.2 MB.
-Total: 2.013600 ms (FindLiveObjects: 0.149400 ms CreateObjectMapping: 0.044500 ms MarkObjects: 1.741600 ms  DeleteObjects: 0.077400 ms)
+Unloading 3555 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 39 unused Assets / (98.9 KB). Loaded Objects now: 4016.
+Memory consumption went from 135.5 MB to 135.4 MB.
+Total: 2.159400 ms (FindLiveObjects: 0.151800 ms CreateObjectMapping: 0.044300 ms MarkObjects: 1.869500 ms  DeleteObjects: 0.092900 ms)
 
-Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
@@ -1334,302 +182,50 @@ AssetImportParameters requested are different than current active one (requested
 ========================================================================
 Received Prepare
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.271 seconds
-Refreshing native plugins compatible for Editor in 2.02 ms, found 3 plugins.
+- Loaded All Assemblies, in  0.279 seconds
+Refreshing native plugins compatible for Editor in 2.15 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.672 seconds
-Domain Reload Profiling: 943ms
-	BeginReloadAssembly (97ms)
+- Finished resetting the current domain, in  0.679 seconds
+Domain Reload Profiling: 957ms
+	BeginReloadAssembly (101ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (3ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (21ms)
-	RebuildCommonClasses (19ms)
-	RebuildNativeTypeToScriptingClass (7ms)
-	initialDomainReloadingComplete (18ms)
-	LoadAllAssembliesAndSetupDomain (129ms)
-		LoadAssemblies (170ms)
+	RebuildCommonClasses (20ms)
+	RebuildNativeTypeToScriptingClass (6ms)
+	initialDomainReloadingComplete (19ms)
+	LoadAllAssembliesAndSetupDomain (133ms)
+		LoadAssemblies (177ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (10ms)
+		AnalyzeDomain (11ms)
 			TypeCache.Refresh (4ms)
 				TypeCache.ScanAssembly (0ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (3ms)
-	FinalizeReload (673ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (679ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (341ms)
+		SetupLoadedEditorAssemblies (349ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (4ms)
 			SetLoadedEditorAssemblies (2ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (38ms)
-			ProcessInitializeOnLoadAttributes (279ms)
+			ProcessInitializeOnLoadAttributes (287ms)
 			ProcessInitializeOnLoadMethodAttributes (12ms)
 			AfterProcessingInitializeOnLoad (5ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (5ms)
-Refreshing native plugins compatible for Editor in 1.60 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.49 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3529 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 27 unused Assets / (71.2 KB). Loaded Objects now: 4035.
-Memory consumption went from 130.3 MB to 130.2 MB.
-Total: 2.075100 ms (FindLiveObjects: 0.155000 ms CreateObjectMapping: 0.047300 ms MarkObjects: 1.797600 ms  DeleteObjects: 0.074400 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.545 seconds
-Refreshing native plugins compatible for Editor in 3.84 ms, found 3 plugins.
-Native extension for WindowsStandalone target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.309 seconds
-Domain Reload Profiling: 1851ms
-	BeginReloadAssembly (192ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (6ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (40ms)
-	RebuildCommonClasses (36ms)
-	RebuildNativeTypeToScriptingClass (12ms)
-	initialDomainReloadingComplete (42ms)
-	LoadAllAssembliesAndSetupDomain (258ms)
-		LoadAssemblies (347ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (19ms)
-			TypeCache.Refresh (10ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (6ms)
-	FinalizeReload (1310ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (615ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (8ms)
-			SetLoadedEditorAssemblies (3ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (76ms)
-			ProcessInitializeOnLoadAttributes (492ms)
-			ProcessInitializeOnLoadMethodAttributes (21ms)
-			AfterProcessingInitializeOnLoad (13ms)
-			EditorAssembliesLoaded (1ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (8ms)
-Refreshing native plugins compatible for Editor in 1.83 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3529 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 27 unused Assets / (79.4 KB). Loaded Objects now: 4038.
-Memory consumption went from 130.3 MB to 130.2 MB.
-Total: 2.119600 ms (FindLiveObjects: 0.154700 ms CreateObjectMapping: 0.044400 ms MarkObjects: 1.839800 ms  DeleteObjects: 0.079700 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.274 seconds
-Refreshing native plugins compatible for Editor in 2.05 ms, found 3 plugins.
-Native extension for WindowsStandalone target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.671 seconds
-Domain Reload Profiling: 944ms
-	BeginReloadAssembly (99ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (3ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (20ms)
-	RebuildCommonClasses (19ms)
-	RebuildNativeTypeToScriptingClass (6ms)
-	initialDomainReloadingComplete (18ms)
-	LoadAllAssembliesAndSetupDomain (129ms)
-		LoadAssemblies (173ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (10ms)
-			TypeCache.Refresh (5ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (3ms)
-	FinalizeReload (672ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (348ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (4ms)
-			SetLoadedEditorAssemblies (2ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (36ms)
-			ProcessInitializeOnLoadAttributes (289ms)
-			ProcessInitializeOnLoadMethodAttributes (12ms)
-			AfterProcessingInitializeOnLoad (5ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (5ms)
-Refreshing native plugins compatible for Editor in 1.82 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3529 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 27 unused Assets / (79.4 KB). Loaded Objects now: 4041.
-Memory consumption went from 130.3 MB to 130.2 MB.
-Total: 2.096500 ms (FindLiveObjects: 0.148300 ms CreateObjectMapping: 0.044900 ms MarkObjects: 1.824800 ms  DeleteObjects: 0.077600 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.540 seconds
-Refreshing native plugins compatible for Editor in 4.74 ms, found 3 plugins.
-Native extension for WindowsStandalone target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.305 seconds
-Domain Reload Profiling: 1841ms
-	BeginReloadAssembly (188ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (6ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (38ms)
-	RebuildCommonClasses (37ms)
-	RebuildNativeTypeToScriptingClass (12ms)
-	initialDomainReloadingComplete (39ms)
-	LoadAllAssembliesAndSetupDomain (259ms)
-		LoadAssemblies (353ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (16ms)
-			TypeCache.Refresh (8ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (6ms)
-	FinalizeReload (1306ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (592ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (9ms)
-			SetLoadedEditorAssemblies (3ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (64ms)
-			ProcessInitializeOnLoadAttributes (482ms)
-			ProcessInitializeOnLoadMethodAttributes (21ms)
-			AfterProcessingInitializeOnLoad (13ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (9ms)
-Refreshing native plugins compatible for Editor in 3.74 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3529 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 27 unused Assets / (79.4 KB). Loaded Objects now: 4044.
-Memory consumption went from 130.3 MB to 130.2 MB.
-Total: 3.412000 ms (FindLiveObjects: 0.238100 ms CreateObjectMapping: 0.100800 ms MarkObjects: 2.976000 ms  DeleteObjects: 0.096400 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.293 seconds
-Refreshing native plugins compatible for Editor in 1.87 ms, found 3 plugins.
-Native extension for WindowsStandalone target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.669 seconds
-Domain Reload Profiling: 961ms
-	BeginReloadAssembly (100ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (3ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (23ms)
-	RebuildCommonClasses (23ms)
-	RebuildNativeTypeToScriptingClass (6ms)
-	initialDomainReloadingComplete (18ms)
-	LoadAllAssembliesAndSetupDomain (144ms)
-		LoadAssemblies (178ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (17ms)
-			TypeCache.Refresh (6ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (5ms)
-			ResolveRequiredComponents (4ms)
-	FinalizeReload (669ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (334ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (4ms)
-			SetLoadedEditorAssemblies (2ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (37ms)
-			ProcessInitializeOnLoadAttributes (274ms)
-			ProcessInitializeOnLoadMethodAttributes (11ms)
-			AfterProcessingInitializeOnLoad (5ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (4ms)
-Refreshing native plugins compatible for Editor in 1.60 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3529 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 27 unused Assets / (95.6 KB). Loaded Objects now: 4047.
-Memory consumption went from 130.3 MB to 130.2 MB.
-Total: 2.035400 ms (FindLiveObjects: 0.155100 ms CreateObjectMapping: 0.044900 ms MarkObjects: 1.754700 ms  DeleteObjects: 0.080000 ms)
+Unloading 27 unused Assets / (87.0 KB). Loaded Objects now: 4019.
+Memory consumption went from 130.1 MB to 130.0 MB.
+Total: 2.250900 ms (FindLiveObjects: 0.150900 ms CreateObjectMapping: 0.044700 ms MarkObjects: 1.956400 ms  DeleteObjects: 0.098100 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
@@ -1650,49 +246,49 @@ AssetImportParameters requested are different than current active one (requested
 Received Prepare
 Begin MonoManager ReloadAssembly
 - Loaded All Assemblies, in  0.280 seconds
-Refreshing native plugins compatible for Editor in 1.94 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.82 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.673 seconds
-Domain Reload Profiling: 952ms
-	BeginReloadAssembly (98ms)
+- Finished resetting the current domain, in  0.689 seconds
+Domain Reload Profiling: 968ms
+	BeginReloadAssembly (101ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (3ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (20ms)
-	RebuildCommonClasses (23ms)
-	RebuildNativeTypeToScriptingClass (8ms)
+		CreateAndSetChildDomain (21ms)
+	RebuildCommonClasses (20ms)
+	RebuildNativeTypeToScriptingClass (6ms)
 	initialDomainReloadingComplete (19ms)
-	LoadAllAssembliesAndSetupDomain (132ms)
-		LoadAssemblies (174ms)
+	LoadAllAssembliesAndSetupDomain (133ms)
+		LoadAssemblies (177ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
 		AnalyzeDomain (10ms)
 			TypeCache.Refresh (4ms)
 				TypeCache.ScanAssembly (0ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (3ms)
-	FinalizeReload (674ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (689ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (344ms)
+		SetupLoadedEditorAssemblies (349ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (4ms)
 			SetLoadedEditorAssemblies (2ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (38ms)
-			ProcessInitializeOnLoadAttributes (282ms)
-			ProcessInitializeOnLoadMethodAttributes (12ms)
+			ProcessInitializeOnLoadAttributes (287ms)
+			ProcessInitializeOnLoadMethodAttributes (13ms)
 			AfterProcessingInitializeOnLoad (5ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (5ms)
-Refreshing native plugins compatible for Editor in 1.74 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 2.19 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3529 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 27 unused Assets / (95.5 KB). Loaded Objects now: 4050.
-Memory consumption went from 130.3 MB to 130.2 MB.
-Total: 2.348100 ms (FindLiveObjects: 0.152300 ms CreateObjectMapping: 0.055300 ms MarkObjects: 2.059600 ms  DeleteObjects: 0.080300 ms)
+Unloading 27 unused Assets / (87.1 KB). Loaded Objects now: 4022.
+Memory consumption went from 130.1 MB to 130.0 MB.
+Total: 2.155700 ms (FindLiveObjects: 0.203400 ms CreateObjectMapping: 0.049900 ms MarkObjects: 1.822600 ms  DeleteObjects: 0.078900 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
