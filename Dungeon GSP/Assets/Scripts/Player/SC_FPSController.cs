@@ -10,10 +10,11 @@ public class SC_FPSController : Damagable
     [Header("Speeds")]
     public float walkingSpeed = 7.5f;
     public float runningSpeed = 11.5f;
+    private float currentSpeed = 0f;
     //
     public float crouchSpeed = 4f;
     //
-    public float wallRunSpeed = 10f;
+    public float maxWallRunSpeed = 8f;
     public float wallRunUpwardSpeed = 1.5f;
     //
     public float jumpSpeed = 8.0f;
@@ -31,12 +32,13 @@ public class SC_FPSController : Damagable
     [Header("Wall Run Info")]
     private bool isWallRunning = false;
     private float wallRunTimer = 0f;
-    private float maxWallRunTime = 1.5f;
+    public float maxWallRunTime = 1.5f;
     private Vector3 lastWallNormal;
     //--------------------------------
     [Header("Character Controller")]
     private CharacterController characterController;
     private Vector3 moveDirection = Vector3.zero;
+    private Vector3 lastPos = Vector3.zero;
     private float rotationX = 0;
 
     [Header("Bools")]
@@ -53,7 +55,7 @@ public class SC_FPSController : Damagable
     void Start()
     {
         characterController = GetComponent<CharacterController>();
-
+        
         // Lock cursor
         Cursor.lockState = CursorLockMode.Locked;
         Cursor.visible = false;
@@ -64,11 +66,15 @@ public class SC_FPSController : Damagable
         HandleMovement();
         HandleLook();
         HandleWallRun();
+        Debug.Log("Current speed = " + currentSpeed.ToString() + "\n Is wall running = " + isWallRunning);
     }
 
     void HandleMovement()
     {
         if (!canMove) return;
+
+        currentSpeed = characterController.velocity.magnitude;
+
 
         // Set movement speed (no sprinting while crouching)
         float moveSpeed = isCrouching ? crouchSpeed : (Input.GetKey(KeyCode.LeftShift) && !isCrouching ? runningSpeed : walkingSpeed);
@@ -144,7 +150,7 @@ public class SC_FPSController : Damagable
             // If changing walls, reset wall run height
             if (wallNormal != lastWallNormal)
             {
-                wallRunTimer = 0f;
+                //wallRunTimer = 0f;
                 lastWallNormal = wallNormal;
             }
 
@@ -156,14 +162,14 @@ public class SC_FPSController : Damagable
 
             wallRunTimer += Time.deltaTime;
 
-            if (wallRunTimer >= maxWallRunTime)
+            if (wallRunTimer >= maxWallRunTime || currentSpeed < maxWallRunSpeed)
             {
                 isWallRunning = false;
                 return;
             }
 
             // Apply wall running movement
-            moveDirection = transform.forward * wallRunSpeed;
+            moveDirection = transform.forward * currentSpeed;
 
             // Move upward very slowly
             moveDirection.y = wallRunUpwardSpeed;

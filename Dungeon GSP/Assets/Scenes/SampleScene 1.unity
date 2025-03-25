@@ -1553,7 +1553,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8535232709241046417, guid: 4daeaa682ed20ff4183228df074fa0fd, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -28.3
+      value: -3.48
       objectReference: {fileID: 0}
     - target: {fileID: 8535232709241046417, guid: 4daeaa682ed20ff4183228df074fa0fd, type: 3}
       propertyPath: m_LocalRotation.w
@@ -1582,6 +1582,14 @@ PrefabInstance:
     - target: {fileID: 8535232709241046417, guid: 4daeaa682ed20ff4183228df074fa0fd, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9174759523843698267, guid: 4daeaa682ed20ff4183228df074fa0fd, type: 3}
+      propertyPath: maxWallRunTime
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 9174759523843698267, guid: 4daeaa682ed20ff4183228df074fa0fd, type: 3}
+      propertyPath: maxWallRunSpeed
+      value: 11.5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
