@@ -5,11 +5,19 @@ using UnityEngine.Events;
 
 public class WeaponBase : MonoBehaviour
 {
+    public Transform camera;
     public UnityEvent shotTheGun;
     public string weaponName;
     protected int damage = 50;
+    public float attackRange = 0.2f;
     public float fireRate = 0.5f; // Fire rate in seconds
     private float nextFireTime = 0f; // Tracks when the weapon can fire again
+
+
+    private void Start()
+    {
+        camera = GameObject.FindGameObjectWithTag("Player Camera").transform;
+    }
 
     void Update()
     {
@@ -28,8 +36,9 @@ public class WeaponBase : MonoBehaviour
     public void ShootBullet(Vector3 _startPos, Vector3 _endPos)
     {
         Ray ray = new Ray(_startPos, _endPos);
+        Debug.DrawRay(_startPos, _endPos * attackRange, Color.red);
         RaycastHit hit;
-        if (Physics.Raycast(ray, out hit))
+        if (Physics.Raycast(ray, out hit, attackRange))
         {
             Debug.Log("Hit Entity");
             Damagable damagable = hit.collider.GetComponent<Damagable>();
@@ -43,13 +52,13 @@ public class WeaponBase : MonoBehaviour
 
     public virtual void MainFire()
     {
-        ShootBullet(transform.position, transform.forward);
+        ShootBullet(camera.position, camera.forward);
         shotTheGun?.Invoke(); // Invoke UnityEvent for effects like gun recoil
     }
 
     public virtual void AltFire()
     {
-        ShootBullet(transform.position, transform.forward);
+        ShootBullet(camera.position, camera.forward);
         shotTheGun?.Invoke(); // Invoke UnityEvent for effects like gun recoil
     }
 }

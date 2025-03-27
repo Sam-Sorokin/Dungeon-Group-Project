@@ -15,7 +15,7 @@ D:/Bournemouth Uni/Year-2/Game Studio Project/Dungeon-Group-Project/Dungeon GSP
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-65223
+56122
 Successfully changed project path to: D:/Bournemouth Uni/Year-2/Game Studio Project/Dungeon-Group-Project/Dungeon GSP
 D:/Bournemouth Uni/Year-2/Game Studio Project/Dungeon-Group-Project/Dungeon GSP
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,16 +49,16 @@ D:/Bournemouth Uni/Year-2/Game Studio Project/Dungeon-Group-Project/Dungeon GSP
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [33268]  Target information:
+Player connection [12252]  Target information:
 
-Player connection [33268]  * "[IP] 26.124.166.112 [Port] 0 [Flags] 2 [Guid] 2777186612 [EditorId] 2777186612 [Version] 1048832 [Id] WindowsEditor(7,LukesPC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [12252]  * "[IP] 26.124.166.112 [Port] 0 [Flags] 2 [Guid] 3312346283 [EditorId] 3312346283 [Version] 1048832 [Id] WindowsEditor(7,LukesPC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [33268]  * "[IP] 192.168.1.20 [Port] 0 [Flags] 2 [Guid] 2777186612 [EditorId] 2777186612 [Version] 1048832 [Id] WindowsEditor(7,LukesPC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [12252]  * "[IP] 192.168.1.20 [Port] 0 [Flags] 2 [Guid] 3312346283 [EditorId] 3312346283 [Version] 1048832 [Id] WindowsEditor(7,LukesPC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [33268] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [33268] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [12252] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [12252] Host joined alternative multi-casting on [225.0.0.222:34997]...
 [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
-Refreshing native plugins compatible for Editor in 5.48 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 4.77 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.38f1 (c5d5a7410213)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.38f1/Editor/Data/Resources/UnitySubsystems
@@ -74,44 +74,44 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.38f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.38f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.38f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56988
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56804
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.38f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.006142 seconds.
-- Loaded All Assemblies, in  0.253 seconds
+Registered in 0.005726 seconds.
+- Loaded All Assemblies, in  0.219 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.177 seconds
-Domain Reload Profiling: 429ms
-	BeginReloadAssembly (92ms)
+- Finished resetting the current domain, in  0.166 seconds
+Domain Reload Profiling: 383ms
+	BeginReloadAssembly (68ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (0ms)
-	RebuildCommonClasses (22ms)
+	RebuildCommonClasses (20ms)
 	RebuildNativeTypeToScriptingClass (6ms)
-	initialDomainReloadingComplete (43ms)
-	LoadAllAssembliesAndSetupDomain (89ms)
-		LoadAssemblies (90ms)
+	initialDomainReloadingComplete (39ms)
+	LoadAllAssembliesAndSetupDomain (84ms)
+		LoadAssemblies (67ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (88ms)
-			TypeCache.Refresh (86ms)
-				TypeCache.ScanAssembly (78ms)
+		AnalyzeDomain (83ms)
+			TypeCache.Refresh (82ms)
+				TypeCache.ScanAssembly (73ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (177ms)
+	FinalizeReload (166ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (140ms)
+		SetupLoadedEditorAssemblies (131ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (6ms)
 			SetLoadedEditorAssemblies (5ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (1ms)
-			ProcessInitializeOnLoadAttributes (93ms)
-			ProcessInitializeOnLoadMethodAttributes (34ms)
+			ProcessInitializeOnLoadAttributes (89ms)
+			ProcessInitializeOnLoadMethodAttributes (29ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -119,51 +119,51 @@ Domain Reload Profiling: 429ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.456 seconds
-Refreshing native plugins compatible for Editor in 1.61 ms, found 3 plugins.
+- Loaded All Assemblies, in  0.382 seconds
+Refreshing native plugins compatible for Editor in 1.82 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.477 seconds
-Domain Reload Profiling: 932ms
-	BeginReloadAssembly (100ms)
+- Finished resetting the current domain, in  0.469 seconds
+Domain Reload Profiling: 850ms
+	BeginReloadAssembly (87ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (3ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (14ms)
-	RebuildCommonClasses (21ms)
+		CreateAndSetChildDomain (12ms)
+	RebuildCommonClasses (20ms)
 	RebuildNativeTypeToScriptingClass (6ms)
-	initialDomainReloadingComplete (35ms)
-	LoadAllAssembliesAndSetupDomain (292ms)
-		LoadAssemblies (233ms)
+	initialDomainReloadingComplete (25ms)
+	LoadAllAssembliesAndSetupDomain (244ms)
+		LoadAssemblies (183ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (119ms)
-			TypeCache.Refresh (103ms)
-				TypeCache.ScanAssembly (90ms)
-			ScanForSourceGeneratedMonoScriptInfo (12ms)
+		AnalyzeDomain (112ms)
+			TypeCache.Refresh (97ms)
+				TypeCache.ScanAssembly (87ms)
+			ScanForSourceGeneratedMonoScriptInfo (10ms)
 			ResolveRequiredComponents (3ms)
-	FinalizeReload (477ms)
+	FinalizeReload (469ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (380ms)
+		SetupLoadedEditorAssemblies (374ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (5ms)
+			InitializePlatformSupportModulesInManaged (4ms)
 			SetLoadedEditorAssemblies (2ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (37ms)
-			ProcessInitializeOnLoadAttributes (317ms)
-			ProcessInitializeOnLoadMethodAttributes (13ms)
+			BeforeProcessingInitializeOnLoad (38ms)
+			ProcessInitializeOnLoadAttributes (311ms)
+			ProcessInitializeOnLoadMethodAttributes (14ms)
 			AfterProcessingInitializeOnLoad (5ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (4ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 2.80 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 1.97 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3562 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 39 unused Assets / (107.0 KB). Loaded Objects now: 4036.
-Memory consumption went from 139.9 MB to 139.8 MB.
-Total: 3.898100 ms (FindLiveObjects: 0.309600 ms CreateObjectMapping: 0.102900 ms MarkObjects: 3.336900 ms  DeleteObjects: 0.146900 ms)
+Unloading 3563 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 39 unused Assets / (107.4 KB). Loaded Objects now: 4037.
+Memory consumption went from 140.1 MB to 140.0 MB.
+Total: 2.523400 ms (FindLiveObjects: 0.212600 ms CreateObjectMapping: 0.120400 ms MarkObjects: 2.078400 ms  DeleteObjects: 0.110600 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -181,258 +181,193 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 255514.452281 seconds.
-  path: Assets/iPoly3D/Prototype Textures/Demo/Demo meshes/Cube.017.fbx
-  artifactKey: Guid(f9a10c95d625d2c4da8b2978808528d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/iPoly3D/Prototype Textures/Demo/Demo meshes/Cube.017.fbx using Guid(f9a10c95d625d2c4da8b2978808528d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+  Time since last request: 282342.132055 seconds.
+  path: Assets/FPSPlayer (1) 1.prefab
+  artifactKey: Guid(431dbe23c62f03a4cb55a64ab9f210f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FPSPlayer (1) 1.prefab using Guid(431dbe23c62f03a4cb55a64ab9f210f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
 [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
- -> (artifact id: '414bc416f5976269a5321b8d97678fe6') in 0.101181 seconds
+ -> (artifact id: '3c7e30052bed673509e817a55e6426a3') in 0.069639 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
+Number of asset objects unloaded after import = 660
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/iPoly3D/Prototype Textures/Materials/Blue/Blue_9.mat
-  artifactKey: Guid(9f80c72a7bf0eff4aab3ccbd3d1ab38d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/iPoly3D/Prototype Textures/Materials/Blue/Blue_9.mat using Guid(9f80c72a7bf0eff4aab3ccbd3d1ab38d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
- -> (artifact id: '548a1afe2c3f96c623a755ac11899fe3') in 0.015567 seconds
+  Time since last request: 4.910771 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(9c6f0b8f84959174d9a094e5408d2012) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene.unity using Guid(9c6f0b8f84959174d9a094e5408d2012) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: 'd799357bfd832f719b34becea23c6669') in 0.000414 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
+Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/iPoly3D/Prototype Textures/Materials/Blue/Blue_7.mat
-  artifactKey: Guid(cbf017f6bad132c499e0709e3345d080) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/iPoly3D/Prototype Textures/Materials/Blue/Blue_7.mat using Guid(cbf017f6bad132c499e0709e3345d080) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
- -> (artifact id: 'dd2307c9e99bba46937470894d3cc074') in 0.014576 seconds
+  Time since last request: 4.913104 seconds.
+  path: Assets/Scenes/JoshMap.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/JoshMap.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '09cc276c5da030b04651ddbe6955b70f') in 0.000335 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.282 seconds
+Refreshing native plugins compatible for Editor in 1.78 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.652 seconds
+Domain Reload Profiling: 933ms
+	BeginReloadAssembly (106ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (23ms)
+	RebuildCommonClasses (19ms)
+	RebuildNativeTypeToScriptingClass (6ms)
+	initialDomainReloadingComplete (18ms)
+	LoadAllAssembliesAndSetupDomain (131ms)
+		LoadAssemblies (177ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (10ms)
+			TypeCache.Refresh (4ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (652ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (337ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (37ms)
+			ProcessInitializeOnLoadAttributes (277ms)
+			ProcessInitializeOnLoadMethodAttributes (13ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (4ms)
+Refreshing native plugins compatible for Editor in 1.76 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3536 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 27 unused Assets / (71.1 KB). Loaded Objects now: 4049.
+Memory consumption went from 139.0 MB to 139.0 MB.
+Total: 1.993700 ms (FindLiveObjects: 0.151400 ms CreateObjectMapping: 0.045900 ms MarkObjects: 1.725600 ms  DeleteObjects: 0.070200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/iPoly3D/Prototype Textures/Demo/Demo meshes/Cube.003.fbx
-  artifactKey: Guid(7bf5c6848ca2d4242a95f8cd53949318) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/iPoly3D/Prototype Textures/Demo/Demo meshes/Cube.003.fbx using Guid(7bf5c6848ca2d4242a95f8cd53949318) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
- -> (artifact id: 'b357e545e923496bcd3fa4d710817396') in 0.016098 seconds
+  Time since last request: 676.257969 seconds.
+  path: Assets/Material/Characters
+  artifactKey: Guid(e626d373ecca0134eb8b9f958abe6716) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Material/Characters using Guid(e626d373ecca0134eb8b9f958abe6716) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: 'c4d790ce117e1a78cf32732647838def') in 0.003667 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
+Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/iPoly3D/Prototype Textures/Demo/Demo meshes/Cube.fbx
-  artifactKey: Guid(f8bea4c9e8d73ef4ca431a2076e25dd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/iPoly3D/Prototype Textures/Demo/Demo meshes/Cube.fbx using Guid(f8bea4c9e8d73ef4ca431a2076e25dd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
- -> (artifact id: '1cfa9826b76c6bf83be09af98fecc571') in 0.018192 seconds
+  Time since last request: 6.999010 seconds.
+  path: Assets/Material/Characters/Goblin
+  artifactKey: Guid(6e50200ee2c04e0479be28093039ecd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Material/Characters/Goblin using Guid(6e50200ee2c04e0479be28093039ecd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '5579ac967a8bd5942eea6875b478a353') in 0.000366 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
+Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/iPoly3D/Prototype Textures/Demo/Demo meshes/Cube.010.fbx
-  artifactKey: Guid(48b3d604daac39a419c5619912b7263c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/iPoly3D/Prototype Textures/Demo/Demo meshes/Cube.010.fbx using Guid(48b3d604daac39a419c5619912b7263c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+  Time since last request: 6.467731 seconds.
+  path: Assets/Material/Characters/Goblin/New Material.mat
+  artifactKey: Guid(798fd00b26ba93d4cba8704310377f6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Material/Characters/Goblin/New Material.mat using Guid(798fd00b26ba93d4cba8704310377f6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
 [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
- -> (artifact id: 'f840225707f1d7c84a7c474c2304f497') in 0.016989 seconds
+ -> (artifact id: 'f805473a51692e4e02e4bce17fa1ca28') in 0.053703 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
+Number of asset objects unloaded after import = 1
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000011 seconds.
-  path: Assets/iPoly3D/Prototype Textures/Materials/Blue/Blue_5.mat
-  artifactKey: Guid(492d5fa4108a8b048ba15a6b364ee09c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/iPoly3D/Prototype Textures/Materials/Blue/Blue_5.mat using Guid(492d5fa4108a8b048ba15a6b364ee09c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+  Time since last request: 1.668492 seconds.
+  path: Assets/Material/Characters/Goblin/New Material 1.mat
+  artifactKey: Guid(37a44482f6fa599469dc209ee56ac4e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Material/Characters/Goblin/New Material 1.mat using Guid(37a44482f6fa599469dc209ee56ac4e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
 [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
- -> (artifact id: 'd4827b4571f826710c492b33ab44ea98') in 0.012662 seconds
+ -> (artifact id: 'de5666d7238d991cda0f6dd4203c81d1') in 0.010304 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
+Number of asset objects unloaded after import = 1
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/iPoly3D/Prototype Textures/Demo/Demo meshes/Cube.011.fbx
-  artifactKey: Guid(7a8868ceec2807245b9553d4a042f702) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/iPoly3D/Prototype Textures/Demo/Demo meshes/Cube.011.fbx using Guid(7a8868ceec2807245b9553d4a042f702) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+  Time since last request: 0.447978 seconds.
+  path: Assets/Material/Characters/Goblin/New Material 2.mat
+  artifactKey: Guid(55cbc09ee4c83644caf9b39c344217c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Material/Characters/Goblin/New Material 2.mat using Guid(55cbc09ee4c83644caf9b39c344217c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
 [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
- -> (artifact id: 'aa0ec72660bf5eeb75bb17360c0c6565') in 0.014990 seconds
+ -> (artifact id: '5de1e8da6e1a24bb9eac2d7318c16699') in 0.010398 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
+Number of asset objects unloaded after import = 1
 ========================================================================
 Received Import Request.
-  Time since last request: 0.099121 seconds.
-  path: Assets/iPoly3D/Prototype Textures/Demo/Demo meshes/Cube.025.fbx
-  artifactKey: Guid(544335867616f314ca8ab21728e38168) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/iPoly3D/Prototype Textures/Demo/Demo meshes/Cube.025.fbx using Guid(544335867616f314ca8ab21728e38168) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+  Time since last request: 0.513258 seconds.
+  path: Assets/Material/Characters/Goblin/New Material 3.mat
+  artifactKey: Guid(42eac7cf06dc38f4294901ef4f673cd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Material/Characters/Goblin/New Material 3.mat using Guid(42eac7cf06dc38f4294901ef4f673cd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
 [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
- -> (artifact id: '1acafb8a2c42b2ec9ec218760b8b41dd') in 0.026170 seconds
+ -> (artifact id: '96672ed3cee248ca333494265c98084a') in 0.015030 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
+Number of asset objects unloaded after import = 1
 ========================================================================
 Received Import Request.
-  Time since last request: 0.048873 seconds.
-  path: Assets/iPoly3D/Prototype Textures/Demo/Demo meshes/Cube.029.fbx
-  artifactKey: Guid(89d8d72cf966c854ea4d29d519d12c2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/iPoly3D/Prototype Textures/Demo/Demo meshes/Cube.029.fbx using Guid(89d8d72cf966c854ea4d29d519d12c2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+  Time since last request: 59.599793 seconds.
+  path: Assets/Material/Characters/Goblin/New Material.mat
+  artifactKey: Guid(798fd00b26ba93d4cba8704310377f6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Material/Characters/Goblin/New Material.mat using Guid(798fd00b26ba93d4cba8704310377f6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
 [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
- -> (artifact id: '2f785861a29645bac4f4a598cb3d4fcd') in 0.015841 seconds
+ -> (artifact id: '56e59af5cd4662cc79f9eb1d5c38e0ae') in 0.012687 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
+Number of asset objects unloaded after import = 1
 ========================================================================
 Received Import Request.
-  Time since last request: 0.395265 seconds.
-  path: Assets/Material/Materials/Emissive.mat
-  artifactKey: Guid(8df773e9c2d418e41a6292a128274def) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Material/Materials/Emissive.mat using Guid(8df773e9c2d418e41a6292a128274def) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Material/Characters/Goblin/New Material 2.mat
+  artifactKey: Guid(55cbc09ee4c83644caf9b39c344217c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Material/Characters/Goblin/New Material 2.mat using Guid(55cbc09ee4c83644caf9b39c344217c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
 [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
- -> (artifact id: '9ad23d08b9a62e9f176c8dd4ca75d49b') in 0.013697 seconds
+ -> (artifact id: '4ea78ae670057d445b6e58c32f6044d9') in 0.011019 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Material/Characters/Goblin/New Material 3.mat
+  artifactKey: Guid(42eac7cf06dc38f4294901ef4f673cd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Material/Characters/Goblin/New Material 3.mat using Guid(42eac7cf06dc38f4294901ef4f673cd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '14da8d00617d080f225610c17d490ea1') in 0.012785 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 1
 ========================================================================
 Received Import Request.
   Time since last request: 0.000016 seconds.
-  path: Assets/Prefabs/Enemy.prefab
-  artifactKey: Guid(318ac579d5ba5dd41b7bad194dc63766) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Enemy.prefab using Guid(318ac579d5ba5dd41b7bad194dc63766) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+  path: Assets/Material/Characters/Goblin/New Material 4.mat
+  artifactKey: Guid(dea8de847c2461442bd4aad346b2fbb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Material/Characters/Goblin/New Material 4.mat using Guid(dea8de847c2461442bd4aad346b2fbb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
 [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
- -> (artifact id: '2c7df039c24c59b86182325244ef043f') in 0.017505 seconds
+ -> (artifact id: '369df2583c58a7560f2a36be77568e68') in 0.013484 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 23
-========================================================================
-Received Import Request.
-  Time since last request: 0.067610 seconds.
-  path: Assets/iPoly3D/Prototype Textures/Textures/Grey/g1153.png
-  artifactKey: Guid(dd86e81bea20f8242b1f517f39ba825f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/iPoly3D/Prototype Textures/Textures/Grey/g1153.png using Guid(dd86e81bea20f8242b1f517f39ba825f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
- -> (artifact id: '0cf3f9a05b2454e7075935ce22665f83') in 0.023436 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/iPoly3D/Prototype Textures/Textures/Grey/g1462.png
-  artifactKey: Guid(9d27172b2c787a84089c76be78607c10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/iPoly3D/Prototype Textures/Textures/Grey/g1462.png using Guid(9d27172b2c787a84089c76be78607c10) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
- -> (artifact id: '8e7c480480dedf3c4664e72df305027a') in 0.008772 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/iPoly3D/Prototype Textures/Textures/Orange/g1765.png
-  artifactKey: Guid(3cf1711457efc2247a7e610d829612d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/iPoly3D/Prototype Textures/Textures/Orange/g1765.png using Guid(3cf1711457efc2247a7e610d829612d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
- -> (artifact id: '23a64fc169139ba2d471a3f33d735406') in 0.011545 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/iPoly3D/Prototype Textures/Textures/Grey/g1788.png
-  artifactKey: Guid(19dcc76473a82dc45ae29de3cedcf2ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/iPoly3D/Prototype Textures/Textures/Grey/g1788.png using Guid(19dcc76473a82dc45ae29de3cedcf2ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
- -> (artifact id: '271d18b78d0b56d8028a4fd8f61b0b1a') in 0.011104 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/iPoly3D/Prototype Textures/Textures/Blue/g1902.png
-  artifactKey: Guid(ce94df8f47d0e464f87d9b6a36e942d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/iPoly3D/Prototype Textures/Textures/Blue/g1902.png using Guid(ce94df8f47d0e464f87d9b6a36e942d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
- -> (artifact id: 'aadd6cf73de6e6a9c40192c39eff5939') in 0.011198 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000012 seconds.
-  path: Assets/iPoly3D/Prototype Textures/Textures/Orange/g1713.png
-  artifactKey: Guid(a4de3db108aa1e2418610b0340caeb3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/iPoly3D/Prototype Textures/Textures/Orange/g1713.png using Guid(a4de3db108aa1e2418610b0340caeb3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
- -> (artifact id: '4d9cdc329e1abdb991a6db35b60b42d8') in 0.010260 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.167491 seconds.
-  path: Assets/iPoly3D/Prototype Textures/Textures/Grey/g2520.png
-  artifactKey: Guid(8ab4c5cffa4be5040be6224f3d7cdac9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/iPoly3D/Prototype Textures/Textures/Grey/g2520.png using Guid(8ab4c5cffa4be5040be6224f3d7cdac9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
- -> (artifact id: 'e749c6dbbcbcfd5de2801c73920de300') in 0.018222 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000154 seconds.
-  path: Assets/iPoly3D/Prototype Textures/Textures/Pink/g2586.png
-  artifactKey: Guid(b4acf58eea5d1e74880cf270feb9554c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/iPoly3D/Prototype Textures/Textures/Pink/g2586.png using Guid(b4acf58eea5d1e74880cf270feb9554c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
- -> (artifact id: 'f7a2f156ff4b4b5c56721626b716ea36') in 0.013707 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/iPoly3D/Prototype Textures/Textures/Yellow/g2767.png
-  artifactKey: Guid(02aa3fedcea92a5428edb1f711f982cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/iPoly3D/Prototype Textures/Textures/Yellow/g2767.png using Guid(02aa3fedcea92a5428edb1f711f982cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
- -> (artifact id: '74c2578511e48361cc8f29ea41cbd1f1') in 0.012091 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000012 seconds.
-  path: Assets/iPoly3D/Prototype Textures/Textures/Yellow/g2668.png
-  artifactKey: Guid(a51e1b0427ddc724694526fcec82c27f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/iPoly3D/Prototype Textures/Textures/Yellow/g2668.png using Guid(a51e1b0427ddc724694526fcec82c27f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
- -> (artifact id: 'e63e934f9d44ffc2d41b4a7c71245c16') in 0.010688 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/iPoly3D/Prototype Textures/Textures/Yellow/g2683.png
-  artifactKey: Guid(e37a3aef447d89d4c8665da687045bca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/iPoly3D/Prototype Textures/Textures/Yellow/g2683.png using Guid(e37a3aef447d89d4c8665da687045bca) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
- -> (artifact id: 'ff4a38a43fe0752ecc6d1656568eb738') in 0.010505 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.037859 seconds.
-  path: Assets/iPoly3D/Prototype Textures/Textures/Red/g3304.png
-  artifactKey: Guid(35bc871cdf412fc4a93dbb379bbc876c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/iPoly3D/Prototype Textures/Textures/Red/g3304.png using Guid(35bc871cdf412fc4a93dbb379bbc876c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
- -> (artifact id: '21ac3f90358b0604fc58a3cbe02b5777') in 0.011531 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
+Number of asset objects unloaded after import = 1
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
 AssetImportWorker is now disconnected from the server

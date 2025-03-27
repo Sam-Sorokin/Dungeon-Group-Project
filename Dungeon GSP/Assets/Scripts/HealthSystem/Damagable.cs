@@ -11,6 +11,7 @@ public class Damagable : MonoBehaviour
     public virtual void TakeDamage(int _damageAmount) // Made virtual in the case of overriding to account for armour etc
     {
         health -= _damageAmount;
+        Debug.Log("TakenDamage");
     }
     public virtual void GiveHealth(int _healingAmount)
     {
@@ -18,6 +19,7 @@ public class Damagable : MonoBehaviour
     }
     public virtual void Death()
     {
+        Debug.Log("Entity Died");
         Object.Destroy(this.gameObject);
     }
     public int GetHealth()

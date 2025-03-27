@@ -16,7 +16,7 @@ public class GrappleHook : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        playerCamera = GameObject.FindGameObjectWithTag("Player Camera").transform;
     }
 
     // Update is called once per frame
@@ -26,7 +26,7 @@ public class GrappleHook : MonoBehaviour
         {
             TryGrapple();
         }
-        if (isGrappling)
+        if (isGrappling && Input.GetKey(KeyCode.F))
         {
             GrappleMovement();
         }

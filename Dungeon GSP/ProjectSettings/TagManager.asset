@@ -6,6 +6,7 @@ TagManager:
   tags:
   - enemy
   - Walkable
+  - Player Camera
   layers:
   - Default
   - TransparentFX

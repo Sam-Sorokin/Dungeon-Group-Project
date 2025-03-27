@@ -16,6 +16,7 @@ public class enemytracking : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        playertransform = GameObject.FindGameObjectWithTag("Player").transform;
         nma = GetComponent<NavMeshAgent>();
     }
 
