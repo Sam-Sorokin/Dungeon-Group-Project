@@ -27,7 +27,6 @@ public class WeaponBase : MonoBehaviour
 
     public void ShootBullet(Vector3 _startPos, Vector3 _endPos)
     {
- 
         Ray ray = new Ray(_startPos, _endPos);
         RaycastHit hit;
         if (Physics.Raycast(ray, out hit))

@@ -64,6 +64,7 @@
     <Compile Include="Assets\Scripts\Player\SC_FPSController.cs" />
     <Compile Include="Assets\Scripts\EventManager.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerCam.cs" />
+    <Compile Include="Assets\Scripts\Weapons\DevTestWeapon.cs" />
     <Compile Include="Assets\Scripts\Enemy\enemytracking.cs" />
     <Compile Include="Assets\Scripts\Weapons\MannaManager.cs" />
     <Compile Include="Assets\Scripts\HealthSystem\Damagable.cs" />
@@ -75,6 +76,8 @@
     <Compile Include="Assets\Scripts\Enemy\enemyBase.cs" />
     <Compile Include="Assets\Scripts\Player\GrappleHook.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerMovement.cs" />
+    <Compile Include="Assets\Scripts\Weapons\DevTestWep.cs" />
+    <Compile Include="Assets\Scripts\Weapons\MuzzleFlash.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
