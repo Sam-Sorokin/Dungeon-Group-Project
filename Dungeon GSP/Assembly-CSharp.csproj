@@ -62,11 +62,15 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\Enemy\EnemyAttack.cs" />
     <Compile Include="Assets\Scripts\Player\SC_FPSController.cs" />
+    <Compile Include="Assets\Scripts\EventManager.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerCam.cs" />
     <Compile Include="Assets\Scripts\Enemy\enemytracking.cs" />
+    <Compile Include="Assets\Scripts\Weapons\MannaManager.cs" />
     <Compile Include="Assets\Scripts\HealthSystem\Damagable.cs" />
     <Compile Include="Assets\Scripts\Characters\characterBase.cs" />
+    <Compile Include="Assets\Scripts\DebugScripts\WeaponResponse.cs" />
     <Compile Include="Assets\Scripts\Player\MoveCamera.cs" />
+    <Compile Include="Assets\Scripts\Weapons\WeaponBase.cs" />
     <Compile Include="Assets\Scripts\HealthSystem\PlayerHealth.cs" />
     <Compile Include="Assets\Scripts\Enemy\enemyBase.cs" />
     <Compile Include="Assets\Scripts\Player\GrappleHook.cs" />

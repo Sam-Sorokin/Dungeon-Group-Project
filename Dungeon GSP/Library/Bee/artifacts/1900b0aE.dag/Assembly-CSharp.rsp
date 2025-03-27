@@ -361,9 +361,11 @@
 -analyzer:"C:/Program Files/Unity/Hub/Editor/2022.3.38f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll"
 -analyzer:"C:/Program Files/Unity/Hub/Editor/2022.3.38f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
 "Assets/Scripts/Characters/characterBase.cs"
+"Assets/Scripts/DebugScripts/WeaponResponse.cs"
 "Assets/Scripts/Enemy/EnemyAttack.cs"
 "Assets/Scripts/Enemy/enemyBase.cs"
 "Assets/Scripts/Enemy/enemytracking.cs"
+"Assets/Scripts/EventManager.cs"
 "Assets/Scripts/HealthSystem/Damagable.cs"
 "Assets/Scripts/HealthSystem/PlayerHealth.cs"
 "Assets/Scripts/Player/GrappleHook.cs"
@@ -371,6 +373,8 @@
 "Assets/Scripts/Player/PlayerCam.cs"
 "Assets/Scripts/Player/PlayerMovement.cs"
 "Assets/Scripts/Player/SC_FPSController.cs"
+"Assets/Scripts/Weapons/MannaManager.cs"
+"Assets/Scripts/Weapons/WeaponBase.cs"
 -langversion:9.0
 /deterministic
 /optimize+

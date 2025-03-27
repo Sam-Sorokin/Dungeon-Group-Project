@@ -47,7 +47,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playertransform: {fileID: 0}
+  isattacking: 0
   speed: 5
+  distanceFromPlayer: 2
+  offsetAngle: 0
 --- !u!195 &6442211441031387940
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -294,7 +297,6 @@ GameObject:
   - component: {fileID: 9213524534528334939}
   - component: {fileID: 4836150457584807767}
   - component: {fileID: 5726413814405126198}
-  - component: {fileID: 1485526367107528271}
   m_Layer: 0
   m_Name: enemy
   m_TagString: enemy
@@ -368,26 +370,3 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!136 &1485526367107528271
-CapsuleCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5873943410757401400}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 0.5
-  m_Height: 2
-  m_Direction: 1
-  m_Center: {x: 0, y: 0, z: 0}
