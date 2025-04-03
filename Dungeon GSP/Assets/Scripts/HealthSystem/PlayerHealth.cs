@@ -6,7 +6,7 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UIElements;
 
-public class PlayerHealth : MonoBehaviour
+public class PlayerHealth : Damagable
 {
     public int health = 10;
     public Rigidbody rb;

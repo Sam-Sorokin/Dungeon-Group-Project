@@ -9,7 +9,7 @@ public class ThrowAble : WeaponBase
     // Start is called before the first frame update
     public override void handleInput()
     {
-        if (Input.GetKeyDown(KeyCode.Mouse1) && Time.time >= nextFireTime) // only allow fire if enough time as passed
+        if ((Input.GetKeyDown(KeyCode.Mouse1) || Input.GetKeyDown(KeyCode.Mouse0)) && Time.time >= nextFireTime) // only allow fire if enough time as passed
         {
             nextFireTime = Time.time + fireRate; // Set next fire time
             AltFire();

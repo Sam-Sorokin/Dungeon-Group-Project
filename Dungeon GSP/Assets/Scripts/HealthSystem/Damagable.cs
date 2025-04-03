@@ -20,7 +20,7 @@ public class Damagable : MonoBehaviour
     public virtual void Death() // 
     {
         Debug.Log("Entity Died");
-        Object.Destroy(this.gameObject);
+        Object.Destroy(transform.root.gameObject);
     }
     public int GetHealth() // for other classes to get the health.
     {
