@@ -1,0 +1,11 @@
+fileFormatVersion: 2
+guid: 1f4dac35d021ee243b3c7a908240baff
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures:
+  - _checkerRGBMask2: {fileID: 2800000, guid: f53e01a0d2f0ec140aeaa1937bbf1272, type: 3}
+  nonModifiableTextures: []
+  preprocessorOverride: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -17,22 +17,25 @@ public class Damagable : MonoBehaviour
     {
         health += _healingAmount;
     }
-    public virtual void Death()
+    public virtual void Death() // 
     {
         Debug.Log("Entity Died");
         Object.Destroy(this.gameObject);
     }
-    public int GetHealth()
+    public int GetHealth() // for other classes to get the health.
     {
         return health;
     }
-
-    // Update is called once per frame
-    void Update()
+    protected void checkForDeath() // calls death function when health drops to 0 or below.
     {
-        if(health <= 0)
+        if (health <= 0)
         {
             Death();
         }
+    }
+    // Update is called once per frame
+    void Update()
+    {
+        checkForDeath();
     }
 }

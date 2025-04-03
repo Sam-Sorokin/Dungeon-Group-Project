@@ -11,7 +11,7 @@ public class WeaponBase : MonoBehaviour
     protected int damage = 50;
     public float attackRange = 0.2f;
     public float fireRate = 0.5f; // Fire rate in seconds
-    private float nextFireTime = 0f; // Tracks when the weapon can fire again
+    protected float nextFireTime = 0f; // Tracks when the weapon can fire again
 
 
     private void Start()
@@ -50,6 +50,13 @@ public class WeaponBase : MonoBehaviour
         }
     }
 
+    public void ThrowProjectile(float _forceAmount, GameObject _projectile)
+    {
+        float camOffset = 5f;
+        GameObject projectile = Instantiate(_projectile, camera.transform.position + camera.transform.forward * camOffset, camera.rotation);
+        Rigidbody projectileRB = projectile.GetComponent<Rigidbody>();
+        projectileRB.AddForce(camera.transform.forward * _forceAmount);
+    }
     public virtual void MainFire()
     {
         ShootBullet(camera.position, camera.forward);
