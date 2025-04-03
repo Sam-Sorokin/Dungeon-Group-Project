@@ -4,7 +4,7 @@ using UnityEngine;
 
 [RequireComponent(typeof(CharacterController))]
 
-public class SC_FPSController : Damagable
+public class SC_FPSController : MonoBehaviour
 {
     //---------Speeds-----------
     [Header("Speeds")]

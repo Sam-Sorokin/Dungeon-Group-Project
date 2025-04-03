@@ -2256,14 +2256,14 @@ RectTransform:
   m_GameObject: {fileID: 173595029}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 3.0351493, y: 2.5557, z: 2.5557}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1740329322}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0.01, y: 0.14}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &173595031
@@ -7927,6 +7927,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 369102315}
     m_Modifications:
+    - target: {fileID: 1664736121413671355, guid: dea2c4ceeb411a247ab6e6be750c7730, type: 3}
+      propertyPath: trackDistance
+      value: 2.62
+      objectReference: {fileID: 0}
+    - target: {fileID: 1664736121413671355, guid: dea2c4ceeb411a247ab6e6be750c7730, type: 3}
+      propertyPath: patrolDistance
+      value: 11.19
+      objectReference: {fileID: 0}
     - target: {fileID: 2801768650990412802, guid: dea2c4ceeb411a247ab6e6be750c7730, type: 3}
       propertyPath: m_LocalPosition.x
       value: -32.749382
@@ -9096,6 +9104,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 369102315}
     m_Modifications:
+    - target: {fileID: 1664736121413671355, guid: dea2c4ceeb411a247ab6e6be750c7730, type: 3}
+      propertyPath: trackDistance
+      value: 2.62
+      objectReference: {fileID: 0}
+    - target: {fileID: 1664736121413671355, guid: dea2c4ceeb411a247ab6e6be750c7730, type: 3}
+      propertyPath: patrolDistance
+      value: 11.19
+      objectReference: {fileID: 0}
     - target: {fileID: 2801768650990412802, guid: dea2c4ceeb411a247ab6e6be750c7730, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.42061773
@@ -9216,7 +9232,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: bc0d82451da83c341991651ab7c0d4d0, type: 2}
+  - {fileID: 2100000, guid: 05444c5883a61c647a6afe93799fac3f, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -9229,7 +9245,7 @@ MeshRenderer:
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
   m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 2
+  m_SelectedEditorRenderState: 3
   m_MinimumChartSize: 4
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
@@ -11459,7 +11475,7 @@ MonoBehaviour:
   m_PreserveMeshAssetOnDestroy: 0
   assetGuid: 
   m_Mesh: {fileID: 2108779211}
-  m_VersionIndex: 5056
+  m_VersionIndex: 5060
   m_IsSelectable: 1
   m_SelectedFaces: 
   m_SelectedEdges: []
@@ -11747,7 +11763,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: bc0d82451da83c341991651ab7c0d4d0, type: 2}
+  - {fileID: 2100000, guid: 05444c5883a61c647a6afe93799fac3f, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -11760,7 +11776,7 @@ MeshRenderer:
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
   m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 2
+  m_SelectedEditorRenderState: 3
   m_MinimumChartSize: 4
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
@@ -12009,7 +12025,7 @@ MonoBehaviour:
   m_PreserveMeshAssetOnDestroy: 0
   assetGuid: 
   m_Mesh: {fileID: 2048044677}
-  m_VersionIndex: 2874
+  m_VersionIndex: 2878
   m_IsSelectable: 1
   m_SelectedFaces: 
   m_SelectedEdges: []
@@ -14987,7 +15003,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: bc0d82451da83c341991651ab7c0d4d0, type: 2}
+  - {fileID: 2100000, guid: 05444c5883a61c647a6afe93799fac3f, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -15000,7 +15016,7 @@ MeshRenderer:
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
   m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 2
+  m_SelectedEditorRenderState: 3
   m_MinimumChartSize: 4
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
@@ -15249,7 +15265,7 @@ MonoBehaviour:
   m_PreserveMeshAssetOnDestroy: 0
   assetGuid: 
   m_Mesh: {fileID: 665884252}
-  m_VersionIndex: 3805
+  m_VersionIndex: 3809
   m_IsSelectable: 1
   m_SelectedFaces: 
   m_SelectedEdges: []
@@ -17776,7 +17792,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: bc0d82451da83c341991651ab7c0d4d0, type: 2}
+  - {fileID: 2100000, guid: 05444c5883a61c647a6afe93799fac3f, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -17789,7 +17805,7 @@ MeshRenderer:
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
   m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 2
+  m_SelectedEditorRenderState: 3
   m_MinimumChartSize: 4
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
@@ -20019,7 +20035,7 @@ MonoBehaviour:
   m_PreserveMeshAssetOnDestroy: 0
   assetGuid: 
   m_Mesh: {fileID: 276066105}
-  m_VersionIndex: 4656
+  m_VersionIndex: 4660
   m_IsSelectable: 1
   m_SelectedFaces: 
   m_SelectedEdges: []
@@ -20425,6 +20441,78 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1682397975}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &657117902
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 657117903}
+  - component: {fileID: 657117905}
+  - component: {fileID: 657117904}
+  m_Layer: 5
+  m_Name: RawImage
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &657117903
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 657117902}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 6.670927, y: 6.670927, z: 6.670927}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1740329322}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 320, y: 180}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &657117904
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 657117902}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1344c3c82d62a2a41a3576d8abb8e3ea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Texture: {fileID: 8400000, guid: a4f1b156e4088584e9634a4919bffba3, type: 2}
+  m_UVRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+--- !u!222 &657117905
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 657117902}
+  m_CullTransparentMesh: 1
 --- !u!1 &664279813
 GameObject:
   m_ObjectHideFlags: 0
@@ -24175,6 +24263,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5769398274541613865, guid: e380ef0350886554fa93ffef072afc8d, type: 3}
+      propertyPath: m_TargetTexture
+      value: 
+      objectReference: {fileID: 8400000, guid: a4f1b156e4088584e9634a4919bffba3, type: 2}
+    - target: {fileID: 5769398274541613865, guid: e380ef0350886554fa93ffef072afc8d, type: 3}
       propertyPath: m_BackGroundColor.b
       value: 0.8018868
       objectReference: {fileID: 0}
@@ -24244,7 +24336,8 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 296460097373203383, guid: e380ef0350886554fa93ffef072afc8d, type: 3}
-    m_RemovedGameObjects: []
+    m_RemovedGameObjects:
+    - {fileID: 6366864087509873515, guid: e380ef0350886554fa93ffef072afc8d, type: 3}
     m_AddedGameObjects:
     - targetCorrespondingSourceObject: {fileID: 6415587953380304227, guid: e380ef0350886554fa93ffef072afc8d, type: 3}
       insertIndex: -1
@@ -24594,6 +24687,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 369102315}
     m_Modifications:
+    - target: {fileID: 1664736121413671355, guid: dea2c4ceeb411a247ab6e6be750c7730, type: 3}
+      propertyPath: trackDistance
+      value: 2.62
+      objectReference: {fileID: 0}
+    - target: {fileID: 1664736121413671355, guid: dea2c4ceeb411a247ab6e6be750c7730, type: 3}
+      propertyPath: patrolDistance
+      value: 11.19
+      objectReference: {fileID: 0}
     - target: {fileID: 2801768650990412802, guid: dea2c4ceeb411a247ab6e6be750c7730, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.42061776
@@ -27305,7 +27406,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: bc0d82451da83c341991651ab7c0d4d0, type: 2}
+  - {fileID: 2100000, guid: 05444c5883a61c647a6afe93799fac3f, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -27318,7 +27419,7 @@ MeshRenderer:
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
   m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 2
+  m_SelectedEditorRenderState: 3
   m_MinimumChartSize: 4
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
@@ -27567,7 +27668,7 @@ MonoBehaviour:
   m_PreserveMeshAssetOnDestroy: 0
   assetGuid: 
   m_Mesh: {fileID: 1671489859}
-  m_VersionIndex: 2332
+  m_VersionIndex: 2336
   m_IsSelectable: 1
   m_SelectedFaces: 
   m_SelectedEdges: []
@@ -31490,7 +31591,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: bc0d82451da83c341991651ab7c0d4d0, type: 2}
+  - {fileID: 2100000, guid: 05444c5883a61c647a6afe93799fac3f, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -31503,7 +31604,7 @@ MeshRenderer:
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
   m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 2
+  m_SelectedEditorRenderState: 3
   m_MinimumChartSize: 4
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
@@ -31752,7 +31853,7 @@ MonoBehaviour:
   m_PreserveMeshAssetOnDestroy: 0
   assetGuid: 
   m_Mesh: {fileID: 1116934201}
-  m_VersionIndex: 10948
+  m_VersionIndex: 10952
   m_IsSelectable: 1
   m_SelectedFaces: 
   m_SelectedEdges: []
@@ -32168,15 +32269,15 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 459b38a16274a5548a1e3073751efe8d, type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.1104935
+      value: 0.01858326
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 459b38a16274a5548a1e3073751efe8d, type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.1104935
+      value: 0.01858326
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 459b38a16274a5548a1e3073751efe8d, type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.1104935
+      value: 0.01858326
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 459b38a16274a5548a1e3073751efe8d, type: 3}
       propertyPath: m_LocalPosition.x
@@ -32225,6 +32326,26 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 459b38a16274a5548a1e3073751efe8d, type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6317578925029434746, guid: 459b38a16274a5548a1e3073751efe8d, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 77272ee00f2eed0418343df17485b3a3, type: 2}
+    - target: {fileID: 6317578925029434746, guid: 459b38a16274a5548a1e3073751efe8d, type: 3}
+      propertyPath: m_Materials.Array.data[1]
+      value: 
+      objectReference: {fileID: 2100000, guid: 777093c26b8c0bc4aa0ef66c5030bb09, type: 2}
+    - target: {fileID: 8632055958874330854, guid: 459b38a16274a5548a1e3073751efe8d, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 6.8778
+      objectReference: {fileID: 0}
+    - target: {fileID: 8632055958874330854, guid: 459b38a16274a5548a1e3073751efe8d, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 6.8778
+      objectReference: {fileID: 0}
+    - target: {fileID: 8632055958874330854, guid: 459b38a16274a5548a1e3073751efe8d, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 6.8778
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects:
@@ -32502,6 +32623,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 369102315}
     m_Modifications:
+    - target: {fileID: 1664736121413671355, guid: dea2c4ceeb411a247ab6e6be750c7730, type: 3}
+      propertyPath: trackDistance
+      value: 2.62
+      objectReference: {fileID: 0}
+    - target: {fileID: 1664736121413671355, guid: dea2c4ceeb411a247ab6e6be750c7730, type: 3}
+      propertyPath: patrolDistance
+      value: 11.19
+      objectReference: {fileID: 0}
     - target: {fileID: 2801768650990412802, guid: dea2c4ceeb411a247ab6e6be750c7730, type: 3}
       propertyPath: m_LocalPosition.x
       value: -32.749382
@@ -33470,6 +33599,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 369102315}
     m_Modifications:
+    - target: {fileID: 1664736121413671355, guid: dea2c4ceeb411a247ab6e6be750c7730, type: 3}
+      propertyPath: trackDistance
+      value: 2.62
+      objectReference: {fileID: 0}
+    - target: {fileID: 1664736121413671355, guid: dea2c4ceeb411a247ab6e6be750c7730, type: 3}
+      propertyPath: patrolDistance
+      value: 11.19
+      objectReference: {fileID: 0}
     - target: {fileID: 2801768650990412802, guid: dea2c4ceeb411a247ab6e6be750c7730, type: 3}
       propertyPath: m_LocalPosition.x
       value: -12.629382
@@ -33622,7 +33759,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: bc0d82451da83c341991651ab7c0d4d0, type: 2}
+  - {fileID: 2100000, guid: 05444c5883a61c647a6afe93799fac3f, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -33635,7 +33772,7 @@ MeshRenderer:
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
   m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 2
+  m_SelectedEditorRenderState: 3
   m_MinimumChartSize: 4
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
@@ -33884,7 +34021,7 @@ MonoBehaviour:
   m_PreserveMeshAssetOnDestroy: 0
   assetGuid: 
   m_Mesh: {fileID: 1454270903}
-  m_VersionIndex: 2216
+  m_VersionIndex: 2220
   m_IsSelectable: 1
   m_SelectedFaces: 
   m_SelectedEdges: []
@@ -40074,7 +40211,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: bc0d82451da83c341991651ab7c0d4d0, type: 2}
+  - {fileID: 2100000, guid: 05444c5883a61c647a6afe93799fac3f, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -40087,7 +40224,7 @@ MeshRenderer:
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
   m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 2
+  m_SelectedEditorRenderState: 3
   m_MinimumChartSize: 4
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
@@ -42001,7 +42138,7 @@ MonoBehaviour:
   m_PreserveMeshAssetOnDestroy: 0
   assetGuid: 
   m_Mesh: {fileID: 496052619}
-  m_VersionIndex: 7294
+  m_VersionIndex: 7298
   m_IsSelectable: 1
   m_SelectedFaces: 
   m_SelectedEdges: []
@@ -42556,6 +42693,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 369102315}
     m_Modifications:
+    - target: {fileID: 1664736121413671355, guid: dea2c4ceeb411a247ab6e6be750c7730, type: 3}
+      propertyPath: trackDistance
+      value: 2.62
+      objectReference: {fileID: 0}
+    - target: {fileID: 1664736121413671355, guid: dea2c4ceeb411a247ab6e6be750c7730, type: 3}
+      propertyPath: patrolDistance
+      value: 11.19
+      objectReference: {fileID: 0}
     - target: {fileID: 2801768650990412802, guid: dea2c4ceeb411a247ab6e6be750c7730, type: 3}
       propertyPath: m_LocalPosition.x
       value: -12.629382
@@ -43061,7 +43206,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: bc0d82451da83c341991651ab7c0d4d0, type: 2}
+  - {fileID: 2100000, guid: 05444c5883a61c647a6afe93799fac3f, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -43074,7 +43219,7 @@ MeshRenderer:
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
   m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 2
+  m_SelectedEditorRenderState: 3
   m_MinimumChartSize: 4
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
@@ -44038,7 +44183,7 @@ MonoBehaviour:
   m_PreserveMeshAssetOnDestroy: 0
   assetGuid: 
   m_Mesh: {fileID: 446264911}
-  m_VersionIndex: 3785
+  m_VersionIndex: 3789
   m_IsSelectable: 1
   m_SelectedFaces: 
   m_SelectedEdges: []
@@ -46549,6 +46694,7 @@ RectTransform:
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 657117903}
   - {fileID: 173595030}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -46695,7 +46841,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: bc0d82451da83c341991651ab7c0d4d0, type: 2}
+  - {fileID: 2100000, guid: 05444c5883a61c647a6afe93799fac3f, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -46708,7 +46854,7 @@ MeshRenderer:
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
   m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 2
+  m_SelectedEditorRenderState: 3
   m_MinimumChartSize: 4
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
@@ -46957,7 +47103,7 @@ MonoBehaviour:
   m_PreserveMeshAssetOnDestroy: 0
   assetGuid: 
   m_Mesh: {fileID: 158105293}
-  m_VersionIndex: 2738
+  m_VersionIndex: 2742
   m_IsSelectable: 1
   m_SelectedFaces: 
   m_SelectedEdges: []
@@ -47819,7 +47965,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: bc0d82451da83c341991651ab7c0d4d0, type: 2}
+  - {fileID: 2100000, guid: 05444c5883a61c647a6afe93799fac3f, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -47832,7 +47978,7 @@ MeshRenderer:
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
   m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 2
+  m_SelectedEditorRenderState: 3
   m_MinimumChartSize: 4
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
@@ -49062,7 +49208,7 @@ MonoBehaviour:
   m_PreserveMeshAssetOnDestroy: 0
   assetGuid: 
   m_Mesh: {fileID: 499934497}
-  m_VersionIndex: 9463
+  m_VersionIndex: 9467
   m_IsSelectable: 1
   m_SelectedFaces: 
   m_SelectedEdges: []
@@ -49735,7 +49881,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: bc0d82451da83c341991651ab7c0d4d0, type: 2}
+  - {fileID: 2100000, guid: 05444c5883a61c647a6afe93799fac3f, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -49748,7 +49894,7 @@ MeshRenderer:
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
   m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 2
+  m_SelectedEditorRenderState: 3
   m_MinimumChartSize: 4
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
@@ -49997,7 +50143,7 @@ MonoBehaviour:
   m_PreserveMeshAssetOnDestroy: 0
   assetGuid: 
   m_Mesh: {fileID: 680415852}
-  m_VersionIndex: 7637
+  m_VersionIndex: 7641
   m_IsSelectable: 1
   m_SelectedFaces: 
   m_SelectedEdges: []
@@ -50639,7 +50785,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: bc0d82451da83c341991651ab7c0d4d0, type: 2}
+  - {fileID: 2100000, guid: 05444c5883a61c647a6afe93799fac3f, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -50652,7 +50798,7 @@ MeshRenderer:
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
   m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 2
+  m_SelectedEditorRenderState: 3
   m_MinimumChartSize: 4
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
@@ -50901,7 +51047,7 @@ MonoBehaviour:
   m_PreserveMeshAssetOnDestroy: 0
   assetGuid: 
   m_Mesh: {fileID: 1694502706}
-  m_VersionIndex: 4179
+  m_VersionIndex: 4183
   m_IsSelectable: 1
   m_SelectedFaces: 
   m_SelectedEdges: []
@@ -51291,6 +51437,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 369102315}
     m_Modifications:
+    - target: {fileID: 1664736121413671355, guid: dea2c4ceeb411a247ab6e6be750c7730, type: 3}
+      propertyPath: trackDistance
+      value: 2.62
+      objectReference: {fileID: 0}
+    - target: {fileID: 1664736121413671355, guid: dea2c4ceeb411a247ab6e6be750c7730, type: 3}
+      propertyPath: patrolDistance
+      value: 11.19
+      objectReference: {fileID: 0}
     - target: {fileID: 2801768650990412802, guid: dea2c4ceeb411a247ab6e6be750c7730, type: 3}
       propertyPath: m_LocalPosition.x
       value: -32.749382
@@ -51411,7 +51565,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: bc0d82451da83c341991651ab7c0d4d0, type: 2}
+  - {fileID: 2100000, guid: 05444c5883a61c647a6afe93799fac3f, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -52212,7 +52366,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: bc0d82451da83c341991651ab7c0d4d0, type: 2}
+  - {fileID: 2100000, guid: 05444c5883a61c647a6afe93799fac3f, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -52225,7 +52379,7 @@ MeshRenderer:
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
   m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 2
+  m_SelectedEditorRenderState: 3
   m_MinimumChartSize: 4
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
@@ -54018,7 +54172,7 @@ MonoBehaviour:
   m_PreserveMeshAssetOnDestroy: 0
   assetGuid: 
   m_Mesh: {fileID: 2034754053}
-  m_VersionIndex: 4906
+  m_VersionIndex: 4910
   m_IsSelectable: 1
   m_SelectedFaces: 
   m_SelectedEdges: []
@@ -54918,7 +55072,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: bc0d82451da83c341991651ab7c0d4d0, type: 2}
+  - {fileID: 2100000, guid: 05444c5883a61c647a6afe93799fac3f, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -54931,7 +55085,7 @@ MeshRenderer:
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
   m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 2
+  m_SelectedEditorRenderState: 3
   m_MinimumChartSize: 4
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
@@ -56724,7 +56878,7 @@ MonoBehaviour:
   m_PreserveMeshAssetOnDestroy: 0
   assetGuid: 
   m_Mesh: {fileID: 281021974}
-  m_VersionIndex: 4906
+  m_VersionIndex: 4910
   m_IsSelectable: 1
   m_SelectedFaces: 
   m_SelectedEdges: []
