@@ -65,7 +65,7 @@ public class SC_FPSController : Damagable
     {
         HandleMovement();
         HandleLook();
-        HandleWallRun();
+        //HandleWallRun();
         HandleDodge();
     }
 

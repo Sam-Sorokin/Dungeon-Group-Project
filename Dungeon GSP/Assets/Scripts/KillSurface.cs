@@ -12,7 +12,7 @@ public class KillSurface : MonoBehaviour
         if (damagable != null)
         {
             Debug.Log("KillSurface damaged entity");
-            damagable.TakeDamage(500);
+            damagable.TakeDamage(50000);
         }
     }
     private void OnTriggerEnter(Collider other)

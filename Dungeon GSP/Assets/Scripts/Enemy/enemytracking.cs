@@ -30,7 +30,7 @@ public class enemytracking : MonoBehaviour
 
         if(distanceFromPlayer <= patrolDistance)
         {
-            Debug.Log("TrackingPlayer");
+            //Debug.Log("TrackingPlayer");
             Vector3 Destination = playertransform.position - directionToPlayer * trackDistance;
             nma.SetDestination(Destination);
         }
