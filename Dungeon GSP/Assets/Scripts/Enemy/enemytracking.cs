@@ -10,7 +10,10 @@ public class enemytracking : MonoBehaviour
     private NavMeshAgent nma;
     public bool isattacking;
     public float speed;
-    public float distanceFromPlayer = 2f; // The distance you want the enemy to stay from the player
+
+    [Header("Tracking Distances")]
+    public float patrolDistance = 5f;
+    public float trackDistance = 3.2f;
 
 
     // Start is called before the first frame update
@@ -20,20 +23,26 @@ public class enemytracking : MonoBehaviour
         nma = GetComponent<NavMeshAgent>();
     }
 
+    void HandleMovement()
+    {
+        float distanceFromPlayer = Vector3.Distance(playertransform.position, transform.position);
+        Vector3 directionToPlayer = (playertransform.position - transform.position).normalized;
+
+        if(distanceFromPlayer <= patrolDistance)
+        {
+            Debug.Log("TrackingPlayer");
+            Vector3 Destination = playertransform.position - directionToPlayer * trackDistance;
+            nma.SetDestination(Destination);
+        }
+        else
+        {
+            nma.SetDestination(transform.position);
+        }
+    }
+
     // Update is called once per frame
     void Update()
     {
-        if (playertransform != null)
-        {
-            // Calculate the direction from the enemy to the player
-            Vector3 directionToPlayer = (playertransform.position - transform.position).normalized;
-
-            // AI moves to player with an offset to avoid attempting to go inside the player
-            Vector3 Destination = playertransform.position - directionToPlayer * distanceFromPlayer;
-
-            nma.SetDestination(Destination);
-        }
-
-        //transform.position = Vector2.MoveTowards(transform.position, playertransform.position, speed * Time.deltaTime);
+        HandleMovement();
     }
 }
