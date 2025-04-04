@@ -6,10 +6,9 @@ public class Grenade : Damagable
 {
     public GameObject particleSystem;
     public float explosionRadius = 5f;
-    public float detonationTime = 5f;
+    public float detonationTime = 0.5f;
     float timeToDetonate = 0f;
     public int explosionDamage = 5;
-
 
     // Start is called before the first frame update
     void Start()

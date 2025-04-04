@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using Unity.IO.LowLevel.Unsafe;
 using Unity.Properties;
+using UnityEditor.UI;
 using UnityEngine;
 
 public class Damagable : MonoBehaviour
@@ -20,7 +21,7 @@ public class Damagable : MonoBehaviour
     public virtual void Death() // 
     {
         Debug.Log("Entity Died");
-        Object.Destroy(transform.root.gameObject);
+        Object.Destroy(this.gameObject);
     }
     public int GetHealth() // for other classes to get the health.
     {
