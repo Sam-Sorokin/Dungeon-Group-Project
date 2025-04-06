@@ -24338,6 +24338,14 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 9134072660352695124, guid: e380ef0350886554fa93ffef072afc8d, type: 3}
+      propertyPath: slideDrag
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 9134072660352695124, guid: e380ef0350886554fa93ffef072afc8d, type: 3}
+      propertyPath: slideInitialSpeed
+      value: 35
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 296460097373203383, guid: e380ef0350886554fa93ffef072afc8d, type: 3}
     m_RemovedGameObjects:

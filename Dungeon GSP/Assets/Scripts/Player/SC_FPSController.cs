@@ -1,79 +1,74 @@
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 [RequireComponent(typeof(CharacterController))]
-
 public class SC_FPSController : MonoBehaviour
 {
-    //---------Speeds-----------
     [Header("Speeds")]
     public float walkingSpeed = 7.5f;
     public float runningSpeed = 11.5f;
-    public float crouchSpeed = 4f;
-    public float wallRunSpeed = 10f;
-    public float wallRunUpwardSpeed = 1.5f;
+    public float slideInitialSpeed = 15f;
+    public float slideDrag = 25f; // Higher = faster stop
     public float jumpSpeed = 8.0f;
-    public float dodgeSpeed = 25f; // Speed of the dodge
-    public float dodgeDuration = 0.2f; // How long the dodge lasts
-    public float dodgeCooldown = 2f; // Cooldown time
+    public float dodgeSpeed = 25f;
+    public float dodgeDuration = 0.2f;
+    public float dodgeCooldown = 2f;
 
-    [Header("Gravity - Speed of falling")]
-    public float wallRunGravity = 5f;
+    [Header("Gravity")]
     public float gravity = 20.0f;
 
-    //-----------CameraVars-----------
     [Header("Camera")]
     public Camera playerCamera;
     public float lookSpeed = 2.0f;
     public float lookXLimit = 45.0f;
 
-    [Header("Wall Run Info")]
-    private bool isWallRunning = false;
-    private float wallRunTimer = 0f;
-    private float maxWallRunTime = 1.5f;
-    private Vector3 lastWallNormal;
-
-    [Header("Character Controller")]
     private CharacterController characterController;
     private Vector3 moveDirection = Vector3.zero;
     private float rotationX = 0;
 
-    [Header("Bools")]
-    private bool isCrouching = false;
+    private bool isSliding = false;
     private bool canMove = true;
     private bool isGrounded => characterController.isGrounded;
     private bool isDodging = false;
     private bool canDodge = true;
+    private bool isSprinting = false;
 
-    [Header("Floats")]
+    [Header("Heights")]
     private float standingHeight = 2.0f;
     private float crouchingHeight = 1.0f;
     private float standingCameraHeight = 1.75f;
     private float crouchingCameraHeight = 1.0f;
 
+    private Vector3 slideVelocity;
+
     void Start()
     {
         characterController = GetComponent<CharacterController>();
 
-        // Lock cursor
         Cursor.lockState = CursorLockMode.Locked;
         Cursor.visible = false;
+
+        // Set initial heights
+        characterController.height = standingHeight;
+        Vector3 camPos = playerCamera.transform.localPosition;
+        camPos.y = standingCameraHeight;
+        playerCamera.transform.localPosition = camPos;
     }
 
     void Update()
     {
         HandleMovement();
         HandleLook();
-        //HandleWallRun();
         HandleDodge();
+        HandleSprintToggle();
+        HandleSlide();
     }
 
     void HandleMovement()
     {
-        if (!canMove || isDodging) return;
+        if (!canMove || isDodging || isSliding) return;
 
-        float moveSpeed = isCrouching ? crouchSpeed : (Input.GetKey(KeyCode.LeftShift) && !isCrouching ? runningSpeed : walkingSpeed);
+        float moveSpeed = isSprinting ? runningSpeed : walkingSpeed;
         Vector3 forward = transform.TransformDirection(Vector3.forward);
         Vector3 right = transform.TransformDirection(Vector3.right);
 
@@ -85,7 +80,6 @@ public class SC_FPSController : MonoBehaviour
 
         if (isGrounded)
         {
-            isWallRunning = false;
             if (Input.GetButtonDown("Jump"))
             {
                 moveDirection.y = jumpSpeed;
@@ -95,7 +89,7 @@ public class SC_FPSController : MonoBehaviour
                 moveDirection.y = -1f;
             }
         }
-        else if (!isWallRunning)
+        else
         {
             moveDirection.y -= gravity * Time.deltaTime;
         }
@@ -118,7 +112,7 @@ public class SC_FPSController : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.CapsLock) && canDodge && !isDodging)
         {
             Vector3 inputDirection = new Vector3(Input.GetAxis("Horizontal"), 0, Input.GetAxis("Vertical"));
-            if (inputDirection.magnitude > 0) // Only dodge if moving
+            if (inputDirection.magnitude > 0)
             {
                 StartCoroutine(DodgeRoutine(inputDirection));
             }
@@ -144,49 +138,100 @@ public class SC_FPSController : MonoBehaviour
         canDodge = true;
     }
 
-    void HandleWallRun()
+    void HandleSprintToggle()
     {
-        if (isGrounded) return;
-
-        RaycastHit leftWallHit, rightWallHit;
-        bool leftWall = Physics.Raycast(transform.position, -transform.right, out leftWallHit, 1f);
-        bool rightWall = Physics.Raycast(transform.position, transform.right, out rightWallHit, 1f);
-
-        if ((leftWall || rightWall) && Input.GetAxis("Vertical") > 0)
+        if (Input.GetKeyDown(KeyCode.LeftShift))
         {
-            Vector3 wallNormal = leftWall ? leftWallHit.normal : rightWallHit.normal;
-            if (wallNormal != lastWallNormal)
-            {
-                wallRunTimer = 0f;
-                lastWallNormal = wallNormal;
-            }
-
-            if (!isWallRunning)
-            {
-                isWallRunning = true;
-                moveDirection.y = 0;
-            }
-
-            wallRunTimer += Time.deltaTime;
-            if (wallRunTimer >= maxWallRunTime)
-            {
-                isWallRunning = false;
-                return;
-            }
-
-            moveDirection = transform.forward * wallRunSpeed;
-            moveDirection.y = wallRunUpwardSpeed;
-
-            if (Input.GetButtonDown("Jump"))
-            {
-                isWallRunning = false;
-                moveDirection = (wallNormal * 6f + Vector3.up * jumpSpeed).normalized * jumpSpeed;
-                return;
-            }
-        }
-        else
-        {
-            isWallRunning = false;
+            isSprinting = !isSprinting;
         }
     }
+
+    void HandleSlide()
+    {
+        if (Input.GetKeyDown(KeyCode.LeftControl) && isGrounded && !isSliding)
+        {
+            StartCoroutine(SlideRoutine());
+        }
+    }
+
+    IEnumerator SlideRoutine()
+    {
+        isSliding = true;
+
+        // Set crouching height for sliding
+        characterController.height = crouchingHeight;
+        Vector3 camPos = playerCamera.transform.localPosition;
+        camPos.y = crouchingCameraHeight;
+        playerCamera.transform.localPosition = camPos;
+
+        // Set initial slide velocity in the facing direction (XZ only)
+        Vector3 forward = transform.forward;
+        forward.y = 0;
+        forward.Normalize();
+        slideVelocity = forward * slideInitialSpeed;
+
+        bool jumpedOutOfSlide = false;
+
+        while (slideVelocity.magnitude > 0.5f)
+        {
+            // If Jump is pressed, cancel slide and apply jump force
+            if (Input.GetButtonDown("Jump"))
+            {
+                // Cancel slide and keep half of the momentum
+                moveDirection = slideVelocity * 0.5f;
+
+                // Apply vertical jump speed
+                moveDirection.y = jumpSpeed;
+
+                // Mark jump was triggered during slide
+                jumpedOutOfSlide = true;
+
+                // Exit the loop early, jump has been initiated
+                break;
+            }
+
+            // Cancel slide if player is no longer grounded (falling off ledge)
+            if (!characterController.isGrounded)
+            {
+                break;
+            }
+
+            // Decelerate slide over time
+            slideVelocity = Vector3.MoveTowards(slideVelocity, Vector3.zero, slideDrag * Time.deltaTime);
+
+            // Apply movement (keeping y grounded)
+            Vector3 move = slideVelocity * Time.deltaTime;
+            move.y = -1f;
+            characterController.Move(move);
+
+            yield return null;
+        }
+
+        // If jump occurred, exit the slide routine here
+        if (jumpedOutOfSlide)
+        {
+            // Transition back to standing height (exit crouch)
+            characterController.height = standingHeight;
+            camPos.y = standingCameraHeight;
+            playerCamera.transform.localPosition = camPos;
+
+            // Apply the movement with jump force
+            characterController.Move(moveDirection * Time.deltaTime);
+
+            isSliding = false;
+
+            // Now handle gravity and movement properly (fall or jump) in Update
+            yield break; // exit early so jump is processed
+        }
+
+        // If no jump, cancel slide on falling off a ledge
+        // Transition to standing height
+        characterController.height = standingHeight;
+        camPos.y = standingCameraHeight;
+        playerCamera.transform.localPosition = camPos;
+
+        isSliding = false;
+    }
+
+
 }
