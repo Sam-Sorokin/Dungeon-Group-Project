@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class ThrowAble : WeaponBase
 {
+    public Transform throwOrigin;
     public GameObject grenade;
     public float throwForce = 20f;
     // Start is called before the first frame update
@@ -18,7 +19,7 @@ public class ThrowAble : WeaponBase
 
     public override void AltFire()
     {
-        ThrowProjectile(throwForce, grenade);
+        ThrowProjectile(throwForce, grenade, throwOrigin);
         shotTheGun?.Invoke(); // Invoke UnityEvent for effects like gun recoil
     }
 

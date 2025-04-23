@@ -24346,8 +24346,7 @@ PrefabInstance:
       propertyPath: slideInitialSpeed
       value: 35
       objectReference: {fileID: 0}
-    m_RemovedComponents:
-    - {fileID: 296460097373203383, guid: e380ef0350886554fa93ffef072afc8d, type: 3}
+    m_RemovedComponents: []
     m_RemovedGameObjects:
     - {fileID: 6366864087509873515, guid: e380ef0350886554fa93ffef072afc8d, type: 3}
     m_AddedGameObjects:
@@ -32398,6 +32397,7 @@ MonoBehaviour:
   weaponName: 
   attackRange: 2.39
   fireRate: 0.5
+  throwOrigin: {fileID: 1780466253}
   grenade: {fileID: 5823114841600050135, guid: 9b4c7af5367474540bead0a269a38730, type: 3}
   throwForce: 1500
 --- !u!43 &1280746755

@@ -7,7 +7,7 @@ using UnityEngine;
 
 public class Damagable : MonoBehaviour
 {
-    protected int health = 10;
+    public int health = 10;
     // Start is called before the first frame update
     public virtual void TakeDamage(int _damageAmount) // Made virtual in the case of overriding to account for armour etc
     {

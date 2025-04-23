@@ -74,8 +74,7 @@
     <Compile Include="Assets\Scripts\Weapons\ThrowAble.cs" />
     <Compile Include="Assets\Scripts\Weapons\Grenade.cs" />
     <Compile Include="Assets\Scripts\Characters\characterBase.cs" />
-    <Compile Include="Assets\TutorialInfo\Scripts\Readme.cs" />
-    <Compile Include="Assets\HQ Explosions Pack FREE\Scripts\changeEffects.cs" />
+    <Compile Include="Assets\AssetStoreStuff\HQ Explosions Pack FREE\Scripts\changeEffects.cs" />
     <Compile Include="Assets\Scripts\DebugScripts\WeaponResponse.cs" />
     <Compile Include="Assets\Scripts\Player\MoveCamera.cs" />
     <Compile Include="Assets\Scripts\Weapons\WeaponBase.cs" />
@@ -86,8 +85,8 @@
     <Compile Include="Assets\Scripts\Weapons\MuzzleFlash.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Assets\HQ Explosions Pack FREE\Shaders\Explosion.shader" />
-    <None Include="Assets\HQ Explosions Pack FREE\Environment\Environment.shader" />
+    <None Include="Assets\AssetStoreStuff\HQ Explosions Pack FREE\Shaders\Explosion.shader" />
+    <None Include="Assets\AssetStoreStuff\HQ Explosions Pack FREE\Environment\Environment.shader" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

@@ -33,7 +33,7 @@ public class WeaponBase : MonoBehaviour
         }
     }
 
-    public void ShootBullet(Vector3 _startPos, Vector3 _endPos)
+    public void RayDamage(Vector3 _startPos, Vector3 _endPos)
     {
         Ray ray = new Ray(_startPos, _endPos);
         Debug.DrawRay(_startPos, _endPos * attackRange, Color.red);
@@ -50,22 +50,22 @@ public class WeaponBase : MonoBehaviour
         }
     }
 
-    public void ThrowProjectile(float _forceAmount, GameObject _projectile)
+    public void ThrowProjectile(float _forceAmount, GameObject _projectile, Transform _throwOrigin)
     {
-        float camOffset = 5f;
-        GameObject projectile = Instantiate(_projectile, camera.transform.position + camera.transform.forward * camOffset, camera.rotation);
+        float spawnOffset = 1f; // an offset to which the projectile is spawned from the throw origin
+        GameObject projectile = Instantiate(_projectile, _throwOrigin.transform.position + _throwOrigin.transform.forward * spawnOffset, _throwOrigin.rotation);
         Rigidbody projectileRB = projectile.GetComponent<Rigidbody>();
-        projectileRB.AddForce(camera.transform.forward * _forceAmount);
+        projectileRB.AddForce(_throwOrigin.transform.forward * _forceAmount);
     }
     public virtual void MainFire()
     {
-        ShootBullet(camera.position, camera.forward);
+        RayDamage(camera.position, camera.forward);
         shotTheGun?.Invoke(); // Invoke UnityEvent for effects like gun recoil
     }
 
     public virtual void AltFire()
     {
-        ShootBullet(camera.position, camera.forward);
+        RayDamage(camera.position, camera.forward);
         shotTheGun?.Invoke(); // Invoke UnityEvent for effects like gun recoil
     }
 }
