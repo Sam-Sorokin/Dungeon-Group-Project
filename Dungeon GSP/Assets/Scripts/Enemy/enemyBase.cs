@@ -26,21 +26,28 @@ public class enemyBase : Damagable
 
     IEnumerator damageIndication()
     {
+        // Store all original colors for every material
         List<Color> originalColors = new List<Color>();
 
-        // Store original colors
         foreach (Renderer r in renderers)
         {
-            originalColors.Add(r.material.color);
-            r.material.color = Color.red;
+            foreach (Material mat in r.materials)
+            {
+                originalColors.Add(mat.color);
+                mat.color = new Color(1f,0f,0f,1f);
+            }
         }
 
         yield return new WaitForSeconds(0.2f);
 
-        // Reset colors
-        for (int i = 0; i < renderers.Length; i++)
+        int colorIndex = 0;
+        foreach (Renderer r in renderers)
         {
-            renderers[i].material.color = originalColors[i];
+            foreach (Material mat in r.materials)
+            {
+                mat.color = originalColors[colorIndex];
+                colorIndex++;
+            }
         }
     }
 
