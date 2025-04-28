@@ -5,23 +5,30 @@ using UnityEngine.Events;
 
 public class WeaponBase : MonoBehaviour
 {
-    public Transform camera;
+    public Transform weaponOrigin;
     public UnityEvent shotTheGun;
     public string weaponName;
-    protected int damage = 50;
+    public int damage = 50;
     public float attackRange = 0.2f;
     public float fireRate = 0.5f; // Fire rate in seconds
     protected float nextFireTime = 0f; // Tracks when the weapon can fire again
+    protected Vector3 attackPoint = new Vector3(0, 0, 1f);
 
 
     private void Start()
     {
-        camera = GameObject.FindGameObjectWithTag("Player Camera").transform;
     }
 
     void Update()
     {
         handleInput();
+    }
+
+    protected void OnDrawGizmosSelected() // drawing the attack ranges to visualise the distance in the scene view
+    {
+        Gizmos.color = Color.red;
+        Vector3 GizmoPos = weaponOrigin.position;
+        Gizmos.DrawLine(weaponOrigin.position, weaponOrigin.position + attackPoint*attackRange);
     }
 
     public virtual void handleInput()
@@ -37,6 +44,7 @@ public class WeaponBase : MonoBehaviour
     {
         Ray ray = new Ray(_startPos, _endPos);
         Debug.DrawRay(_startPos, _endPos * attackRange, Color.red);
+
         RaycastHit hit;
         if (Physics.Raycast(ray, out hit, attackRange))
         {
@@ -59,13 +67,14 @@ public class WeaponBase : MonoBehaviour
     }
     public virtual void MainFire()
     {
-        RayDamage(camera.position, camera.forward);
+        Debug.Log("Fired A Shot");
+        RayDamage(weaponOrigin.position, weaponOrigin.forward);
         shotTheGun?.Invoke(); // Invoke UnityEvent for effects like gun recoil
     }
 
     public virtual void AltFire()
     {
-        RayDamage(camera.position, camera.forward);
+        RayDamage(weaponOrigin.position, weaponOrigin.forward);
         shotTheGun?.Invoke(); // Invoke UnityEvent for effects like gun recoil
     }
 }

@@ -64,16 +64,14 @@
     <Compile Include="Assets\Scripts\Player\SC_FPSController.cs" />
     <Compile Include="Assets\Scripts\EventManager.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerCam.cs" />
-    <Compile Include="Assets\Scripts\Weapons\DevTestWeapon.cs" />
-    <Compile Include="Assets\Camera.cs" />
     <Compile Include="Assets\Scripts\Enemy\enemytracking.cs" />
-    <Compile Include="Assets\Scripts\Weapons\MannaManager.cs" />
+    <Compile Include="Assets\Scripts\Weapons\EnemyWeapons\SkeletonBow.cs" />
+    <Compile Include="Assets\Scripts\Weapons\PlayerWeapons\WeaponSwitching.cs" />
     <Compile Include="Assets\Scripts\KillSurface.cs" />
-    <Compile Include="Assets\Scripts\Weapons\WeaponSwitching.cs" />
+    <Compile Include="Assets\Scripts\Weapons\PlayerWeapons\Grenade.cs" />
     <Compile Include="Assets\Scripts\HealthSystem\Damagable.cs" />
-    <Compile Include="Assets\Scripts\Weapons\ThrowAble.cs" />
-    <Compile Include="Assets\Scripts\Weapons\Grenade.cs" />
     <Compile Include="Assets\Scripts\Characters\characterBase.cs" />
+    <Compile Include="Assets\Scripts\Camera.cs" />
     <Compile Include="Assets\AssetStoreStuff\HQ Explosions Pack FREE\Scripts\changeEffects.cs" />
     <Compile Include="Assets\Scripts\DebugScripts\WeaponResponse.cs" />
     <Compile Include="Assets\Scripts\Player\MoveCamera.cs" />
@@ -82,7 +80,8 @@
     <Compile Include="Assets\Scripts\Enemy\enemyBase.cs" />
     <Compile Include="Assets\Scripts\Player\GrappleHook.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerMovement.cs" />
-    <Compile Include="Assets\Scripts\Weapons\MuzzleFlash.cs" />
+    <Compile Include="Assets\Scripts\Weapons\PlayerWeapons\MannaManager.cs" />
+    <Compile Include="Assets\Scripts\Weapons\PlayerWeapons\ThrowAble.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\AssetStoreStuff\HQ Explosions Pack FREE\Shaders\Explosion.shader" />
