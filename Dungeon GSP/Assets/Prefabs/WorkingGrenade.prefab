@@ -119,9 +119,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bc8f820cfb5969447b4939f86376474c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  health: 10
   particleSystem: {fileID: 3248512598594298950, guid: 1df0e6a186e451746a9785a7846c7b81, type: 3}
   explosionRadius: 5
-  detonationTime: 3.08
+  detonationTime: 1
   explosionDamage: 5
 --- !u!54 &-6187928945218433852
 Rigidbody:

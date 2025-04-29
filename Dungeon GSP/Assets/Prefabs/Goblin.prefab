@@ -29,7 +29,7 @@ Transform:
   m_GameObject: {fileID: 7852953013015442677}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 4.2528267, y: 3.8963356, z: -25.209002}
+  m_LocalPosition: {x: 4.2528267, y: 0.057, z: -25.209002}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -54,8 +54,8 @@ NavMeshAgent:
   m_AutoTraverseOffMeshLink: 1
   m_AutoBraking: 1
   m_AutoRepath: 1
-  m_Height: 1.84
-  m_BaseOffset: -2.11
+  m_Height: 2.08
+  m_BaseOffset: 0.06
   m_WalkableMask: 4294967295
   m_ObstacleAvoidanceType: 4
 --- !u!114 &1664736121413671355
@@ -74,6 +74,8 @@ MonoBehaviour:
   isattacking: 0
   speed: 0
   distanceFromPlayer: 3.2
+  patrolDistance: 5
+  trackDistance: 3.2
 --- !u!65 &303389185255906681
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -93,8 +95,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1, y: 2.26034, z: 1}
-  m_Center: {x: 0, y: 3.0605059, z: 0}
+  m_Size: {x: 1, y: 2.063238, z: 0.6030235}
+  m_Center: {x: 0, y: 0.96492654, z: 0.012630463}
 --- !u!114 &190573990373363110
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -107,7 +109,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c801f2f81a7699d48937b6d3133feb34, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enemyHealth: 1
+  health: 10
 --- !u!1001 &1353659090129163089
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -122,7 +124,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 31756ddbcaf431d4faf3976adeb5e235, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 3.21
+      value: 0.99
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 31756ddbcaf431d4faf3976adeb5e235, type: 3}
       propertyPath: m_LocalPosition.z

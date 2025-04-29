@@ -2,7 +2,6 @@ using System.Collections;
 using System.Collections.Generic;
 using Unity.IO.LowLevel.Unsafe;
 using Unity.Properties;
-using UnityEditor.UI;
 using UnityEngine;
 
 public class Damagable : MonoBehaviour

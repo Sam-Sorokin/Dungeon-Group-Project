@@ -1872,7 +1872,6 @@ GameObject:
   - component: {fileID: 803208036220858103}
   - component: {fileID: 5886315771939841302}
   - component: {fileID: 5280865954323554579}
-  - component: {fileID: 7143292035966116709}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -1989,19 +1988,6 @@ MonoBehaviour:
   grappleRange: 500
   grappleForce: 100
   isGrappling: 0
---- !u!114 &7143292035966116709
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2958638313656276729}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1fc59c2035e7cdb469baf5ce9fc83131, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  health: 10
 --- !u!1 &3079905791562162106
 GameObject:
   m_ObjectHideFlags: 0
@@ -5180,6 +5166,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   weaponName: BattleSword
+  damage: 50
   attackRange: 0.2
   fireRate: 0.5
 --- !u!1 &8190425192145839014
@@ -5940,6 +5927,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   weaponName: Grenade
+  damage: 50
   attackRange: 2.39
   fireRate: 0.5
   throwOrigin: {fileID: 5956572472438698649}
