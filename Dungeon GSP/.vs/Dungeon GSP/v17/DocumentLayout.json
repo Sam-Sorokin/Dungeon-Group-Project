@@ -1,37 +1,37 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\Bournemouth Uni\\Year-2\\Game Studio Project\\Dungeon-Group-Project\\Dungeon-Group-Project\\Dungeon GSP\\",
+  "WorkspaceRootPath": "D:\\New folder\\Dungeon-Group-Project\\Dungeon GSP\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{50A125E2-78EE-71AF-5242-DEC889E0FF73}|Assembly-CSharp.csproj|D:\\Bournemouth Uni\\Year-2\\Game Studio Project\\Dungeon-Group-Project\\Dungeon-Group-Project\\Dungeon GSP\\assets\\scripts\\healthsystem\\playerhealth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{50A125E2-78EE-71AF-5242-DEC889E0FF73}|Assembly-CSharp.csproj|d:\\new folder\\dungeon-group-project\\dungeon gsp\\assets\\scripts\\healthsystem\\playerhealth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{50A125E2-78EE-71AF-5242-DEC889E0FF73}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\healthsystem\\playerhealth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{50A125E2-78EE-71AF-5242-DEC889E0FF73}|Assembly-CSharp.csproj|d:\\bournemouth uni\\year-2\\game studio project\\dungeon-group-project\\dungeon-group-project\\dungeon gsp\\assets\\scripts\\healthsystem\\damagable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{50A125E2-78EE-71AF-5242-DEC889E0FF73}|Assembly-CSharp.csproj|D:\\New folder\\Dungeon-Group-Project\\Dungeon GSP\\assets\\scripts\\healthsystem\\damagable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{50A125E2-78EE-71AF-5242-DEC889E0FF73}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\healthsystem\\damagable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{50A125E2-78EE-71AF-5242-DEC889E0FF73}|Assembly-CSharp.csproj|D:\\Bournemouth Uni\\Year-2\\Game Studio Project\\Dungeon-Group-Project\\Dungeon-Group-Project\\Dungeon GSP\\assets\\scripts\\weapons\\weaponbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{50A125E2-78EE-71AF-5242-DEC889E0FF73}|Assembly-CSharp.csproj|D:\\New folder\\Dungeon-Group-Project\\Dungeon GSP\\assets\\scripts\\weapons\\weaponbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{50A125E2-78EE-71AF-5242-DEC889E0FF73}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\weapons\\weaponbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{50A125E2-78EE-71AF-5242-DEC889E0FF73}|Assembly-CSharp.csproj|D:\\Bournemouth Uni\\Year-2\\Game Studio Project\\Dungeon-Group-Project\\Dungeon-Group-Project\\Dungeon GSP\\assets\\scripts\\eventmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{50A125E2-78EE-71AF-5242-DEC889E0FF73}|Assembly-CSharp.csproj|D:\\New folder\\Dungeon-Group-Project\\Dungeon GSP\\assets\\scripts\\eventmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{50A125E2-78EE-71AF-5242-DEC889E0FF73}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\eventmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{50A125E2-78EE-71AF-5242-DEC889E0FF73}|Assembly-CSharp.csproj|D:\\Bournemouth Uni\\Year-2\\Game Studio Project\\Dungeon-Group-Project\\Dungeon-Group-Project\\Dungeon GSP\\assets\\scripts\\enemy\\enemytracking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{50A125E2-78EE-71AF-5242-DEC889E0FF73}|Assembly-CSharp.csproj|D:\\New folder\\Dungeon-Group-Project\\Dungeon GSP\\assets\\scripts\\enemy\\enemytracking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{50A125E2-78EE-71AF-5242-DEC889E0FF73}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemy\\enemytracking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{50A125E2-78EE-71AF-5242-DEC889E0FF73}|Assembly-CSharp.csproj|D:\\Bournemouth Uni\\Year-2\\Game Studio Project\\Dungeon-Group-Project\\Dungeon-Group-Project\\Dungeon GSP\\assets\\scripts\\enemy\\enemybase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{50A125E2-78EE-71AF-5242-DEC889E0FF73}|Assembly-CSharp.csproj|D:\\New folder\\Dungeon-Group-Project\\Dungeon GSP\\assets\\scripts\\enemy\\enemybase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{50A125E2-78EE-71AF-5242-DEC889E0FF73}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemy\\enemybase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{50A125E2-78EE-71AF-5242-DEC889E0FF73}|Assembly-CSharp.csproj|D:\\Bournemouth Uni\\Year-2\\Game Studio Project\\Dungeon-Group-Project\\Dungeon-Group-Project\\Dungeon GSP\\assets\\scripts\\camera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{50A125E2-78EE-71AF-5242-DEC889E0FF73}|Assembly-CSharp.csproj|D:\\New folder\\Dungeon-Group-Project\\Dungeon GSP\\assets\\scripts\\camera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{50A125E2-78EE-71AF-5242-DEC889E0FF73}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\camera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{50A125E2-78EE-71AF-5242-DEC889E0FF73}|Assembly-CSharp.csproj|D:\\Bournemouth Uni\\Year-2\\Game Studio Project\\Dungeon-Group-Project\\Dungeon-Group-Project\\Dungeon GSP\\assets\\scripts\\weapons\\enemyweapons\\skeletonbow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{50A125E2-78EE-71AF-5242-DEC889E0FF73}|Assembly-CSharp.csproj|D:\\New folder\\Dungeon-Group-Project\\Dungeon GSP\\assets\\scripts\\weapons\\enemyweapons\\skeletonbow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{50A125E2-78EE-71AF-5242-DEC889E0FF73}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\weapons\\enemyweapons\\skeletonbow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -48,9 +48,9 @@
               "$type": "Document",
               "DocumentIndex": 3,
               "Title": "EventManager.cs",
-              "DocumentMoniker": "D:\\Bournemouth Uni\\Year-2\\Game Studio Project\\Dungeon-Group-Project\\Dungeon-Group-Project\\Dungeon GSP\\Assets\\Scripts\\EventManager.cs",
+              "DocumentMoniker": "D:\\New folder\\Dungeon-Group-Project\\Dungeon GSP\\Assets\\Scripts\\EventManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\EventManager.cs",
-              "ToolTip": "D:\\Bournemouth Uni\\Year-2\\Game Studio Project\\Dungeon-Group-Project\\Dungeon-Group-Project\\Dungeon GSP\\Assets\\Scripts\\EventManager.cs",
+              "ToolTip": "D:\\New folder\\Dungeon-Group-Project\\Dungeon GSP\\Assets\\Scripts\\EventManager.cs",
               "RelativeToolTip": "Assets\\Scripts\\EventManager.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -60,9 +60,9 @@
               "$type": "Document",
               "DocumentIndex": 7,
               "Title": "SkeletonBow.cs",
-              "DocumentMoniker": "D:\\Bournemouth Uni\\Year-2\\Game Studio Project\\Dungeon-Group-Project\\Dungeon-Group-Project\\Dungeon GSP\\Assets\\Scripts\\Weapons\\EnemyWeapons\\SkeletonBow.cs",
+              "DocumentMoniker": "D:\\New folder\\Dungeon-Group-Project\\Dungeon GSP\\Assets\\Scripts\\Weapons\\EnemyWeapons\\SkeletonBow.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Weapons\\EnemyWeapons\\SkeletonBow.cs",
-              "ToolTip": "D:\\Bournemouth Uni\\Year-2\\Game Studio Project\\Dungeon-Group-Project\\Dungeon-Group-Project\\Dungeon GSP\\Assets\\Scripts\\Weapons\\EnemyWeapons\\SkeletonBow.cs",
+              "ToolTip": "D:\\New folder\\Dungeon-Group-Project\\Dungeon GSP\\Assets\\Scripts\\Weapons\\EnemyWeapons\\SkeletonBow.cs",
               "RelativeToolTip": "Assets\\Scripts\\Weapons\\EnemyWeapons\\SkeletonBow.cs",
               "ViewState": "AQIAAAsAAAAAAAAAAADwvyUAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -72,9 +72,9 @@
               "$type": "Document",
               "DocumentIndex": 5,
               "Title": "enemyBase.cs",
-              "DocumentMoniker": "D:\\Bournemouth Uni\\Year-2\\Game Studio Project\\Dungeon-Group-Project\\Dungeon-Group-Project\\Dungeon GSP\\Assets\\Scripts\\Enemy\\enemyBase.cs",
+              "DocumentMoniker": "D:\\New folder\\Dungeon-Group-Project\\Dungeon GSP\\Assets\\Scripts\\Enemy\\enemyBase.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Enemy\\enemyBase.cs",
-              "ToolTip": "D:\\Bournemouth Uni\\Year-2\\Game Studio Project\\Dungeon-Group-Project\\Dungeon-Group-Project\\Dungeon GSP\\Assets\\Scripts\\Enemy\\enemyBase.cs",
+              "ToolTip": "D:\\New folder\\Dungeon-Group-Project\\Dungeon GSP\\Assets\\Scripts\\Enemy\\enemyBase.cs",
               "RelativeToolTip": "Assets\\Scripts\\Enemy\\enemyBase.cs",
               "ViewState": "AQIAABUAAAAAAAAAAABQwCQAAAAwAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -84,9 +84,9 @@
               "$type": "Document",
               "DocumentIndex": 6,
               "Title": "Camera.cs",
-              "DocumentMoniker": "D:\\Bournemouth Uni\\Year-2\\Game Studio Project\\Dungeon-Group-Project\\Dungeon-Group-Project\\Dungeon GSP\\Assets\\Scripts\\Camera.cs",
+              "DocumentMoniker": "D:\\New folder\\Dungeon-Group-Project\\Dungeon GSP\\Assets\\Scripts\\Camera.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Camera.cs",
-              "ToolTip": "D:\\Bournemouth Uni\\Year-2\\Game Studio Project\\Dungeon-Group-Project\\Dungeon-Group-Project\\Dungeon GSP\\Assets\\Scripts\\Camera.cs",
+              "ToolTip": "D:\\New folder\\Dungeon-Group-Project\\Dungeon GSP\\Assets\\Scripts\\Camera.cs",
               "RelativeToolTip": "Assets\\Scripts\\Camera.cs",
               "ViewState": "AQIAAA4AAAAAAAAAAAAQwCAAAAAbAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -96,9 +96,9 @@
               "$type": "Document",
               "DocumentIndex": 4,
               "Title": "enemytracking.cs",
-              "DocumentMoniker": "D:\\Bournemouth Uni\\Year-2\\Game Studio Project\\Dungeon-Group-Project\\Dungeon-Group-Project\\Dungeon GSP\\Assets\\Scripts\\Enemy\\enemytracking.cs",
+              "DocumentMoniker": "D:\\New folder\\Dungeon-Group-Project\\Dungeon GSP\\Assets\\Scripts\\Enemy\\enemytracking.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Enemy\\enemytracking.cs",
-              "ToolTip": "D:\\Bournemouth Uni\\Year-2\\Game Studio Project\\Dungeon-Group-Project\\Dungeon-Group-Project\\Dungeon GSP\\Assets\\Scripts\\Enemy\\enemytracking.cs",
+              "ToolTip": "D:\\New folder\\Dungeon-Group-Project\\Dungeon GSP\\Assets\\Scripts\\Enemy\\enemytracking.cs",
               "RelativeToolTip": "Assets\\Scripts\\Enemy\\enemytracking.cs",
               "ViewState": "AQIAABEAAAAAAAAAAAAQwCIAAABcAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -108,22 +108,21 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "Damagable.cs",
-              "DocumentMoniker": "D:\\Bournemouth Uni\\Year-2\\Game Studio Project\\Dungeon-Group-Project\\Dungeon-Group-Project\\Dungeon GSP\\Assets\\Scripts\\HealthSystem\\Damagable.cs",
+              "DocumentMoniker": "D:\\New folder\\Dungeon-Group-Project\\Dungeon GSP\\Assets\\Scripts\\HealthSystem\\Damagable.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\HealthSystem\\Damagable.cs",
-              "ToolTip": "D:\\Bournemouth Uni\\Year-2\\Game Studio Project\\Dungeon-Group-Project\\Dungeon-Group-Project\\Dungeon GSP\\Assets\\Scripts\\HealthSystem\\Damagable.cs",
+              "ToolTip": "D:\\New folder\\Dungeon-Group-Project\\Dungeon GSP\\Assets\\Scripts\\HealthSystem\\Damagable.cs",
               "RelativeToolTip": "Assets\\Scripts\\HealthSystem\\Damagable.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAXAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-23T21:55:22.766Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-23T21:55:22.766Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "WeaponBase.cs",
-              "DocumentMoniker": "D:\\Bournemouth Uni\\Year-2\\Game Studio Project\\Dungeon-Group-Project\\Dungeon-Group-Project\\Dungeon GSP\\Assets\\Scripts\\Weapons\\WeaponBase.cs",
+              "DocumentMoniker": "D:\\New folder\\Dungeon-Group-Project\\Dungeon GSP\\Assets\\Scripts\\Weapons\\WeaponBase.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Weapons\\WeaponBase.cs",
-              "ToolTip": "D:\\Bournemouth Uni\\Year-2\\Game Studio Project\\Dungeon-Group-Project\\Dungeon-Group-Project\\Dungeon GSP\\Assets\\Scripts\\Weapons\\WeaponBase.cs",
+              "ToolTip": "D:\\New folder\\Dungeon-Group-Project\\Dungeon GSP\\Assets\\Scripts\\Weapons\\WeaponBase.cs",
               "RelativeToolTip": "Assets\\Scripts\\Weapons\\WeaponBase.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAEsAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -133,9 +132,9 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "PlayerHealth.cs",
-              "DocumentMoniker": "D:\\Bournemouth Uni\\Year-2\\Game Studio Project\\Dungeon-Group-Project\\Dungeon-Group-Project\\Dungeon GSP\\Assets\\Scripts\\HealthSystem\\PlayerHealth.cs",
+              "DocumentMoniker": "D:\\New folder\\Dungeon-Group-Project\\Dungeon GSP\\Assets\\Scripts\\HealthSystem\\PlayerHealth.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\HealthSystem\\PlayerHealth.cs",
-              "ToolTip": "D:\\Bournemouth Uni\\Year-2\\Game Studio Project\\Dungeon-Group-Project\\Dungeon-Group-Project\\Dungeon GSP\\Assets\\Scripts\\HealthSystem\\PlayerHealth.cs",
+              "ToolTip": "D:\\New folder\\Dungeon-Group-Project\\Dungeon GSP\\Assets\\Scripts\\HealthSystem\\PlayerHealth.cs",
               "RelativeToolTip": "Assets\\Scripts\\HealthSystem\\PlayerHealth.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAYAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
