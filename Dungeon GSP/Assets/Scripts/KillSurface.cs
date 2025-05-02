@@ -15,14 +15,15 @@ public class KillSurface : MonoBehaviour
             damagable.TakeDamage(50000);
         }
     }
-    private void OnTriggerEnter(Collider other)
+    private void OnControllerColliderHit(ControllerColliderHit hit)
     {
-        Debug.Log("KillSurface detected trigger");
-        Damagable damagable = other.GetComponent<Damagable>();
+        Debug.Log("KillSurface detected collision");
+        Damagable damagable = hit.collider.GetComponent<Damagable>();
+
         if (damagable != null)
         {
             Debug.Log("KillSurface damaged entity");
-            damagable.TakeDamage(500);
+            damagable.TakeDamage(50000);
         }
     }
 }
