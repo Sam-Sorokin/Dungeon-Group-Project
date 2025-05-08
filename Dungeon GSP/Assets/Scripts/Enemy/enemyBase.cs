@@ -6,10 +6,20 @@ public class enemyBase : Damagable
 {
     private Renderer[] renderers; // Store all renderers
     private float duration;
+
+    private List<Color> originalColors = new List<Color>();
     // Start is called before the first frame update
     void Start()
     {
         renderers = GetComponentsInChildren<Renderer>();
+
+        foreach (Renderer r in renderers)
+        {
+            foreach (Material mat in r.materials)
+            {
+                originalColors.Add(mat.color);
+            }
+        }
     }
 
     public override void TakeDamage(int damage)
@@ -26,14 +36,10 @@ public class enemyBase : Damagable
 
     IEnumerator damageIndication()
     {
-        // Store all original colors for every material
-        List<Color> originalColors = new List<Color>();
-
         foreach (Renderer r in renderers)
         {
             foreach (Material mat in r.materials)
             {
-                originalColors.Add(mat.color);
                 mat.color = new Color(1f,0f,0f,1f);
             }
         }
@@ -43,6 +49,7 @@ public class enemyBase : Damagable
         int colorIndex = 0;
         foreach (Renderer r in renderers)
         {
+            Debug.Log("Returning to original colours.");
             foreach (Material mat in r.materials)
             {
                 mat.color = originalColors[colorIndex];
