@@ -9,7 +9,10 @@ public class enemyBase : Damagable
     private float duration;
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 =======
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
     private List<Color> originalColors = new List<Color>();
@@ -27,6 +30,9 @@ public class enemyBase : Damagable
     private static bool treasureActive = false;
 
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
@@ -50,9 +56,13 @@ public class enemyBase : Damagable
     {
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
         // Store all original colors for every material
         List<Color> originalColors = new List<Color>();
 
+=======
+        // Flash red
+>>>>>>> Stashed changes
 =======
         // Flash red
 >>>>>>> Stashed changes
@@ -65,8 +75,12 @@ public class enemyBase : Damagable
             {
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
                 originalColors.Add(mat.color);
                 mat.color = new Color(1f,0f,0f,1f);
+=======
+                mat.color = new Color(1f, 0f, 0f, 1f);
+>>>>>>> Stashed changes
 =======
                 mat.color = new Color(1f, 0f, 0f, 1f);
 >>>>>>> Stashed changes
