@@ -4,6 +4,7 @@
   "Documents": [
     {
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       "AbsoluteMoniker": "D:0:0:{50A125E2-78EE-71AF-5242-DEC889E0FF73}|Assembly-CSharp.csproj|D:\\Bournemouth Uni\\Year-2\\Game Studio Project\\Dungeon-Group-Project\\Dungeon-Group-Project\\Dungeon GSP\\assets\\scripts\\healthsystem\\playerhealth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{50A125E2-78EE-71AF-5242-DEC889E0FF73}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\healthsystem\\playerhealth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -25,6 +26,9 @@
     },
     {
       "AbsoluteMoniker": "D:0:0:{50A125E2-78EE-71AF-5242-DEC889E0FF73}|Assembly-CSharp.csproj|D:\\Bournemouth Uni\\Year-2\\Game Studio Project\\Dungeon-Group-Project\\Dungeon-Group-Project\\Dungeon GSP\\assets\\scripts\\enemy\\enemybase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+=======
+      "AbsoluteMoniker": "D:0:0:{50A125E2-78EE-71AF-5242-DEC889E0FF73}|Assembly-CSharp.csproj|c:\\users\\kenle\\onedrive\\documents\\github\\dungeon-group-project\\dungeon gsp\\assets\\scripts\\enemy\\enemybase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+>>>>>>> Stashed changes
 =======
       "AbsoluteMoniker": "D:0:0:{50A125E2-78EE-71AF-5242-DEC889E0FF73}|Assembly-CSharp.csproj|c:\\users\\kenle\\onedrive\\documents\\github\\dungeon-group-project\\dungeon gsp\\assets\\scripts\\enemy\\enemybase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
 >>>>>>> Stashed changes
@@ -84,7 +88,11 @@
         {
           "DockedWidth": 200,
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
           "SelectedChildIndex": 7,
+=======
+          "SelectedChildIndex": 9,
+>>>>>>> Stashed changes
 =======
           "SelectedChildIndex": 9,
 >>>>>>> Stashed changes
@@ -96,8 +104,11 @@
             {
               "$type": "Document",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
               "DocumentIndex": 3,
 =======
+=======
+>>>>>>> Stashed changes
               "DocumentIndex": 11,
               "Title": "fireBall.cs",
               "DocumentMoniker": "D:\\Bournemouth Uni\\Year-2\\Game Studio Project\\Dungeon-Group-Project\\Dungeon-Group-Project\\Dungeon GSP\\Assets\\Scripts\\Weapons\\PlayerWeapons\\fireBall.cs",
@@ -164,6 +175,9 @@
             {
               "$type": "Document",
               "DocumentIndex": 7,
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
               "Title": "EventManager.cs",
               "DocumentMoniker": "C:\\Users\\kenle\\OneDrive\\Documents\\GitHub\\Dungeon-Group-Project\\Dungeon GSP\\Assets\\Scripts\\EventManager.cs",
@@ -177,7 +191,11 @@
             {
               "$type": "Document",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
               "DocumentIndex": 7,
+=======
+              "DocumentIndex": 10,
+>>>>>>> Stashed changes
 =======
               "DocumentIndex": 10,
 >>>>>>> Stashed changes
@@ -193,7 +211,11 @@
             {
               "$type": "Document",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
               "DocumentIndex": 5,
+=======
+              "DocumentIndex": 0,
+>>>>>>> Stashed changes
 =======
               "DocumentIndex": 0,
 >>>>>>> Stashed changes
@@ -210,7 +232,11 @@
             {
               "$type": "Document",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
               "DocumentIndex": 6,
+=======
+              "DocumentIndex": 9,
+>>>>>>> Stashed changes
 =======
               "DocumentIndex": 9,
 >>>>>>> Stashed changes
@@ -226,7 +252,11 @@
             {
               "$type": "Document",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
               "DocumentIndex": 4,
+=======
+              "DocumentIndex": 8,
+>>>>>>> Stashed changes
 =======
               "DocumentIndex": 8,
 >>>>>>> Stashed changes
@@ -242,7 +272,11 @@
             {
               "$type": "Document",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
               "DocumentIndex": 1,
+=======
+              "DocumentIndex": 6,
+>>>>>>> Stashed changes
 =======
               "DocumentIndex": 6,
 >>>>>>> Stashed changes
@@ -259,6 +293,7 @@
             {
               "$type": "Document",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
               "DocumentIndex": 2,
               "Title": "WeaponBase.cs",
               "DocumentMoniker": "D:\\Bournemouth Uni\\Year-2\\Game Studio Project\\Dungeon-Group-Project\\Dungeon-Group-Project\\Dungeon GSP\\Assets\\Scripts\\Weapons\\WeaponBase.cs",
@@ -272,6 +307,9 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+=======
+              "DocumentIndex": 5,
+>>>>>>> Stashed changes
 =======
               "DocumentIndex": 5,
 >>>>>>> Stashed changes

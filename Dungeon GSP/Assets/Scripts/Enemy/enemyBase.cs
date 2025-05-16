@@ -8,7 +8,10 @@ public class enemyBase : Damagable
     private Renderer[] renderers;
     private float duration;
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 =======
+=======
+>>>>>>> Stashed changes
     private List<Color> originalColors = new List<Color>();
 
     // Treasure system variables
@@ -23,6 +26,9 @@ public class enemyBase : Damagable
     private static Vector3 treasurePosition;
     private static bool treasureActive = false;
 
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
     // Start is called before the first frame update
     void Start()
@@ -43,9 +49,13 @@ public class enemyBase : Damagable
     IEnumerator damageIndication()
     {
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
         // Store all original colors for every material
         List<Color> originalColors = new List<Color>();
 
+=======
+        // Flash red
+>>>>>>> Stashed changes
 =======
         // Flash red
 >>>>>>> Stashed changes
@@ -54,8 +64,12 @@ public class enemyBase : Damagable
             foreach (Material mat in r.materials)
             {
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
                 originalColors.Add(mat.color);
                 mat.color = new Color(1f,0f,0f,1f);
+=======
+                mat.color = new Color(1f, 0f, 0f, 1f);
+>>>>>>> Stashed changes
 =======
                 mat.color = new Color(1f, 0f, 0f, 1f);
 >>>>>>> Stashed changes
