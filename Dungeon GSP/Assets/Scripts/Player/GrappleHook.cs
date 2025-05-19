@@ -13,6 +13,18 @@ public class GrappleHook : MonoBehaviour
     private Vector3 grapplePoint;
     public bool isGrappling = false;
 
+
+    void OnDrawGizmos()
+    {
+        if (playerCamera != null)
+        {
+            Gizmos.color = Color.green;
+            Vector3 start = playerCamera.position;
+            Vector3 end = start + playerCamera.forward * grappleRange;
+            Gizmos.DrawLine(start, end);
+        }
+    }
+
     // Start is called before the first frame update
     void Start()
     {
@@ -30,6 +42,12 @@ public class GrappleHook : MonoBehaviour
         {
             GrappleMovement();
         }
+    }
+
+    bool canGrapple()
+    {
+        Ray ray = new Ray(playerCamera.position, playerCamera.forward);
+        return Physics.Raycast(ray, out RaycastHit hit, grappleRange);
     }
 
     void TryGrapple()

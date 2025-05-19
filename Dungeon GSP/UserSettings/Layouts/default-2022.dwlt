@@ -48,7 +48,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 100}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 43
+  controlID: 47
   draggingID: 0
 --- !u!114 &3
 MonoBehaviour:
@@ -95,8 +95,8 @@ MonoBehaviour:
     y: 0
     width: 360
     height: 547
-  m_MinSize: {x: 201, y: 221}
-  m_MaxSize: {x: 4001, y: 4021}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 14}
   m_Panes:
   - {fileID: 14}
@@ -224,7 +224,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 44
+  controlID: 48
   draggingID: 0
 --- !u!114 &10
 MonoBehaviour:
@@ -250,7 +250,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 50}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 45
+  controlID: 49
   draggingID: 0
 --- !u!114 &11
 MonoBehaviour:
@@ -324,7 +324,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Prefabs/Characters/Enemies
+    - Assets/Scripts
     m_Globs: []
     m_OriginalText: 
     m_ImportLogFlags: 0
@@ -332,17 +332,17 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Prefabs/Characters/Enemies
+  - Assets/Scripts
   m_LastFoldersGridSize: -1
   m_LastProjectPath: D:\Bournemouth Uni\Year-2\Game Studio Project\Dungeon-Group-Project\Dungeon-Group-Project\Dungeon
     GSP
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 79}
-    m_SelectedIDs: 506a0100
-    m_LastClickedID: 92752
-    m_ExpandedIDs: 000000001e6d00003a6d0000026a010000ca9a3bffffff7f
+    scrollPos: {x: 0, y: 209}
+    m_SelectedIDs: 8c6e0000
+    m_LastClickedID: 28300
+    m_ExpandedIDs: 000000006c6e00007c6e0000866e00008c6e0000226f0000426f00008480000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -370,7 +370,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000001e6d0000
+    m_ExpandedIDs: 000000006c6e0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -510,9 +510,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 
+      m_SelectedIDs: a60b0000
       m_LastClickedID: 0
-      m_ExpandedIDs: 22fbffff
+      m_ExpandedIDs: 02fbffff0cfbffff2cfbffff2efbffff8a690000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -879,9 +879,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -7.368013, y: 0.95416844, z: 7.9510055}
+    m_Target: {x: -35.873337, y: -1.7971554, z: -4.8157487}
     speed: 2
-    m_Value: {x: -7.368013, y: 0.95416844, z: 7.9510055}
+    m_Value: {x: -35.873337, y: -1.7971554, z: -4.8157487}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 31
@@ -927,13 +927,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.15822951, y: -0.070721656, z: 0.011362615, w: 0.98480356}
+    m_Target: {x: -0.09685612, y: 0.69755095, z: -0.09602494, w: -0.7034999}
     speed: 2
-    m_Value: {x: 0.1582291, y: -0.07072147, z: 0.011362585, w: 0.984801}
+    m_Value: {x: -0.09685169, y: 0.6975191, z: -0.09602056, w: -0.7034678}
   m_Size:
-    m_Target: 10.92025
+    m_Target: 12.124355
     speed: 2
-    m_Value: 10.92025
+    m_Value: 12.124355
   m_Ortho:
     m_Target: 0
     speed: 2

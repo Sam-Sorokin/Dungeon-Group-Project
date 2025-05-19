@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="NameAndType">
+  <Comment CommentText="Enemies use the same weapon system as the player.">
+    <Position X="8.234" Y="5.057" Height="0.715" Width="1.7" />
+  </Comment>
+  <Class Name="Damagable" Collapsed="true">
+    <Position X="7.5" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAQAAAAAAAAAAAAAAAAAAAAAgAAAAgCAAQAg=</HashCode>
+      <FileName>Assets\Scripts\HealthSystem\Damagable.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="enemyBase" Collapsed="true">
+    <Position X="5.25" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAIAACAAAAAACAAAAAAABIAAAAAAAAAAgAAAgAA=</HashCode>
+      <FileName>Assets\Scripts\Enemy\enemyBase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PlayerHealth" Collapsed="true">
+    <Position X="7.5" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAACAAAAAEAAAAAAAAAAAAAAAgAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\HealthSystem\PlayerHealth.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Grenade" Collapsed="true">
+    <Position X="9.75" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAACIAAAAACAAAAoAAAAACAAAgAAgAAAAAAQA=</HashCode>
+      <FileName>Assets\Scripts\Weapons\PlayerWeapons\Projectile\Grenade.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EnemyWeapon" Collapsed="true">
+    <Position X="5" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIQAAAAAACIAAAEAAAAAAAAJAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Weapons\EnemyWeapons\SkeletonBow.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WeaponBase" Collapsed="true">
+    <Position X="6.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIQAgABAACIAgAAABAQAEYAAgAAAAAAAAAAAABSAAAA=</HashCode>
+      <FileName>Assets\Scripts\Weapons\WeaponBase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ThrowAble" Collapsed="true">
+    <Position X="7.25" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIQAAAIAAAAAAAAAAAAAAIAAgAAAEAAAAgAAAAAAgAA=</HashCode>
+      <FileName>Assets\Scripts\Weapons\PlayerWeapons\ThrowAble.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="fireBall" Collapsed="true">
+    <Position X="9.75" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Weapons\PlayerWeapons\Projectile\fireBall.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
