@@ -6,6 +6,7 @@
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       "AbsoluteMoniker": "D:0:0:{50A125E2-78EE-71AF-5242-DEC889E0FF73}|Assembly-CSharp.csproj|D:\\Bournemouth Uni\\Year-2\\Game Studio Project\\Dungeon-Group-Project\\Dungeon-Group-Project\\Dungeon GSP\\assets\\scripts\\healthsystem\\playerhealth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{50A125E2-78EE-71AF-5242-DEC889E0FF73}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\healthsystem\\playerhealth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -35,6 +36,21 @@
 >>>>>>> Stashed changes
 =======
       "AbsoluteMoniker": "D:0:0:{50A125E2-78EE-71AF-5242-DEC889E0FF73}|Assembly-CSharp.csproj|c:\\users\\kenle\\onedrive\\documents\\github\\dungeon-group-project\\dungeon gsp\\assets\\scripts\\enemy\\enemybase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+>>>>>>> Stashed changes
+=======
+      "AbsoluteMoniker": "D:0:0:{50A125E2-78EE-71AF-5242-DEC889E0FF73}|Assembly-CSharp.csproj|c:\\users\\kenle\\onedrive\\documents\\github\\dungeon-group-project\\dungeon gsp\\assets\\scripts\\playerwallet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{50A125E2-78EE-71AF-5242-DEC889E0FF73}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playerwallet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50A125E2-78EE-71AF-5242-DEC889E0FF73}|Assembly-CSharp.csproj|c:\\users\\kenle\\onedrive\\documents\\github\\dungeon-group-project\\dungeon gsp\\assets\\scripts\\player\\grapplehook.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{50A125E2-78EE-71AF-5242-DEC889E0FF73}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\grapplehook.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50A125E2-78EE-71AF-5242-DEC889E0FF73}|Assembly-CSharp.csproj|C:\\Users\\kenle\\OneDrive\\Documents\\GitHub\\Dungeon-Group-Project\\Dungeon GSP\\assets\\scripts\\player\\sc_fpscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{50A125E2-78EE-71AF-5242-DEC889E0FF73}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\sc_fpscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50A125E2-78EE-71AF-5242-DEC889E0FF73}|Assembly-CSharp.csproj|C:\\Users\\kenle\\OneDrive\\Documents\\GitHub\\Dungeon-Group-Project\\Dungeon GSP\\assets\\scripts\\enemy\\enemybase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
 >>>>>>> Stashed changes
       "RelativeMoniker": "D:0:0:{50A125E2-78EE-71AF-5242-DEC889E0FF73}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemy\\enemybase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -94,6 +110,7 @@
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
           "SelectedChildIndex": 7,
 =======
           "SelectedChildIndex": 9,
@@ -104,6 +121,9 @@
 =======
           "SelectedChildIndex": 9,
 >>>>>>> Stashed changes
+=======
+          "SelectedChildIndex": 1,
+>>>>>>> Stashed changes
           "Children": [
             {
               "$type": "Bookmark",
@@ -111,6 +131,7 @@
             },
             {
               "$type": "Document",
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
@@ -149,10 +170,82 @@
               "ViewState": "AgIAAAUAAAAAAAAAAAAQwBcAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-08T10:57:30.592Z"
+=======
+              "DocumentIndex": 0,
+              "Title": "PlayerWallet.cs",
+              "DocumentMoniker": "C:\\Users\\kenle\\OneDrive\\Documents\\GitHub\\Dungeon-Group-Project\\Dungeon GSP\\Assets\\Scripts\\PlayerWallet.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerWallet.cs",
+              "ToolTip": "C:\\Users\\kenle\\OneDrive\\Documents\\GitHub\\Dungeon-Group-Project\\Dungeon GSP\\Assets\\Scripts\\PlayerWallet.cs",
+              "RelativeToolTip": "Assets\\Scripts\\PlayerWallet.cs",
+              "ViewState": "AgIAADQAAAAAAAAAAAAcwEIAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-19T17:37:21.242Z",
+              "EditorCaption": ""
+>>>>>>> Stashed changes
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
+<<<<<<< Updated upstream
+=======
+              "Title": "SC_FPSController.cs",
+              "DocumentMoniker": "C:\\Users\\kenle\\OneDrive\\Documents\\GitHub\\Dungeon-Group-Project\\Dungeon GSP\\Assets\\Scripts\\Player\\SC_FPSController.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\SC_FPSController.cs",
+              "ToolTip": "C:\\Users\\kenle\\OneDrive\\Documents\\GitHub\\Dungeon-Group-Project\\Dungeon GSP\\Assets\\Scripts\\Player\\SC_FPSController.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Player\\SC_FPSController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-19T17:24:30.846Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GrappleHook.cs",
+              "DocumentMoniker": "C:\\Users\\kenle\\OneDrive\\Documents\\GitHub\\Dungeon-Group-Project\\Dungeon GSP\\Assets\\Scripts\\Player\\GrappleHook.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\GrappleHook.cs",
+              "ToolTip": "C:\\Users\\kenle\\OneDrive\\Documents\\GitHub\\Dungeon-Group-Project\\Dungeon GSP\\Assets\\Scripts\\Player\\GrappleHook.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Player\\GrappleHook.cs",
+              "ViewState": "AgIAAEsAAAAAAAAAAAAQwFoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-19T16:33:38.397Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "fireBall.cs",
+              "DocumentMoniker": "D:\\Bournemouth Uni\\Year-2\\Game Studio Project\\Dungeon-Group-Project\\Dungeon-Group-Project\\Dungeon GSP\\Assets\\Scripts\\Weapons\\PlayerWeapons\\fireBall.cs",
+              "ToolTip": "D:\\Bournemouth Uni\\Year-2\\Game Studio Project\\Dungeon-Group-Project\\Dungeon-Group-Project\\Dungeon GSP\\Assets\\Scripts\\Weapons\\PlayerWeapons\\fireBall.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-08T11:00:43.286Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Grenade.cs",
+              "DocumentMoniker": "D:\\Bournemouth Uni\\Year-2\\Game Studio Project\\Dungeon-Group-Project\\Dungeon-Group-Project\\Dungeon GSP\\Assets\\Scripts\\Weapons\\PlayerWeapons\\Grenade.cs",
+              "ToolTip": "D:\\Bournemouth Uni\\Year-2\\Game Studio Project\\Dungeon-Group-Project\\Dungeon-Group-Project\\Dungeon GSP\\Assets\\Scripts\\Weapons\\PlayerWeapons\\Grenade.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAA5wCwAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-06T00:32:32.396Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ThrowAble.cs",
+              "DocumentMoniker": "C:\\Users\\kenle\\OneDrive\\Documents\\GitHub\\Dungeon-Group-Project\\Dungeon GSP\\Assets\\Scripts\\Weapons\\PlayerWeapons\\ThrowAble.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Weapons\\PlayerWeapons\\ThrowAble.cs",
+              "ToolTip": "C:\\Users\\kenle\\OneDrive\\Documents\\GitHub\\Dungeon-Group-Project\\Dungeon GSP\\Assets\\Scripts\\Weapons\\PlayerWeapons\\ThrowAble.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Weapons\\PlayerWeapons\\ThrowAble.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAQwBcAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-08T10:57:30.592Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+>>>>>>> Stashed changes
               "Title": "WeaponBase.cs",
               "DocumentMoniker": "C:\\Users\\kenle\\OneDrive\\Documents\\GitHub\\Dungeon-Group-Project\\Dungeon GSP\\Assets\\Scripts\\Weapons\\WeaponBase.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Weapons\\WeaponBase.cs",
@@ -164,7 +257,11 @@
             },
             {
               "$type": "Document",
+<<<<<<< Updated upstream
               "DocumentIndex": 3,
+=======
+              "DocumentIndex": 6,
+>>>>>>> Stashed changes
               "Title": "Particle Weapon.cs",
               "DocumentMoniker": "D:\\Bournemouth Uni\\Year-2\\Game Studio Project\\Dungeon-Group-Project\\Dungeon-Group-Project\\Dungeon GSP\\Assets\\Scripts\\Weapons\\Particle Weapon.cs",
               "ToolTip": "D:\\Bournemouth Uni\\Year-2\\Game Studio Project\\Dungeon-Group-Project\\Dungeon-Group-Project\\Dungeon GSP\\Assets\\Scripts\\Weapons\\Particle Weapon.cs",
@@ -173,7 +270,11 @@
             },
             {
               "$type": "Document",
+<<<<<<< Updated upstream
               "DocumentIndex": 4,
+=======
+              "DocumentIndex": 7,
+>>>>>>> Stashed changes
               "Title": "KillSurface.cs",
               "DocumentMoniker": "C:\\Users\\kenle\\OneDrive\\Documents\\GitHub\\Dungeon-Group-Project\\Dungeon GSP\\Assets\\Scripts\\KillSurface.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\KillSurface.cs",
@@ -185,6 +286,7 @@
             },
             {
               "$type": "Document",
+<<<<<<< Updated upstream
               "DocumentIndex": 7,
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
@@ -192,6 +294,9 @@
 =======
 >>>>>>> Stashed changes
 =======
+>>>>>>> Stashed changes
+=======
+              "DocumentIndex": 10,
 >>>>>>> Stashed changes
               "Title": "EventManager.cs",
               "DocumentMoniker": "C:\\Users\\kenle\\OneDrive\\Documents\\GitHub\\Dungeon-Group-Project\\Dungeon GSP\\Assets\\Scripts\\EventManager.cs",
@@ -207,6 +312,7 @@
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
               "DocumentIndex": 7,
 =======
               "DocumentIndex": 10,
@@ -216,6 +322,9 @@
 >>>>>>> Stashed changes
 =======
               "DocumentIndex": 10,
+>>>>>>> Stashed changes
+=======
+              "DocumentIndex": 13,
 >>>>>>> Stashed changes
               "Title": "SkeletonBow.cs",
               "DocumentMoniker": "C:\\Users\\kenle\\OneDrive\\Documents\\GitHub\\Dungeon-Group-Project\\Dungeon GSP\\Assets\\Scripts\\Weapons\\EnemyWeapons\\SkeletonBow.cs",
@@ -231,6 +340,7 @@
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
               "DocumentIndex": 5,
 =======
               "DocumentIndex": 0,
@@ -241,18 +351,26 @@
 =======
               "DocumentIndex": 0,
 >>>>>>> Stashed changes
+=======
+              "DocumentIndex": 3,
+>>>>>>> Stashed changes
               "Title": "enemyBase.cs",
               "DocumentMoniker": "C:\\Users\\kenle\\OneDrive\\Documents\\GitHub\\Dungeon-Group-Project\\Dungeon GSP\\Assets\\Scripts\\Enemy\\enemyBase.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Enemy\\enemyBase.cs",
               "ToolTip": "C:\\Users\\kenle\\OneDrive\\Documents\\GitHub\\Dungeon-Group-Project\\Dungeon GSP\\Assets\\Scripts\\Enemy\\enemyBase.cs",
               "RelativeToolTip": "Assets\\Scripts\\Enemy\\enemyBase.cs",
+<<<<<<< Updated upstream
               "ViewState": "AgIAAH4AAAAAAAAAAAAAABAAAAA7AAAAAAAAAA==",
+=======
+              "ViewState": "AgIAACUAAAAAAAAAAAAowDsAAAAAAAAAAAAAAA==",
+>>>>>>> Stashed changes
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-28T19:08:34.591Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
@@ -265,6 +383,9 @@
 >>>>>>> Stashed changes
 =======
               "DocumentIndex": 9,
+>>>>>>> Stashed changes
+=======
+              "DocumentIndex": 12,
 >>>>>>> Stashed changes
               "Title": "Camera.cs",
               "DocumentMoniker": "C:\\Users\\kenle\\OneDrive\\Documents\\GitHub\\Dungeon-Group-Project\\Dungeon GSP\\Assets\\Scripts\\Camera.cs",
@@ -280,6 +401,7 @@
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
               "DocumentIndex": 4,
 =======
               "DocumentIndex": 8,
@@ -289,6 +411,9 @@
 >>>>>>> Stashed changes
 =======
               "DocumentIndex": 8,
+>>>>>>> Stashed changes
+=======
+              "DocumentIndex": 11,
 >>>>>>> Stashed changes
               "Title": "enemytracking.cs",
               "DocumentMoniker": "C:\\Users\\kenle\\OneDrive\\Documents\\GitHub\\Dungeon-Group-Project\\Dungeon GSP\\Assets\\Scripts\\Enemy\\enemytracking.cs",
@@ -304,6 +429,7 @@
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
               "DocumentIndex": 1,
 =======
               "DocumentIndex": 6,
@@ -313,6 +439,9 @@
 >>>>>>> Stashed changes
 =======
               "DocumentIndex": 6,
+>>>>>>> Stashed changes
+=======
+              "DocumentIndex": 9,
 >>>>>>> Stashed changes
               "Title": "Damagable.cs",
               "DocumentMoniker": "C:\\Users\\kenle\\OneDrive\\Documents\\GitHub\\Dungeon-Group-Project\\Dungeon GSP\\Assets\\Scripts\\HealthSystem\\Damagable.cs",
@@ -326,6 +455,7 @@
             },
             {
               "$type": "Document",
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
@@ -350,6 +480,9 @@
 >>>>>>> Stashed changes
 =======
               "DocumentIndex": 5,
+>>>>>>> Stashed changes
+=======
+              "DocumentIndex": 8,
 >>>>>>> Stashed changes
               "Title": "PlayerHealth.cs",
               "DocumentMoniker": "C:\\Users\\kenle\\OneDrive\\Documents\\GitHub\\Dungeon-Group-Project\\Dungeon GSP\\Assets\\Scripts\\HealthSystem\\PlayerHealth.cs",
