@@ -115,6 +115,9 @@
     <Compile Include="Assets\Scripts\Weapons\PlayerWeapons\ThrowAble.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Assets\Scripts\ClassDiagram.cd" />
+  </ItemGroup>
+  <ItemGroup>
     <Reference Include="UnityEngine">
 <<<<<<< HEAD
       <HintPath>C:\Program Files\Unity\2022.3.34f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
