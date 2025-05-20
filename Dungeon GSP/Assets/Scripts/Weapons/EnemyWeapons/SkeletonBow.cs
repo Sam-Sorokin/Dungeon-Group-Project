@@ -49,8 +49,13 @@ public class EnemyWeapon : WeaponBase
     {
         //ThrowProjectile(arrow, weaponOrigin, arrowSpeed);
         animator.SetTrigger("Shoot");
+    }
+
+    void ShootArrow()
+    {
         ShootProjectile(arrow, weaponOrigin, arrowSpeed);
     }
+
 
     // Update is called once per frame
     void Update()
