@@ -4,11 +4,17 @@ using UnityEngine;
 
 public class ThrowAble : WeaponBase
 {
+    [Header("Animators")]
+    public Animator leftArm;
+    public Animator rightArm;
+    [Header("Prefabs")]
     public GameObject grenade;
     public GameObject fireBall;
+    [Header("Attribute Values")]
     public float fireBallSpeed = 20f;
     public float GrenadeThrowForce = 20f;
     // Start is called before the first frame update
+
     public override void handleInput()
     {
         if (Input.GetKeyDown(KeyCode.Mouse0) && Time.time >= nextFireTime) // only allow fire if enough time as passed
@@ -16,21 +22,23 @@ public class ThrowAble : WeaponBase
             nextFireTime = Time.time + fireRate; // Set next fire time
             MainFire();
         }
-        if (Input.GetKeyDown(KeyCode.Mouse1))
+        if (Input.GetKeyDown(KeyCode.Mouse1) && Time.time >= nextFireTime)
         {
-            nextFireTime = Time.time + fireRate;
+            nextFireTime = Time.time + altFireRate;
             AltFire();
         }
     }
 
     public override void MainFire()
     {
+        rightArm.SetTrigger("FireShoot");
         ShootProjectile(fireBall, weaponOrigin, fireBallSpeed);
     }
 
     public override void AltFire()
     {
-        ThrowProjectile(GrenadeThrowForce, grenade, weaponOrigin);
+        leftArm.SetTrigger("GrenadeThrow");
+        ThrowProjectile(grenade, weaponOrigin, GrenadeThrowForce);
         shotTheGun?.Invoke(); // Invoke UnityEvent for effects like gun recoil
     }
 

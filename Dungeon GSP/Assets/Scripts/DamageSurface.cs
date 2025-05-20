@@ -2,8 +2,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class KillSurface : MonoBehaviour
+public class DamageSurface : MonoBehaviour
 {
+    public int damage = 50000;
     //private void OnCollisionEnter(Collision collision)
     //{
     //    Debug.Log("KillSurface detected collision");
