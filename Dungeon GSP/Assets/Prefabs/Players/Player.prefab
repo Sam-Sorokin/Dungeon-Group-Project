@@ -5458,6 +5458,7 @@ GameObject:
   - component: {fileID: 5403927482371377384}
   - component: {fileID: 6401843117978838323}
   - component: {fileID: 320746045661625466}
+  - component: {fileID: 4908188161853683639}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -5671,6 +5672,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   health: 10
   rb: {fileID: 0}
+--- !u!65 &4908188161853683639
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8855237981581890541}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 2.0461223, y: 1.0000001, z: 1.0957708}
+  m_Center: {x: 10.774998, y: -2.3032527, z: -0.98345387}
 --- !u!1 &8918813673514350100
 GameObject:
   m_ObjectHideFlags: 0
@@ -6047,7 +6069,7 @@ MonoBehaviour:
   rightArm: {fileID: 6110352399229542793}
   grenade: {fileID: 5823114841600050135, guid: 9b4c7af5367474540bead0a269a38730, type: 3}
   fireBall: {fileID: 8773507910501705210, guid: 00c93f513b318d04e93cd16a1405c29f, type: 3}
-  fireBallSpeed: 94.3
+  fireBallSpeed: 93.1
   GrenadeThrowForce: 651.1
 --- !u!1001 &612265402298393535
 PrefabInstance:

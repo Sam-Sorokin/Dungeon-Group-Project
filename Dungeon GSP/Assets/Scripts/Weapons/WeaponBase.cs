@@ -37,10 +37,10 @@ public class WeaponBase : MonoBehaviour
         }
     }
 
-    public void RayDamage(Vector3 _startPos, Vector3 _endPos)
+    public void RayDamage(Vector3 _startPos, Vector3 _direction)
     {
-        Ray ray = new Ray(_startPos, _endPos);
-        Debug.DrawRay(_startPos, _endPos * attackRange, Color.red);
+        Ray ray = new Ray(_startPos, _direction);
+        Debug.DrawRay(_startPos, _direction * attackRange, Color.red);
 
         RaycastHit hit;
         if (Physics.Raycast(ray, out hit, attackRange))

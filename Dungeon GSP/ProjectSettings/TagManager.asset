@@ -9,6 +9,8 @@ TagManager:
   - Player Camera
   - Left Arm
   - Right Arm
+  - PlayerSpawn
+  - Weapon
   layers:
   - Default
   - TransparentFX
