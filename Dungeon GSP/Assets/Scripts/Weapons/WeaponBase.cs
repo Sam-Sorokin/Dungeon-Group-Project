@@ -5,20 +5,17 @@ using UnityEngine.Events;
 
 public class WeaponBase : MonoBehaviour
 {
+    [Header("Base Values")]
     public Transform weaponOrigin;
     public UnityEvent shotTheGun;
     public string weaponName;
     public int damage = 50;
     public float attackRange = 0.2f;
-    public float fireRate = 0.5f; // Fire rate in seconds
+    public float fireRate = 0.5f; // Fire rate in seconds#
+    public float altFireRate = 0.5f;
     protected float nextFireTime = 0f; // Tracks when the weapon can fire again
     protected Vector3 attackPoint = new Vector3(0, 0, 1f);
     public GameObject hitEffectPrefab; // Assign this in the Inspector
-
-
-    private void Start()
-    {
-    }
 
     void Update()
     {
@@ -64,12 +61,13 @@ public class WeaponBase : MonoBehaviour
         }
     }
 
-    public void ThrowProjectile(float _forceAmount, GameObject _projectile, Transform _throwOrigin)
+    public void ThrowProjectile(GameObject _projectile, Transform _throwOrigin, float _speed)
     {
         float spawnOffset = 1f; // an offset to which the projectile is spawned from the throw origin
         GameObject projectile = Instantiate(_projectile, _throwOrigin.transform.position + _throwOrigin.transform.forward * spawnOffset, _throwOrigin.rotation);
         Rigidbody projectileRB = projectile.GetComponent<Rigidbody>();
-        projectileRB.AddForce(_throwOrigin.transform.forward * _forceAmount);
+        projectileRB.AddForce(_throwOrigin.transform.forward * _speed);
+        Destroy(projectile, 100f);
     }
 
     public void ShootProjectile(GameObject _projectile, Transform _throwOrigin, float _speed)
@@ -77,6 +75,7 @@ public class WeaponBase : MonoBehaviour
         float spawnOffset = 1f;
         GameObject projectile = Instantiate(_projectile, _throwOrigin.transform.position + _throwOrigin.transform.forward * spawnOffset, _throwOrigin.rotation);
         Rigidbody projectileRB = projectile.GetComponent <Rigidbody>();
+        Destroy(projectile, 100f);
 
         if(projectileRB != null)
         {

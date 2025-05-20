@@ -7,6 +7,8 @@ TagManager:
   - enemy
   - Walkable
   - Player Camera
+  - Left Arm
+  - Right Arm
   layers:
   - Default
   - TransparentFX
