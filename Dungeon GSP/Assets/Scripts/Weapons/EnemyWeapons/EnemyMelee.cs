@@ -11,14 +11,21 @@ public class EnemyMelee : WeaponBase
     public float attackMinRange = 0f;
     public float attackMaxRange = 10f;
 
-    private void OnDrawGizmosSelected() // drawing the attack ranges to visualise the distance in the scene view
+    private void OnDrawGizmosSelected() // drawing the attack ranges to visualize the distance in the scene view
     {
         Gizmos.color = Color.red;
         Vector3 GizmoPos = weaponOrigin.position;
-        Vector3 GizmoPlus = GizmoPos;
-        GizmoPlus.z += 5;
+        Vector3 forwardDirection = weaponOrigin.forward;  // Get the forward direction of the weapon
+
+        // Optionally, offset the Gizmo from the weapon origin if you need it in front of the weapon
+        Vector3 attackDirection = forwardDirection * attackMaxRange; // Example for max range
+
+        // Drawing the range spheres to represent attack distance
         Gizmos.DrawWireSphere(GizmoPos, attackMinRange);
         Gizmos.DrawWireSphere(GizmoPos, attackMaxRange);
+
+        // Draw lines to visualize attack direction and range
+        Gizmos.DrawLine(GizmoPos, GizmoPos + attackDirection);  // Show the direction of the attack range
         base.OnDrawGizmosSelected();
     }
 

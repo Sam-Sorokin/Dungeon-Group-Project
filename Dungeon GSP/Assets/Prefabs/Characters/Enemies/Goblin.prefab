@@ -1,5 +1,36 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1838639952713136908
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 9087849665395078509}
+  m_Layer: 0
+  m_Name: AttackOrigin
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &9087849665395078509
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1838639952713136908}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.831, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2801768650990412802}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &7852953013015442677
 GameObject:
   m_ObjectHideFlags: 0
@@ -34,6 +65,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 5067445858407440625}
+  - {fileID: 9087849665395078509}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!195 &6273304285990076106
@@ -594,11 +626,6 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 1675721767993156963}
   m_SourcePrefab: {fileID: 100100000, guid: 7c3e1f78165e2c041b0845b15428f1eb, type: 3}
---- !u!4 &2983018682853807394 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 7547006007713583672, guid: 7c3e1f78165e2c041b0845b15428f1eb, type: 3}
-  m_PrefabInstance: {fileID: 4744988976817571610}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &5067445858407440625 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 7c3e1f78165e2c041b0845b15428f1eb, type: 3}
@@ -642,7 +669,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7e60603cb9245064eb8d46dc9775dd34, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  weaponOrigin: {fileID: 2983018682853807394}
+  weaponOrigin: {fileID: 9087849665395078509}
   shotTheGun:
     m_PersistentCalls:
       m_Calls: []
