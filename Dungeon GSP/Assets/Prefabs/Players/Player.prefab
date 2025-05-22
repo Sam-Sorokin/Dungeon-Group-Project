@@ -256,12 +256,12 @@ GameObject:
   m_Component:
   - component: {fileID: 174379831837588634}
   - component: {fileID: 2851912270951222077}
-  - component: {fileID: 7942554670987604245}
-  - component: {fileID: 5403927482371377384}
   - component: {fileID: 6401843117978838323}
-  - component: {fileID: 320746045661625466}
   - component: {fileID: 4908188161853683639}
   - component: {fileID: 5755232184777995330}
+  - component: {fileID: 7942554670987604245}
+  - component: {fileID: 5403927482371377384}
+  - component: {fileID: 320746045661625466}
   - component: {fileID: 2615634460845760750}
   m_Layer: 0
   m_Name: Player
@@ -315,49 +315,6 @@ CharacterController:
   m_SkinWidth: 0.08
   m_MinMoveDistance: 0.001
   m_Center: {x: 0, y: 1, z: 0}
---- !u!114 &7942554670987604245
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8855237981581890541}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 46f889e7518e1bd4ebd99e28b1a16d88, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  walkingSpeed: 7.5
-  runningSpeed: 11.5
-  slideInitialSpeed: 35
-  slideDrag: 50
-  jumpSpeed: 8
-  dodgeSpeed: 25
-  dodgeDuration: 0.2
-  dodgeCooldown: 2
-  gravity: 20
-  playerCamera: {fileID: 3276663613341086861}
-  lookSpeed: 2
-  lookXLimit: 90
---- !u!114 &5403927482371377384
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8855237981581890541}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f9d3f382bd3704649820fd79c812825b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  playerCamera: {fileID: 4424784573142138114}
-  characterController: {fileID: 2851912270951222077}
-  lineRenderer: {fileID: 6401843117978838323}
-  grappleOriginPoint: {fileID: 4424784573142138114}
-  grappleRange: 28
-  grappleForce: 60
-  isGrappling: 0
 --- !u!120 &6401843117978838323
 LineRenderer:
   serializedVersion: 2
@@ -462,21 +419,6 @@ LineRenderer:
   m_UseWorldSpace: 1
   m_Loop: 0
   m_ApplyActiveColorSpace: 1
---- !u!114 &320746045661625466
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8855237981581890541}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 470207f904b7d434fa695f81d0e37457, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  maxHealth: 100
-  health: 10
-  rb: {fileID: 0}
 --- !u!65 &4908188161853683639
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -594,6 +536,64 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &7942554670987604245
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8855237981581890541}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 46f889e7518e1bd4ebd99e28b1a16d88, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  walkingSpeed: 7.5
+  runningSpeed: 11.5
+  slideInitialSpeed: 35
+  slideDrag: 50
+  jumpSpeed: 8
+  dodgeSpeed: 25
+  dodgeDuration: 0.2
+  dodgeCooldown: 2
+  gravity: 20
+  playerCamera: {fileID: 3276663613341086861}
+  lookSpeed: 2
+  lookXLimit: 90
+--- !u!114 &5403927482371377384
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8855237981581890541}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f9d3f382bd3704649820fd79c812825b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerCamera: {fileID: 4424784573142138114}
+  characterController: {fileID: 2851912270951222077}
+  lineRenderer: {fileID: 6401843117978838323}
+  grappleOriginPoint: {fileID: 4424784573142138114}
+  grappleRange: 28
+  grappleForce: 60
+  isGrappling: 0
+--- !u!114 &320746045661625466
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8855237981581890541}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 470207f904b7d434fa695f81d0e37457, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxHealth: 100
+  health: 10
+  rb: {fileID: 0}
 --- !u!114 &2615634460845760750
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -858,6 +858,7 @@ MonoBehaviour:
   fireBall: {fileID: 8773507910501705210, guid: 00c93f513b318d04e93cd16a1405c29f, type: 3}
   fireBallSpeed: 93.1
   GrenadeThrowForce: 651.1
+  altUpgrade: 0
 --- !u!1001 &612265402298393535
 PrefabInstance:
   m_ObjectHideFlags: 0

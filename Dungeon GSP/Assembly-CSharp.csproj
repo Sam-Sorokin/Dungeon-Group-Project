@@ -55,66 +55,49 @@
     <UnityVersion>2022.3.34f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
-<<<<<<< HEAD
     <Analyzer Include="C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
-=======
-    <Analyzer Include="C:\Program Files\Microsoft Visual Studio\2022\Preview\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
->>>>>>> HK
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\2022.3.34f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.SourceGenerators.dll" />
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\2022.3.34f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\HarryScripts\PlayerKeys.cs" />
     <Compile Include="Assets\Scripts\Enemy\EnemyAttack.cs" />
+    <Compile Include="Assets\Scripts\Data\SaveSystem.cs" />
+    <Compile Include="Assets\Scripts\HarryScripts\EnemySpawnTrigger.cs" />
     <Compile Include="Assets\Scripts\Player\SC_FPSController.cs" />
-    <Compile Include="Assets\Scripts\EventManager.cs" />
+    <Compile Include="Assets\Scripts\Level\EventManager.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerCam.cs" />
-    <Compile Include="Assets\Scripts\Data\StaticData.cs" />
+    <Compile Include="Assets\Scripts\HarryScripts\PlayerWallet.cs" />
     <Compile Include="Assets\Scripts\Enemy\enemytracking.cs" />
-<<<<<<< HEAD
     <Compile Include="Assets\Scripts\Weapons\PlayerWeapons\Projectile\Arrow.cs" />
     <Compile Include="Assets\Scripts\Audio\RandomSound.cs" />
-=======
-    <Compile Include="Assets\Scripts\SlidingDoor.cs" />
->>>>>>> HK
     <Compile Include="Assets\Scripts\Weapons\EnemyWeapons\SkeletonBow.cs" />
     <Compile Include="Assets\Scripts\Weapons\PlayerWeapons\WeaponSwitching.cs" />
     <Compile Include="Assets\HealthDisplay.cs" />
-    <Compile Include="Assets\Scripts\PlayerWallet.cs" />
     <Compile Include="Assets\Scripts\HealthSystem\Damagable.cs" />
+    <Compile Include="Assets\Scripts\HarryScripts\TreasureItem.cs" />
+    <Compile Include="Assets\Scripts\HarryScripts\EnemyLootDropper.cs" />
     <Compile Include="Assets\Scripts\Characters\characterBase.cs" />
     <Compile Include="Assets\Scripts\Audio\PlayerFootSteps.cs" />
-    <Compile Include="Assets\Scripts\Camera.cs" />
-    <Compile Include="Assets\Scripts\PlayerKeys.cs" />
     <Compile Include="Assets\Scripts\DebugScripts\WeaponResponse.cs" />
     <Compile Include="Assets\Scripts\Player\MoveCamera.cs" />
     <Compile Include="Assets\Scripts\Weapons\WeaponBase.cs" />
-<<<<<<< HEAD
+    <Compile Include="Assets\Scripts\HarryScripts\SlidingDoor.cs" />
     <Compile Include="Assets\Scripts\Level\Dungeons\GoToTavern.cs" />
-=======
-    <Compile Include="Assets\Scripts\KeyItem.cs" />
->>>>>>> HK
     <Compile Include="Assets\Scripts\HealthSystem\PlayerHealth.cs" />
+    <Compile Include="Assets\Scripts\Data\PlayerData.cs" />
     <Compile Include="Assets\Scripts\Enemy\enemyBase.cs" />
     <Compile Include="Assets\Scripts\Weapons\PlayerWeapons\Projectile\fireBall.cs" />
     <Compile Include="Assets\Scripts\Weapons\PlayerWeapons\Projectile\Grenade.cs" />
-<<<<<<< HEAD
     <Compile Include="Assets\gunSound.cs" />
-    <Compile Include="Assets\Scripts\Data\SetData.cs" />
     <Compile Include="Assets\Scripts\Weapons\EnemyWeapons\EnemyMelee.cs" />
-    <Compile Include="Assets\Scripts\DamageSurface.cs" />
+    <Compile Include="Assets\Scripts\HarryScripts\KeyItem.cs" />
     <Compile Include="Assets\Scripts\Weapons\PlayerWeapons\FireAttacks.cs" />
-=======
-    <Compile Include="Assets\Scripts\TreasureItem.cs" />
->>>>>>> HK
     <Compile Include="Assets\Scripts\Player\GrappleHook.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerMovement.cs" />
-    <Compile Include="Assets\Scripts\EnemyLootDropper.cs" />
     <Compile Include="Assets\Scripts\Weapons\PlayerWeapons\MannaManager.cs" />
-<<<<<<< HEAD
-=======
-    <Compile Include="Assets\Scripts\EnemySpawnTrigger.cs" />
-    <Compile Include="Assets\Scripts\Weapons\PlayerWeapons\ThrowAble.cs" />
->>>>>>> HK
+    <Compile Include="Assets\Scripts\HealthSystem\DamageSurface.cs" />
+    <Compile Include="Assets\Scripts\Player\playerVariables.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\UI stuff\TextMesh Pro\Shaders\TMPro.cginc" />

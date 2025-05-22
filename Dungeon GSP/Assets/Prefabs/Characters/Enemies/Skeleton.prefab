@@ -13,7 +13,6 @@ GameObject:
   - component: {fileID: 2607542626015467749}
   - component: {fileID: 6469539938518243764}
   - component: {fileID: 6751358974720957972}
-  - component: {fileID: -9014778584893161989}
   m_Layer: 0
   m_Name: Skeleton
   m_TagString: Untagged
@@ -114,23 +113,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 10
-<<<<<<< HEAD
-=======
---- !u!114 &-9014778584893161989
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 652602428046783580}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2dda1fb0624e7a5409e7b230ea803da9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  treasurePrefab: {fileID: 2669440552501623111, guid: 72e3cfe98bdf39e48aa7264a4eacc9e1, type: 3}
-  dropChance: 0.25
->>>>>>> HK
 --- !u!1 &3706368295239934362
 GameObject:
   m_ObjectHideFlags: 0
@@ -257,13 +239,9 @@ MonoBehaviour:
   damage: 2
   attackRange: 0.85
   fireRate: 0.5
-<<<<<<< HEAD
   altFireRate: 0.5
   hitEffectPrefab: {fileID: 3548588485384254792, guid: 2f9e7dc163581394da1e00b561eed65d, type: 3}
   animator: {fileID: 0}
-=======
-  hitEffectPrefab: {fileID: 0}
->>>>>>> HK
   enemytracking: {fileID: 2607542626015467749}
   arrow: {fileID: 2268438712522935281, guid: 2e00391abd7cbfb49808a125df1576c2, type: 3}
   arrowSpeed: 9.45

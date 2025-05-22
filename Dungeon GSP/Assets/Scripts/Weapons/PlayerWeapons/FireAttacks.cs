@@ -15,6 +15,7 @@ public class FireAttacks : WeaponBase
     [Header("Attribute Values")]
     public float fireBallSpeed = 20f;
     public float GrenadeThrowForce = 20f;
+    public bool altUpgrade = false;
     // Start is called before the first frame update
 
     public override void handleInput()
@@ -39,9 +40,12 @@ public class FireAttacks : WeaponBase
 
     public override void AltFire()
     {
-        leftArm.SetTrigger("GrenadeThrow");
-        ThrowProjectile(grenade, weaponOrigin, GrenadeThrowForce);
-        shotTheGun?.Invoke(); // Invoke UnityEvent for effects like gun recoil
+        if (altUpgrade)
+        {
+            leftArm.SetTrigger("GrenadeThrow");
+            ThrowProjectile(grenade, weaponOrigin, GrenadeThrowForce);
+            shotTheGun?.Invoke(); // Invoke UnityEvent for effects like gun recoil 
+        }
     }
 
     // Update is called once per frame
