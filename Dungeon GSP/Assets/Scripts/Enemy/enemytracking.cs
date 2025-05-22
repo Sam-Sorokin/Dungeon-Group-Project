@@ -9,7 +9,8 @@ public class enemytracking : MonoBehaviour
     public Animator animator;
     public Transform playertransform;
     private NavMeshAgent nma;
-    public bool iswalking = false;
+    public bool attacking = false;
+    public bool iSwalking = false;
     public float speed;
     private float originalSpeed;
     public float distanceFromPlayer;
@@ -39,12 +40,12 @@ public class enemytracking : MonoBehaviour
         Vector3 directionToPlayer = (playertransform.position - transform.position).normalized;
 
 
-        iswalking = false;
+        iSwalking = false;
         if(distanceFromPlayer <= patrolDistance && distanceFromPlayer >= trackDistance)
         {
             //Debug.Log("TrackingPlayer");
             nma.SetDestination(playertransform.position);
-            iswalking = true;
+            iSwalking = true;
         }
         else if(distanceFromPlayer <= trackDistance)
         {
@@ -58,9 +59,9 @@ public class enemytracking : MonoBehaviour
                 Quaternion targetRotation = Quaternion.LookRotation(lookDirection);
                 transform.rotation = Quaternion.Slerp(transform.rotation, targetRotation, Time.deltaTime * 5f); // smoothenned rotation
             }
-            iswalking = false;
+            iSwalking = false;
         }
-        animator.SetBool("Walking", iswalking);
+        animator.SetBool("Walking", iSwalking);
     }
 
     // Public call

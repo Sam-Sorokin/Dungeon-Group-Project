@@ -7,14 +7,32 @@ public class Arrow : MonoBehaviour
 {
     // Start is called before the first frame update
     public int damage;
+    public GameObject blood;
+    Rigidbody rb;
 
-    private void OnCollisionEnter(Collision collision)
+    private void Start()
     {
-       //Damagable damagable = collision.gameObject.GetComponent<Damagable>();
-       // if (damagable != null)
-       // {
-       //     damagable.TakeDamage(damage);
-       // }
-       // transform.parent = collision.transform;
+        rb = GetComponent<Rigidbody>();
+        Destroy(gameObject, 5f);
+    }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        Damagable damagable = other.GetComponent<Damagable>();
+        if (damagable != null)
+        {
+            damagable.TakeDamage(damage);
+            if(!other.CompareTag("Player"))
+            {
+                GameObject particles = Instantiate(blood, transform.position, transform.rotation);
+                Destroy(particles, 1f);
+            }
+        }
+
+        if (!other.CompareTag("Player") && !other.CompareTag("Weapon"))
+        {
+            rb.isKinematic = true;
+            transform.parent = other.transform;
+        }
     }
 }

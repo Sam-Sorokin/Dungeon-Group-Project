@@ -41,10 +41,10 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _Glossiness: 0.432
-    - _Metallic: 1
+    - _Glossiness: 0
+    - _Metallic: 0.001
     - _OcclusionStrength: 0.627
     - _Parallax: 0.08
     m_Colors:
-    - _Color: {r: 1, g: 0.7276478, b: 0, a: 1}
+    - _Color: {r: 0.5566038, g: 0.5566038, b: 0.5566038, a: 1}
   m_BuildTextureStacks: []

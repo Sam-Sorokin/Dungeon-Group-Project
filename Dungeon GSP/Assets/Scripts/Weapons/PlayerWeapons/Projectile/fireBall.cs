@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class fireBall : Grenade
 {
-
     private void OnCollisionEnter(Collision collision)
     {
         Death();
