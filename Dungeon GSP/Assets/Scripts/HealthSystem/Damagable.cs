@@ -6,6 +6,7 @@ using UnityEngine;
 
 public class Damagable : MonoBehaviour
 {
+    public int maxHealth = 100;
     public int health = 10;
     // Start is called before the first frame update
     public virtual void TakeDamage(int _damageAmount) // Made virtual in the case of overriding to account for armour etc
@@ -16,6 +17,10 @@ public class Damagable : MonoBehaviour
     public virtual void GiveHealth(int _healingAmount)
     {
         health += _healingAmount;
+        if (health > maxHealth)
+        {
+            health = maxHealth;
+        }
     }
     public virtual void Death() // 
     {

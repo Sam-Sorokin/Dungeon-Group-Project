@@ -5,20 +5,21 @@ using UnityEngine.Events;
 
 public class WeaponBase : MonoBehaviour
 {
+    [Header("Sound")]
+    AudioSource audioSrc;
+    AudioClip[] weaponSounds;
+    [Header("Base Values")]
     public Transform weaponOrigin;
     public UnityEvent shotTheGun;
     public string weaponName;
     public int damage = 50;
     public float attackRange = 0.2f;
-    public float fireRate = 0.5f; // Fire rate in seconds
+    public float fireRate = 0.5f; // Fire rate in seconds#
+    public float altFireRate = 0.5f;
     protected float nextFireTime = 0f; // Tracks when the weapon can fire again
+    protected float altNextFireTime = 0f; // Tracks when the weapon can fire again
     protected Vector3 attackPoint = new Vector3(0, 0, 1f);
     public GameObject hitEffectPrefab; // Assign this in the Inspector
-
-
-    private void Start()
-    {
-    }
 
     void Update()
     {
@@ -40,10 +41,10 @@ public class WeaponBase : MonoBehaviour
         }
     }
 
-    public void RayDamage(Vector3 _startPos, Vector3 _endPos)
+    public void RayDamage(Vector3 _startPos, Vector3 _direction)
     {
-        Ray ray = new Ray(_startPos, _endPos);
-        Debug.DrawRay(_startPos, _endPos * attackRange, Color.red);
+        Ray ray = new Ray(_startPos, _direction);
+        Debug.DrawRay(_startPos, _direction * attackRange, Color.red);
 
         RaycastHit hit;
         if (Physics.Raycast(ray, out hit, attackRange))
@@ -64,12 +65,13 @@ public class WeaponBase : MonoBehaviour
         }
     }
 
-    public void ThrowProjectile(float _forceAmount, GameObject _projectile, Transform _throwOrigin)
+    public void ThrowProjectile(GameObject _projectile, Transform _throwOrigin, float _speed)
     {
         float spawnOffset = 1f; // an offset to which the projectile is spawned from the throw origin
         GameObject projectile = Instantiate(_projectile, _throwOrigin.transform.position + _throwOrigin.transform.forward * spawnOffset, _throwOrigin.rotation);
         Rigidbody projectileRB = projectile.GetComponent<Rigidbody>();
-        projectileRB.AddForce(_throwOrigin.transform.forward * _forceAmount);
+        projectileRB.AddForce(_throwOrigin.transform.forward * _speed);
+        Destroy(projectile, 100f);
     }
 
     public void ShootProjectile(GameObject _projectile, Transform _throwOrigin, float _speed)
@@ -77,6 +79,7 @@ public class WeaponBase : MonoBehaviour
         float spawnOffset = 1f;
         GameObject projectile = Instantiate(_projectile, _throwOrigin.transform.position + _throwOrigin.transform.forward * spawnOffset, _throwOrigin.rotation);
         Rigidbody projectileRB = projectile.GetComponent <Rigidbody>();
+        Destroy(projectile, 100f);
 
         if(projectileRB != null)
         {
@@ -98,7 +101,11 @@ public class WeaponBase : MonoBehaviour
 
     public virtual void AltFire()
     {
-        RayDamage(weaponOrigin.position, weaponOrigin.forward);
-        shotTheGun?.Invoke(); // Invoke UnityEvent for effects like gun recoil
+        if (Time.time >= nextFireTime)
+        {
+            altNextFireTime = Time.time + altFireRate;
+            RayDamage(weaponOrigin.position, weaponOrigin.forward);
+            shotTheGun?.Invoke(); // Invoke UnityEvent for effects like gun recoil
+        }
     }
 }

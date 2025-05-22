@@ -6,10 +6,13 @@ using UnityEngine.UIElements;
 
 public class enemytracking : MonoBehaviour
 {
+    public Animator animator;
     public Transform playertransform;
     private NavMeshAgent nma;
-    public bool isattacking;
+    public bool attacking = false;
+    public bool iSwalking = false;
     public float speed;
+    private float originalSpeed;
     public float distanceFromPlayer;
 
     [Header("Tracking Distances")]
@@ -28,6 +31,7 @@ public class enemytracking : MonoBehaviour
     {
         playertransform = GameObject.FindGameObjectWithTag("Player").transform;
         nma = GetComponent<NavMeshAgent>();
+        originalSpeed = speed;
     }
 
     void HandleMovement()
@@ -35,10 +39,13 @@ public class enemytracking : MonoBehaviour
         distanceFromPlayer = Vector3.Distance(playertransform.position, transform.position);
         Vector3 directionToPlayer = (playertransform.position - transform.position).normalized;
 
+
+        iSwalking = false;
         if(distanceFromPlayer <= patrolDistance && distanceFromPlayer >= trackDistance)
         {
             //Debug.Log("TrackingPlayer");
             nma.SetDestination(playertransform.position);
+            iSwalking = true;
         }
         else if(distanceFromPlayer <= trackDistance)
         {
@@ -52,7 +59,27 @@ public class enemytracking : MonoBehaviour
                 Quaternion targetRotation = Quaternion.LookRotation(lookDirection);
                 transform.rotation = Quaternion.Slerp(transform.rotation, targetRotation, Time.deltaTime * 5f); // smoothenned rotation
             }
+            iSwalking = false;
         }
+        animator.SetBool("Walking", iSwalking);
+    }
+
+    // Public call
+    public void SlowMovement(float _modifier, float _duration)
+    {
+        StartCoroutine(SlowSpeed(_modifier, _duration));
+    }
+
+    // Modify the speed of the enemy, for Ice
+    // Modifier should be between 0 and 1 to
+    // change speed by a percentage
+    IEnumerator SlowSpeed(float _modifier, float _duration)
+    {
+        animator.SetFloat("SpeedMultiplier", _modifier);
+        speed = speed * _modifier;
+        yield return new WaitForSeconds(_duration);
+        speed = originalSpeed;
+        animator.SetFloat("SpeedMultiplier", 1);
     }
 
 

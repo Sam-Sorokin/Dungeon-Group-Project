@@ -10,7 +10,7 @@ public class GrappleHook : MonoBehaviour
     public Transform grappleOriginPoint; // The point where the rope visually starts
 
     public int grappleRange = 500;
-    public int grappleForce = 100;
+    public int grappleForce = 50;
 
     private Vector3 grapplePoint;
     public bool isGrappling = false;
@@ -29,7 +29,7 @@ public class GrappleHook : MonoBehaviour
         if (grappleOriginPoint == null)
         {
             // Fallback or warning if no origin point is set
-            Debug.LogWarning("Grapple Origin Point is not assigned. Line will originate from this GameObject's position. Consider creating and assigning an empty GameObject as the origin.");
+            Debug.Log("Grapple Origin Point is not assigned. Line will originate from this GameObject's position. Consider creating and assigning an empty GameObject as the origin.");
             grappleOriginPoint = transform; // Default to this object's transform if not set
         }
 
