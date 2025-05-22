@@ -44,6 +44,7 @@ GameObject:
   - component: {fileID: 1664736121413671355}
   - component: {fileID: 303389185255906681}
   - component: {fileID: 190573990373363110}
+  - component: {fileID: -1225556218178416877}
   m_Layer: 0
   m_Name: Goblin
   m_TagString: Untagged
@@ -145,7 +146,25 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maxHealth: 100
   health: 10
+<<<<<<< HEAD
 --- !u!1001 &4744988976817571610
+=======
+--- !u!114 &-1225556218178416877
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7852953013015442677}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2dda1fb0624e7a5409e7b230ea803da9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  treasurePrefab: {fileID: 2669440552501623111, guid: 72e3cfe98bdf39e48aa7264a4eacc9e1, type: 3}
+  dropChance: 0.25
+--- !u!1001 &1353659090129163089
+>>>>>>> HK
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
