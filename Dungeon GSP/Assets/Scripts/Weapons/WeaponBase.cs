@@ -5,6 +5,9 @@ using UnityEngine.Events;
 
 public class WeaponBase : MonoBehaviour
 {
+    [Header("Sound")]
+    AudioSource audioSrc;
+    AudioClip[] weaponSounds;
     [Header("Base Values")]
     public Transform weaponOrigin;
     public UnityEvent shotTheGun;
@@ -14,6 +17,7 @@ public class WeaponBase : MonoBehaviour
     public float fireRate = 0.5f; // Fire rate in seconds#
     public float altFireRate = 0.5f;
     protected float nextFireTime = 0f; // Tracks when the weapon can fire again
+    protected float altNextFireTime = 0f; // Tracks when the weapon can fire again
     protected Vector3 attackPoint = new Vector3(0, 0, 1f);
     public GameObject hitEffectPrefab; // Assign this in the Inspector
 
@@ -97,7 +101,11 @@ public class WeaponBase : MonoBehaviour
 
     public virtual void AltFire()
     {
-        RayDamage(weaponOrigin.position, weaponOrigin.forward);
-        shotTheGun?.Invoke(); // Invoke UnityEvent for effects like gun recoil
+        if (Time.time >= nextFireTime)
+        {
+            altNextFireTime = Time.time + altFireRate;
+            RayDamage(weaponOrigin.position, weaponOrigin.forward);
+            shotTheGun?.Invoke(); // Invoke UnityEvent for effects like gun recoil
+        }
     }
 }

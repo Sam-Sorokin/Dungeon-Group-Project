@@ -4,6 +4,8 @@ using UnityEngine;
 [RequireComponent(typeof(CharacterController))]
 public class SC_FPSController : MonoBehaviour
 {
+    [Header("Audio")]
+    PlayerFootsteps footSteps;
     [Header("Speeds")]
     public float walkingSpeed = 7.5f;
     public float runningSpeed = 11.5f;
@@ -44,6 +46,8 @@ public class SC_FPSController : MonoBehaviour
     void Start()
     {
         characterController = GetComponent<CharacterController>();
+        footSteps = GetComponent<PlayerFootsteps>();
+
 
         Cursor.lockState = CursorLockMode.Locked;
         Cursor.visible = false;
@@ -94,7 +98,27 @@ public class SC_FPSController : MonoBehaviour
             moveDirection.y -= gravity * Time.deltaTime;
         }
 
-        characterController.Move(moveDirection * Time.deltaTime);
+        if (footSteps != null)
+        {
+            float inputAmount = Mathf.Abs(Input.GetAxisRaw("Horizontal")) + Mathf.Abs(Input.GetAxisRaw("Vertical"));
+            bool isMoving = inputAmount > 0.1f;
+            bool isAboveThreshold = isMoving && moveSpeed > (walkingSpeed * 0.5f);
+
+            if (isGrounded && isAboveThreshold)
+            {
+                if (!footSteps.playerAudio.isPlaying)
+                    footSteps.PlayFootStepSound();
+
+                footSteps.playerAudio.pitch = moveSpeed / walkingSpeed;
+            }
+            else
+            {
+                if (footSteps.playerAudio.isPlaying)
+                    footSteps.StopFootStepSound();
+            }
+
+        }
+            characterController.Move(moveDirection * Time.deltaTime);
     }
 
     void HandleLook()

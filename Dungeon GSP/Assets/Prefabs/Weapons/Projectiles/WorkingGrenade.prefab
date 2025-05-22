@@ -120,9 +120,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bc8f820cfb5969447b4939f86376474c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  maxHealth: 100
   health: 10
   particleSystem: {fileID: 417761080263594737, guid: 7800b8f6b712bfe49bd663eeb3ebe1e4, type: 3}
-  explosionRadius: 5
+  explosionRadius: 6
   detonationTime: 1
   explosionDamage: 5
 --- !u!54 &-6187928945218433852

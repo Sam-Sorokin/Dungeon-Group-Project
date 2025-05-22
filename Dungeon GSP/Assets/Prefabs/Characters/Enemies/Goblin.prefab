@@ -104,7 +104,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   animator: {fileID: 8840357671635982500}
   playertransform: {fileID: 0}
-  iswalking: 0
+  attacking: 0
+  iSwalking: 0
   speed: 0
   distanceFromPlayer: 0
   patrolDistance: 16.08
@@ -142,6 +143,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c801f2f81a7699d48937b6d3133feb34, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  maxHealth: 100
   health: 10
 --- !u!1001 &4744988976817571610
 PrefabInstance:
@@ -674,12 +676,13 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   weaponName: Knife
-  damage: 50
+  damage: 10
   attackRange: 3.14
   fireRate: 0.5
   altFireRate: 0.5
   hitEffectPrefab: {fileID: 3548588485384254792, guid: 2f9e7dc163581394da1e00b561eed65d, type: 3}
   animator: {fileID: 8840357671635982500}
   enemytracking: {fileID: 1664736121413671355}
+  attacking: 0
   attackMinRange: 0.87
   attackMaxRange: 11.33

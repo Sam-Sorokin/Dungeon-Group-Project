@@ -34,7 +34,7 @@ public class EnemyWeapon : WeaponBase
 
     public override void handleInput()
     {
-        if(enemytracking.iswalking == false &&
+        if(enemytracking.iSwalking == false &&
             enemytracking.distanceFromPlayer <= enemytracking.trackDistance)
         {
             if(Time.time >= nextFireTime)

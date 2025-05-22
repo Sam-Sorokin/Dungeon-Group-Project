@@ -8,6 +8,7 @@ public class EnemyMelee : WeaponBase
     public Animator animator;
     public enemytracking enemytracking;
     // the range at which the enemy will attempt the attack
+    public bool attacking = false;
     public float attackMinRange = 0f;
     public float attackMaxRange = 10f;
 
@@ -31,7 +32,7 @@ public class EnemyMelee : WeaponBase
 
     public override void handleInput()
     {
-        if(enemytracking.iswalking == false &&
+        if(enemytracking.iSwalking == false &&
             enemytracking.distanceFromPlayer <= enemytracking.trackDistance)
         {
             if(Time.time >= nextFireTime)
@@ -46,12 +47,14 @@ public class EnemyMelee : WeaponBase
     {
         //ThrowProjectile(arrow, weaponOrigin, arrowSpeed);
         animator.SetTrigger("Attack");
+        enemytracking.attacking = true;
     }
 
     void attack()
     {
         RayDamage(weaponOrigin.position, weaponOrigin.forward);
         Debug.Log("goblin attempted an attack");
+        enemytracking.attacking = false;
     }
 
 
